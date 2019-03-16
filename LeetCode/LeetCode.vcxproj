@@ -111,10 +111,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="20. Valid Parentheses.cpp" />
+    <ClInclude Include="AllInclude.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="AllInclude.h" />
+    <ClCompile Include="125. Valid Palindrome.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
