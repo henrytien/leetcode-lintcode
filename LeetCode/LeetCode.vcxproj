@@ -113,9 +113,6 @@
   <ItemGroup>
     <ClInclude Include="AllInclude.h" />
   </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="125. Valid Palindrome.cpp" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
