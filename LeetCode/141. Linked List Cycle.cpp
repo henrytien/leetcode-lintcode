@@ -25,16 +25,33 @@ public:
 		return false;
 	}
 
+	
+
 };
+
+void push(ListNode **head, int val) {
+	ListNode *new_node = (ListNode*)malloc(sizeof(ListNode));
+	new_node->val = val;
+	new_node->next = *head;
+	*head = new_node;
+}
+
+void print(ListNode *list)
+{
+	while (list != NULL)
+	{
+		printf("%d ", list->val);
+		list = list->next;
+	}
+}
 
 int main()
 {
 	vector<int> src = { 3,2,0,-4 };
-	ListNode *list = (ListNode*)malloc(sizeof(ListNode));
-	for (auto &iter : src) {
-		list->val = iter;
-		list = list->next;
-	}
+	ListNode *list = NULL;
+	for (auto &iter : src)
+		push(&list, iter);
+	print(list);
 
 	cout << Solution().hasCycle(list);
 	getchar();

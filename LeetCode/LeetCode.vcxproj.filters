@@ -20,8 +20,8 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="125. Valid Palindrome.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="141. Linked List Cycle.cpp">
+      <Filter>Resource Files</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
