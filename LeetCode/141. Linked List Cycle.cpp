@@ -28,8 +28,8 @@ bool Solution::has_cycle(ListNode *head) {
   return false;
 }
 
-void push(ListNode **head, int val) {
-  auto *new_node = (ListNode *)malloc(sizeof(ListNode));
+void push(ListNode **head, const int val) {
+  auto *new_node = static_cast<ListNode *>(malloc(sizeof(ListNode)));
   new_node->val = val;
   new_node->next = *head;
   *head = new_node;
