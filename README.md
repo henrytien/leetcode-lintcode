@@ -1,5 +1,5 @@
 # algorithmSolutions
-my algorithm problem solutions
+my algorithm problem solutions, here we go.
 
 
 
@@ -7,6 +7,9 @@ my algorithm problem solutions
 
 
 ## fun
+
+知乎：[how to use solve leetcode](https://www.zhihu.com/question/26580300)
+
 [LeetCodeanimation](https://github.com/MisterBooo/LeetCodeAnimation)
 Demonstrate all the questions on LeetCode in the form of animation.
 
