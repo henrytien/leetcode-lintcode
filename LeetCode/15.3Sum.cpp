@@ -1,18 +1,18 @@
-[15. 3Sum](https://leetcode.com/problems/3sum/description/)
+//[15. 3Sum](https://leetcode.com/problems/3sum/description/)
 
-```C++
 #include <iostream>
 #include <vector>
 #include <algorithm>
+#include <string>
 using  std::vector;
 using  std::sort;
-
+using namespace std;
 class Solution {
 public:
 	vector<vector<int>> threeSum(vector<int>& nums)
 	{
 		if (nums.size() < 3)
-			return {};
+			return{};
 
 		sort(nums.begin(), nums.end());
 		vector<vector<int>> result;
@@ -37,11 +37,20 @@ public:
 int main() {
 	Solution a;
 	vector<int> nums({ -1, 0, 1, 2, -1, -4 });
-	a.threeSum(nums);
+	vector<vector<int>> result = a.threeSum(nums);
+	for (auto element : result)
+	{
+		std::string res;
+		for (auto e : element)
+		{
+			res += " " + std::to_string(e);
+		}
+		std::cout << res << endl;
+	}
 	std::cout << "Hello, World!" << std::endl;
 	return 0;
 }
 
 
 
-```
+
