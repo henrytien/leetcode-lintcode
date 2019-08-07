@@ -1,5 +1,6 @@
 #include"AllInclude.h"
 // https://leetcode.com/problems/string-to-integer-atoi/
+//4 2019Äê8ÔÂ7ÈÕ23:32:26
 class Solution {
 public:
 	int myAtoi(string str) {
