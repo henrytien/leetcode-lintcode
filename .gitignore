@@ -47,3 +47,4 @@
 *.vcxproj.*
 
 
+.vscode/settings.json
