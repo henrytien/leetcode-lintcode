@@ -52,3 +52,42 @@ public:
         return node == numCourses;
     }
 };
+
+// Leetcode 
+class Solution {
+public:
+    bool canFinish(int numCourses, vector<vector<int>>& prerequisites) {
+        if(prerequisites.size() == 0){
+            return true;
+        }
+       
+        vector<unordered_multiset<int>> edges(numCourses);
+        vector<int> d(numCourses,0);
+        for(int i = 0; i < prerequisites.size(); ++i){
+            edges[prerequisites[i][1]].insert(prerequisites[i][0]);
+            cout<< prerequisites[i][1] << " "<< prerequisites[i][0] << endl;
+            d[prerequisites[i][0]] ++;
+        }
+        
+        std::queue<int> q;
+        for(int i = 0; i < numCourses; ++i){
+            if(d[i] == 0){
+                q.push(i);
+            }
+        }
+        int node = 0;
+        while(!q.empty()){
+            int x = q.front(); 
+            q.pop();
+            node++;
+            for(auto iter = edges[x].begin(); iter != edges[x].end(); ++iter){
+                cout << d[*iter] << endl;
+                -- d[*iter];
+                if(d[*iter] == 0){
+                    q.push(*iter);
+                }
+            }
+        }
+        return node == numCourses;
+    }
+};
