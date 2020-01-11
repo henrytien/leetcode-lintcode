@@ -91,3 +91,43 @@ public:
         return node == numCourses;
     }
 };
+
+
+// Leetcode python
+class Solution:
+    def canFinish(self, numCourses: int, prerequisites: List[List[int]]) -> bool:
+        n = len(prerequisites)
+        if n == 0:
+            return True
+        
+        # 统计顶点的入度
+        in_degree = [0 for _ in range(numCourses)]
+        # 邻接表存一下顶点的相领信息
+        adj = [set() for _ in range(numCourses)]
+        
+        queue = collections.deque()
+        
+        # [0,1] 表示先修课程1，课程0
+        for second,first in prerequisites:
+			# 存入一条后继信息
+            adj[first].add(second)
+            in_degree[second] += 1
+            
+        
+        # 入度为0的先用队列存起来
+        for i in range(numCourses):
+            if in_degree[i] == 0:
+                queue.append(i)
+        count = 0  
+        #bfs
+        while queue:
+            node = queue.popleft()
+            print(node)
+            count += 1
+            # 遍历入度为0的后继结点，减1为0放入队列
+            for succssor in adj[node]:
+                in_degree[succssor] -= 1
+                if in_degree[succssor] == 0:
+                    queue.append(succssor)
+            
+        return count == numCourses
