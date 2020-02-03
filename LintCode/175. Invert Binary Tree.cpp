@@ -12,30 +12,33 @@
  * }
  */
 
-class Solution {
+class Solution
+{
 public:
     /**
      * @param root: a TreeNode, the root of the binary tree
      * @return: nothing
      */
-    void invertBinaryTree(TreeNode * root) {
-        if(NULL == root){
+    void invertBinaryTree(TreeNode *root)
+    {
+        if (NULL == root)
+        {
             return;
         }
         dfs(root);
     }
-    
-    void dfs(TreeNode *node){
-        TreeNode *left = node->left,*right = node->right;
+
+    void dfs(TreeNode *node)
+    {
+        TreeNode *left = node->left, *right = node->right;
         node->left = right;
         node->right = left;
-        if(left)
+        if (left)
             dfs(left);
-        if(right)
+        if (right)
             dfs(right);
     }
 };
-
 
 // no-recursion
 /**
@@ -51,32 +54,36 @@ public:
  * }
  */
 
-class Solution {
+class Solution
+{
 public:
     /**
      * @param root: a TreeNode, the root of the binary tree
      * @return: nothing
      */
-    void invertBinaryTree(TreeNode * root) {
-        if(NULL == root){
+    void invertBinaryTree(TreeNode *root)
+    {
+        if (NULL == root)
+        {
             return;
         }
-        
-        std::stack<TreeNode*> stack;
+
+        std::stack<TreeNode *> stack;
         stack.push(root);
-        while(!stack.empty()){
+        while (!stack.empty())
+        {
             TreeNode *node = stack.top();
             stack.pop();
-            
-            swap(node->left,node->right);
-            if(node->left){
+
+            swap(node->left, node->right);
+            if (node->left)
+            {
                 stack.push(node->left);
             }
-             if(node->right){
+            if (node->right)
+            {
                 stack.push(node->right);
             }
         }
     }
-    
-    
 };
