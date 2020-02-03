@@ -1,4 +1,9 @@
 //https://www.lintcode.com/problem/binary-tree-paths/description?_from=ladder&&fromId=1
+/*
+Divide && Conquer 
+*/
+
+
 /**
  * Definition of TreeNode:
  * class TreeNode {
