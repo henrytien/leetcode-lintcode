@@ -8,6 +8,7 @@ public:
      * @param k: An integer
      * @return: The index after partition
      */
+    // two pointer
     int partitionArray(vector<int> &nums, int k)
     {
         int size = nums.size();
