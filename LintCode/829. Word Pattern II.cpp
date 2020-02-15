@@ -59,7 +59,6 @@ private:
             
             // check next char and remaining string
             if(dfs(pattern.substr(1),s.substr(i + 1),map,set)){
-                std::cout << "ss" << std::endl;
                 return true;
             }
             
