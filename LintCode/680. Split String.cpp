@@ -28,33 +28,3 @@ public:
         }
     }
 };
-
-// 2
-class Solution {
-public:
-    /*
-     * @param : a string to be split
-     * @return: all possible split string array
-     */
-    vector<vector<string>> splitString(string& s) {
-        vector<vector<string>> res;
-        vector<string> path;
-        dfs(res,path,0,s);
-        return res;
-    }
-    
-    void dfs(vector<vector<string>> &result,vector<string> &path, int index, string &s)
-    {
-        if(s.length() == index){
-            result.push_back(path);
-            return;
-        }
-        
-        for (int i = 1; i <= 2; i++) {
-            if(index + i > s.length()) break;
-            path.push_back(s.substr(index,i));
-            dfs(result,path,index+i,s);
-            path.pop_back();
-        }
-    }
-};
