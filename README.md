@@ -22,8 +22,10 @@ LeetCode Solutions: A Record of My Problem Solving Journey.
 | #    | Title                                                        | Solution                                    | Difficulty |
 | ---- | ------------------------------------------------------------ | ------------------------------------------- | ---------- |
 | 409  | [Longest Palindrome](https://leetcode.com/problems/longest-palindrome/) | [C++](./LeetCode/409.LongestPalindrome.cpp) | Easy       |
+| 28   | [Implement strStr()](https://leetcode.com/problems/implement-strstr/) | [C++](./LeetCode/28.ImplementstrStr().cpp)  | Easy       |
+|      |                                                              |                                             |            |
 
-
+|28|[Implement strStr()](https://leetcode.com/problems/implement-strstr/)| [C++](./algorithms/cpp/strStr/strStr.cpp), [Java](./algorithms/java/src/strStr/strStr.java)|Easy|
 
 ### Optional
 
