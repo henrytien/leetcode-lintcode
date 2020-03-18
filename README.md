@@ -25,7 +25,7 @@ LeetCode Solutions: A Record of My Problem Solving Journey.
 | 28   | [Implement strStr()](https://leetcode.com/problems/implement-strstr/) | [C++](./LeetCode/28.ImplementstrStr().cpp)  | Easy       |
 |      |                                                              |                                             |            |
 
-|28|[Implement strStr()](https://leetcode.com/problems/implement-strstr/)| [C++](./algorithms/cpp/strStr/strStr.cpp), [Java](./algorithms/java/src/strStr/strStr.java)|Easy|
+
 
 ### Optional
 
