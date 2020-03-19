@@ -23,7 +23,7 @@ LeetCode Solutions: A Record of My Problem Solving Journey.
 | ---- | ------------------------------------------------------------ | ------------------------------------------- | ---------- |
 | 409  | [Longest Palindrome](https://leetcode.com/problems/longest-palindrome/) | [C++](./LeetCode/409.LongestPalindrome.cpp) | Easy       |
 | 28   | [Implement strStr()](https://leetcode.com/problems/implement-strstr/) | [C++](./LeetCode/28.ImplementstrStr().cpp)  | Easy       |
-|      |                                                              |                                             |            |
+| 125  | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | [C++](./LeetCode/125.ValidPalindrome.cpp)   | Easy       |
 
 
 
