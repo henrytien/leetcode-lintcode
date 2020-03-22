@@ -15,7 +15,7 @@ LeetCode Solutions: A Record of My Problem Solving Journey.
 
 
 
-## Defeat the Algorithm Interview	
+## 1. Defeat the Algorithm Interview    
 
 ### Requried 
 
@@ -29,10 +29,15 @@ LeetCode Solutions: A Record of My Problem Solving Journey.
 
 ### Optional
 
-
-
-
+## 2. Breadth First Search	
 
 ### Requried 
 
+| #    | Title                                                     | Solution                             | Difficulty |
+| ---- | --------------------------------------------------------- | ------------------------------------ | ---------- |
+|      |                                                           |                                      |            |
+|      |                                                           |                                      |            |
+| 127  | [Word Ladder](https://leetcode.com/problems/word-ladder/) | [C++](./LeetCode/127.WordLadder.cpp) | Medium     |
+
 ### Optional
+
