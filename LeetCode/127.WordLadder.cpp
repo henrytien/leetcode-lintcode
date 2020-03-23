@@ -44,6 +44,55 @@ public:
     }
 };
 
+// double bfs unordered_set 
+
+
+class Solution {
+public:
+    int ladderLength(string beginWord, string endWord, vector<string>& wordList) {
+        unordered_set<string> dict(wordList.begin(),wordList.end());
+        if(!dict.count(endWord)){
+            return 0;
+        }
+        unordered_set<string> q1{beginWord};
+        unordered_set<string> q2{endWord};
+        int len = endWord.length();
+        
+        int step = 0;
+        while (!q1.empty() && !q2.empty()) {
+            ++step;
+            
+            if(q2.size() > q1.size()){
+                swap(q2, q1);
+            }
+            
+            unordered_set<string> q;
+            for(string word:q1){
+                for (int i = 0; i < len; i++) {
+                    char ch = word[i];
+                    for (char c = 'a'; c <= 'z'; c++) {
+                        word[i] = c;
+                        if(q2.count(word)){
+                            return step + 1;
+                        }
+                        if(!dict.count(word)){
+                            continue;
+                        }
+                        
+                        dict.erase(word);
+                        q.insert(word);
+                    }
+                    word[i] = ch;
+                }
+            }
+            swap(q1, q);
+            
+        }
+        
+        return 0;
+    }
+};
+
 int main(){
     
     string beginWord = "hit";
