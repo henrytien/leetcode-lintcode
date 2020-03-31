@@ -29,6 +29,14 @@ LeetCode Solutions: A Record of My Problem Solving Journey.
 
 ### Optional
 
+| #    | Title                                                        | Solution                                  | Difficulty |
+| ---- | ------------------------------------------------------------ | ----------------------------------------- | ---------- |
+| 1970 | [Rotate String II](https://www.lintcode.com/problem/rotate-string-ii/description?_from=ladder&&fromId=1/) | [C++](./LintCode/1790.RotateStringII.cpp) | Easy       |
+|      |                                                              |                                           |            |
+|      |                                                              |                                           |            |
+
+
+
 ## 2. Breadth First Search	
 
 ### Requried 
