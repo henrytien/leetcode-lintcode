@@ -32,7 +32,7 @@ LeetCode Solutions: A Record of My Problem Solving Journey.
 | #    | Title                                                        | Solution                                  | Difficulty |
 | ---- | ------------------------------------------------------------ | ----------------------------------------- | ---------- |
 | 1970 | [Rotate String II](https://www.lintcode.com/problem/rotate-string-ii/description?_from=ladder&&fromId=1/) | [C++](./LintCode/1790.RotateStringII.cpp) | Easy       |
-|      |                                                              |                                           |            |
+| 594  | [strStr IIFollow](https://www.lintcode.com/problem/strstr-ii/description) | [C++](./LintCode/594.strStrII.cpp)        | Hard       |
 |      |                                                              |                                           |            |
 
 
