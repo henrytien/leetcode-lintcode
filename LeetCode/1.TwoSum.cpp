@@ -8,7 +8,8 @@ public:
        for (int i = 0; i < nums.size(); i++) {
            int tmp = target - nums[i];
            if(hash.count(tmp)){
-               res = {i,hash[tmp]};
+               res.push_back(i);
+               res.push_back(hash[tmp]);
                return res;
            }
             hash[nums[i]] = i;
@@ -23,7 +24,7 @@ int main(){
 //    vector<int> nums = {2,7,11,15};
 //    int t = 9;
     
-    vector<int> nums = {3,3};
+    vector<int> nums(3,3);
     int t = 6;
     
     vector<int> res =  s.twoSum(nums, t);
