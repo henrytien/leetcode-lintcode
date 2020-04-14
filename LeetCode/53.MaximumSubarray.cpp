@@ -45,3 +45,44 @@ public:
 };
 
 
+// divide and Conquer
+
+class Solution {
+public:
+    int maxSubArray(vector<int>& nums) {
+        return maxSubArrayDivideConqure(nums, 0, nums.size() - 1);
+    }
+    
+private:
+    int maxSubArrayDivideConqure(vector<int> &nums, int start, int end){
+        int len = nums.size();
+        // recursion over
+        if(start == end){
+            return nums[start];
+        }
+        
+        int mid = start + (end - start) / 2;
+        
+        int leftMax = maxSubArrayDivideConqure(nums, start, mid);
+        int rightMax = maxSubArrayDivideConqure(nums, mid+1, end);
+        
+        // mid area index of mid to mid+1
+        int cross_max_left = INT_MIN;
+        int left_sum = 0;
+        for (int i = mid; i >= start; i--) {
+            left_sum += nums[i];
+            cross_max_left = max(left_sum,cross_max_left);
+        }
+        
+        int cross_max_right = nums[mid+1];
+        int right_sum = 0;
+        for (int i = mid + 1; i <= end; ++i) {
+            right_sum += nums[i];
+            cross_max_right = max(right_sum,cross_max_right);
+        }
+        
+        int max_cross = cross_max_right + cross_max_left;
+        return max(max_cross,max(leftMax,rightMax));
+        
+    }
+};
