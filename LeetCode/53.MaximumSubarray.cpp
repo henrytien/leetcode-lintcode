@@ -74,6 +74,7 @@ private:
             cross_max_left = max(left_sum,cross_max_left);
         }
         
+        // max sum of right array
         int cross_max_right = nums[mid+1];
         int right_sum = 0;
         for (int i = mid + 1; i <= end; ++i) {
