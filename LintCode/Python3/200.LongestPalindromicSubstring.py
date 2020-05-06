@@ -1,3 +1,4 @@
+# https://www.lintcode.com/problem/longest-palindromic-substring/description?_from=ladder&&fromId=1
 class Solution:
     """
     @param s: input string
@@ -10,12 +11,11 @@ class Solution:
 
         def getLen(l, r):
             while l >= 0 and r < n and s[l] == s[r]:
-                l = l-1
-                r = r+1
+                l -= 1
+                r += 1
             return r - l - 1
 
-        start = 0
-        length = 0
+        length, start = 0, 0
         for i in range(n):
             cur = max(getLen(i, i), getLen(i, i+1))
             if cur <= length:
@@ -23,6 +23,3 @@ class Solution:
             length = cur
             start = i - (cur - 1) // 2
         return s[start:start+length]
-
-    
-    
