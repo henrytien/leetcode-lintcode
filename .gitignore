@@ -57,3 +57,6 @@ LeetCode/ac
 .vscode/tasks.json
 LeetCode/ac.dSYM/Contents/Info.plist
 LeetCode/ac.dSYM/Contents/Resources/DWARF/ac
+package.json
+package-lock.json
+node_modules/*
