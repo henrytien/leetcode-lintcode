@@ -1,19 +1,5 @@
-# Algorithm Solutions
-Here are my algorithm problem solutions.
-
-## Awesome LeetCode  
-
-[leetcode](https://github.com/haoel/leetcode)  
-LeetCode Algorithm
-(Notes: "♥" means you need to buy a book from Leetcode)  
-
-[LeetCodeanimation](https://github.com/MisterBooo/LeetCodeAnimation)  
-Demonstrate all the questions on LeetCode in the form of animation.
-
-[leetcode](https://github.com/azl397985856/leetcode)  
-LeetCode Solutions: A Record of My Problem Solving Journey.
-
-
+# LeetCode-LintCode Solutions
+Here are my leetcode-lintcode problem solutions.
 
 ## 1. Defeat the Algorithm Interview    
 
@@ -41,11 +27,31 @@ LeetCode Solutions: A Record of My Problem Solving Journey.
 
 ### Requried 
 
-| #    | Title                                                     | Solution                             | Difficulty |
-| ---- | --------------------------------------------------------- | ------------------------------------ | ---------- |
-|      |                                                           |                                      |            |
-|      |                                                           |                                      |            |
-| 127  | [Word Ladder](https://leetcode.com/problems/word-ladder/) | [C++](./LeetCode/127.WordLadder.cpp) | Medium     |
+| #    | Title                                                        | Solution                             | Difficulty |
+| ---- | ------------------------------------------------------------ | ------------------------------------ | ---------- |
+| 200  | [Number of Islands](https://leetcode.com/problems/number-of-islands) |                                      | Medium     |
+| 102  | [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) |                                      | Medium     |
+| 127  | [Word Ladder](https://leetcode.com/problems/word-ladder/)    | [C++](./LeetCode/127.WordLadder.cpp) | Medium     |
+| 207  | [Course Schedule](https://leetcode.com/problems/course-schedule/) |                                      | Medium     |
+| 210  | [Course Schedule II](https://leetcode.com/problems/course-schedule-ii/) |                                      | Medium     |
+| 133  | [Clone Graph](https://leetcode.com/problems/clone-graph/)    |                                      | Medium     |
+| 297  | [Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/) |                                      | Hard       |
+|      |                                                              |                                      |            |
+|      |                                                              |                                      |            |
 
 ### Optional
+
+
+
+## Awesome LeetCode Solutions 
+
+[leetcode](https://github.com/haoel/leetcode)  
+LeetCode Algorithm
+(Notes: "♥" means you need to buy a book from Leetcode)  
+
+[LeetCodeanimation](https://github.com/MisterBooo/LeetCodeAnimation)  
+Demonstrate all the questions on LeetCode in the form of animation.
+
+[leetcode](https://github.com/azl397985856/leetcode)  
+LeetCode Solutions: A Record of My Problem Solving Journey.
 
