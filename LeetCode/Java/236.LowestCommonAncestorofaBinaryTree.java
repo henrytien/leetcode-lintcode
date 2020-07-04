@@ -1,5 +1,5 @@
 // Source : https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/
-// Author : henrytine
+// Author : Ubique
 // Date   : 2020-07-04
 
 /***************************************************************************************************** 
