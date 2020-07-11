@@ -49,3 +49,18 @@ public:
         return water;
     }
 };
+// Time Limit Exceeded.
+// Bruce
+class Solution {
+public:
+    int maxArea(vector<int>& height) {
+        int maxarea = 0;
+        for (int i = 0; i < height.size(); i++) {
+            for (int j = i+1; j < height.size(); j++) {
+                int area = (j-i) * min(height[i], height[j]);
+                maxarea = max(area,maxarea);
+            }
+        }
+        return maxarea;
+    }
+};
