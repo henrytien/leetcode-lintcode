@@ -39,7 +39,21 @@ Here are my leetcode-lintcode problem solutions.
 |      |                                                              |                                      |            |
 |      |                                                              |                                      |            |
 
+## 2. Dynamic programming
+
+### Required
+
+| #    | Title    | Solution | Difficultty |
+| ---- | -------- | -------- | ----------- |
+| 45   | 跳跃游戏 | Go       | Hard        |
+|      |          |          |             |
+|      |          |          |             |
+
+
+
 ### Optional
+
+
 
 
 
