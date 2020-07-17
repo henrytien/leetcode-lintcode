@@ -22,6 +22,3 @@ Output: False
 **Note:**
 1. The input strings only contain lower case letters.
 2. The length of both given strings is in range [1, 10,000].
-
-# Discuss
-
