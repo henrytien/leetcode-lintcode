@@ -46,6 +46,7 @@
 # Project
 .idea
 
+.vscode
 .vscode/settings.json
 LintCode/ac
 LintCode/ac.dSYM/*
@@ -59,5 +60,5 @@ package.json
 package-lock.json
 node_modules/*
 
-*.DS_Store
+.DS_Store
 
