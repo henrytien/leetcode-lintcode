@@ -1,7 +1,7 @@
 # Leetcode-Lintcode Solutions
-Here are my leetcode-lintcode problem solutions.
+Here are  leetcode-lintcode problem solutions. Here is a repo for you can play it and share your solution. Hope you enjoy it and contribute it.
 
-This is a ladder for you. You can play it in [leetcode](https://leetcode.com/).
+Look here is a ladder for you. You can play it in [leetcode](https://leetcode.com/).
 
 ## 1. Defeat the Algorithm Interview    
 
