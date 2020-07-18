@@ -44,7 +44,6 @@
 *.ilk
 
 # Project
-*.vcxproj.*
 .idea
 
 .vscode/settings.json
@@ -59,3 +58,6 @@ LeetCode/ac.dSYM/*
 package.json
 package-lock.json
 node_modules/*
+
+*.DS_Store
+
