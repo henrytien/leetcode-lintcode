@@ -40,7 +40,6 @@ public:
             ++c2[s2[i] - 'a'];
             if (i >= l1) {
                 char c = s2[i - l1];
-                cout << c << endl;
                 --c2[c - 'a'];
             }
             if (c1 == c2) return true;

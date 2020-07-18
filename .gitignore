@@ -44,8 +44,9 @@
 *.ilk
 
 # Project
-*.vcxproj.*
+.idea
 
+.vscode
 .vscode/settings.json
 LintCode/ac
 LintCode/ac.dSYM/*
@@ -58,3 +59,6 @@ LeetCode/ac.dSYM/*
 package.json
 package-lock.json
 node_modules/*
+
+.DS_Store
+
