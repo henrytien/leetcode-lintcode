@@ -39,8 +39,17 @@ Here are my leetcode-lintcode problem solutions.
 |      |                                                              |                                      |            |
 |      |                                                              |                                      |            |
 
+## 2. Dynamic programming
+
+### Required
+
+| #    | Title    | Solution | Difficultty |
+| ---- | -------- | -------- | ----------- |
+|       |  |      |         |
+|      |          |          |             |
+|      |          |          |             |
+
+
+
 ### Optional
-
-
-
 

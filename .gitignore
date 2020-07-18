@@ -45,6 +45,7 @@
 
 # Project
 *.vcxproj.*
+.idea
 
 .vscode/settings.json
 LintCode/ac
