@@ -85,7 +85,6 @@ query_problem ${leetcode_url} ${QUESTION_TITLE_SLUG}
 #detect the author name
 get_author_name;
 
-<<<<<<< HEAD
 # create file folder
 folder_name=$QUESTION_ID$'.'$(echo $QUESTION_TITLE | sed 's/[ ][ ]*/_/g' | tr 'A-Z' 'a-z')
 echo "Create a new file - $folder_name ."
@@ -93,8 +92,6 @@ if [ ! -d $folder_name ]; then
   mkdir $folder_name
 fi
 
-=======
->>>>>>> 5c2216959ae6fe19a20253f2d181a972450f5bd4
 if [ "${QUESTION_CATEGORY}" == "Shell" ]; then
     COMMENT_TAG='#'
     FILE_EXT='.sh'
@@ -108,13 +105,8 @@ if [ $# -gt 1 ] && [ -f $2 ]; then
         current_time=`stat -f %a ${source_file} | xargs -I time date -r time +%Y-%m-%d`
     fi
 else
-<<<<<<< HEAD
     # source file name
     source_file=$QUESTION_ID$'.'$(echo $QUESTION_TITLE | sed 's/ //g')$'_'$AUTHOR # | sed 's/ //g to remove blank
-=======
-    source_file=$QUESTION_ID$'.'$(echo $QUESTION_TITLE | sed 's/ //g')$'_'$AUTHOR
-
->>>>>>> 5c2216959ae6fe19a20253f2d181a972450f5bd4
     source_file=`echo $source_file | awk -F '-' '{for (i=1; i<=NF; i++) printf("%s", toupper(substr($i,1,1)) substr($i,2)) }'`${FILE_EXT}
 
     if [ ! -f ${source_file} ]; then
