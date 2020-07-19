@@ -82,6 +82,9 @@ fi
 #grab the problem information
 query_problem ${leetcode_url} ${QUESTION_TITLE_SLUG}
 
+#detect the author name
+get_author_name;
+
 if [ "${QUESTION_CATEGORY}" == "Shell" ]; then
     COMMENT_TAG='#'
     FILE_EXT='.sh'
@@ -95,8 +98,8 @@ if [ $# -gt 1 ] && [ -f $2 ]; then
         current_time=`stat -f %a ${source_file} | xargs -I time date -r time +%Y-%m-%d`
     fi
 else
-    source_file=$QUESTION_TITLE_SLUG
-    #source_file=${source_file::${#source_file}-1}
+    source_file=$QUESTION_ID$'.'$(echo $QUESTION_TITLE | sed 's/ //g')$'_'$AUTHOR
+
     source_file=`echo $source_file | awk -F '-' '{for (i=1; i<=NF; i++) printf("%s", toupper(substr($i,1,1)) substr($i,2)) }'`${FILE_EXT}
 
     if [ ! -f ${source_file} ]; then
