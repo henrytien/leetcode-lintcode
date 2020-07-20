@@ -59,3 +59,5 @@ LeetCode/ac.dSYM/*
 package.json
 package-lock.json
 node_modules/*
+
+*.code-workspace
