@@ -59,8 +59,6 @@ Look here is a ladder for you. You can play it in [leetcode](https://leetcode.co
 
 ### Optional
 
-<<<<<<< HEAD
-=======
 
 
 ## 4. Binary Tree & Divide and Conquer
@@ -81,4 +79,3 @@ Look here is a ladder for you. You can play it in [leetcode](https://leetcode.co
 
 ### Optional
 
->>>>>>> 557de1f38a2ca70434115b5af712774e73d48989
