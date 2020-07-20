@@ -27,18 +27,19 @@ public:
         sort(nums.begin(),nums.end());
         int n = nums.size();
         if (n < 3) return 0;
+        
         int mincut = nums[0] + nums[1] + nums[2];
-        for (int i = 0; i < n-2; ++i) {
-            int lo = i + 1, hi = n - 1;
+        int lo = 0, hi = 0;
+        
+        for (int i = 0; i < n - 2; i++) {
+            lo = i + 1, hi = n - 1;
             while (lo < hi) {
                 int sum = nums[i] + nums[lo] + nums[hi];
-                if (abs(sum - target) < abs(mincut - target)) mincut = sum;
-                if (sum == target) return target;
-                else if(sum < target) lo++;
+                if (abs(sum - target) < abs(mincut - target))  mincut = sum;
+                else if (sum < target) lo++;
                 else hi--;
             }
         }
         return mincut;
-        
     }
 };
