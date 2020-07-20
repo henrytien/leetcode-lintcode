@@ -1,0 +1,135 @@
+
+Some important changes:
+
+--------Xidel 0.9.8 --------
+(2018-04-02)
+- Cookie handling follows RFC 6265 rather than sending all cookies to all servers.
+- add t:siblings-header/siblings elements to pattern matcher to match certain element siblings regardless of their ordering (e.g. table columns).
+- add functions x:call-action, x:has-action, x:get-log, x:clear-log to give programmatic access to multipage templates and variable changelog.
+- add --module, --module-path parameters to load XQuery modules into (xpath) queries and properly resolve relative paths for module imports.
+- fix system(), file:exists, file:move (override), file:path-to-uri on Windows
+- further minor bug fixes and performance improvements
+
+--------Xidel 0.9.6 --------
+(2016-11-20)
+* add function x:request for HTTP or follow-like requests inside a query
+* new functions: x:argc, x:argv, x:integer, x:integer-to-base
+* fix that entities were not decoded, if --output-encoding was not set
+* better default encoding settings when converting between Windows terminal encoding and utf8 for piped files
+* a new JSON parser with two distinct modes: input formats json/json-strict for accepting/rejecting invalid JSON
+* JSON output is prettified.
+* An xquery version declaration disables all extension unless a version code like "3.0-xidel" or "3.0-jsoniq" is used. #!xidel in the first line is ignored, so it can be used for executable XQuery scripts.
+* various fixes, performance improvements and internal restructuring
+
+--------Xidel 0.9.4 --------
+(2016-06-08)
+
+* completes the support for XQuery 3.0 and XPath 3.0, e.g. functions format-*, math:* functions
+* uses a new underlying regular expression engine, FLRE, which supports Unicode, \p,\c,\i character classes and is supposed to be extremely fast
+* stricter error conditions, invalid XPath queries that were previously evaluated are now rejected, for example
+  in regular expressions (?i) or \b, (1 + if(..) then ...) instead of (1 + (if(..) then ...)),  gYear("123") instead of gYear("0123")
+* this improves the XQuery Test Suite conformance and it passes basically 100% of the XPath 2 tests and over 99.5% of the XQuery 3 tests
+* supports the EXPath file module to write or read local files
+* custom functions: random($max), random-seed(), x:product($seq)
+* new multipage template statements: <try><catch>, <else>
+* the error raising HTTP codes are now customizable
+* the headers of the last HTTP request can be accessed via $headers
+* improved debugging facilities: Evaluation tracing, colored output, improved error messages
+* the default data model for primitive types is now XML Schema 1.1 and Unicode 8.0 conformant
+* boolean operations are short-cut evaluated
+* --quiet/-q was renamed to --silent/-s
+* check for XIDEL_OPTIONS environment variable
+* various fixes and performance improvements
+
+--------Xidel 0.9--------
+(2015-06-28)
+
+* support of more XQuery 3 expressions and functions:
+  - anonymous functions, higher order function, function references, function tests
+  - new flwor clauses: group by, tumbling and sliding window, count, allowing empty
+  - try+catch expressions
+  - URI qualified names, e.g. Q{http://www.w3.org/2000/xmlns/}foo instead xmlns:foo
+  - fn:unparsed-text, parse-xml, environment-variable, path, round#2, string-join#1, fn:serialize ...
+* change output format of variables, type annotations, line separators and stderr-information
+* add support for multipart form requests and file uploads via a --form parameter
+* Add custom functions pxp:transform  and pxp:request-combine
+* fix some issues with non ascii characters in cli arguments
+* fix raw data/url after --follow=... arguments and multiple --follow with form requests
+* fix some HTML parsing bugs
+* fix a large number of XPath/XQuery compatibility bugs.
+
+
+--------Xidel 0.8.4--------
+
+* implementing all syntax extensions described in my Balisage talk:
+  - adding pattern matching in let, for, typeswitch expressions
+  - different matching modes for attributes
+* support for custom headers on the command line
+* can import environment variables
+* changed html encoding detection to give content-type highest priority
+* fix nested forwarding in recursive calls
+* fix crashes/exceptions
+
+--------Xidel 0.8--------
+
+* improved JSONiq extension support
+  * updated to the new 1.0.3 standard. Most important: () operator to list object keys / unbox arrays, {| .. |} syntax for object merging, relaxed behaviour on sequences
+  * changed my dot notation to behave like the dot operator in JSONiq standalone, i.e. disabled the $var.property syntax, but added $var."property" 
+  * fix object with keys containing a dot (.)
+  * fix parsing of null in json input
+* Use arbitrary precision arithmetic for all numeric operations
+* Some minor XPath/XQuery 3 syntax: ! and || operators, and switch statement
+* new elements in multipage template: <if>, <choose>, <when>, <otherwise> similar to XSLT, <s> to evaluate short XQuery expressions like in singlepage templates  
+* allow template:optional flag on all template elements
+* improved html form/url handling: input elements can be passed to pxp:form to create their url encoded post data, uri-decode/uri-encode/uri-combine functions to modify urls, resolve-html function that resolves references in html elements (e.g. @src when passed <img>) to the base uri
+* more := shenanigans: $var[] := appends to sequences, $sequence[index] := assigns to sequence elements, $array(index) := assigns to array elements, $var(property) := assigns to object properties. Can be combined, so e.g. $array(index)[] inserts in arrays. Assigning () removes elements
+* handle <base>-Element for resolving relative links
+* Handle hex encoded password in urls
+* other minor improvements and bug fixes
+
+
+--------Xidel 0.7--------
+
+* Improved handling of extract/follow command line chains:
+  Following occurs in depth-first-search
+  Brackets [ ] can be used to group arguments together (e.g. [ -f //a -e //title ] to read the titles of all pages linked on the current page, without changing the current page)
+
+* The old json/xml output formats are now called json-wrapped and xml-wrapped
+* Added html and xml output formats, which will just print the elements in their format 
+  with the respective headers  
+* Added bash output format to export the variables to the shell (e.g. eval $(xidel --output-format bash ...))
+
+* Fix a few xml/html parsing and serialization bugs (e.g. added closing tags for <link>)
+* Added an option to print elements as html, instead as xml
+
+* Added support for JSONiq: e.g. object syntax {"a": 123}("a"), arrays [10,20,30](1), the JSONiq jn:* functions,
+  additional pxp:json() and pxp:serialize-json functions to parse/serialize JSON
+
+* Added outer-html, inner-html functions to the XPath engine which will serialize the element
+  in a string
+
+* The syntax extension of variable inclusion in strings like "$foo;" was replaced by prefixed strings x"{$foo}", the regex extraction function pxp:filter was renamed to pxp:extract, to avoid confusion with the XQuery 3 fn:filter function
+
+* Added support for different http request methods (e.g. PUT), basic authentication, allow arbitrary ports
+
+* Added a system function to run arbitrary commands, a $raw variable containing the raw data of the current page
+
+* Improved detection of CSS/XPath/XQuery kind expressions, also added --css, --xpath, --xquery parameters to easily bypass the detection
+
+* Various other changes
+
+--------Xidel 0.6--------
+
+* Full XQuery 1 support (except XML schema and static type checking, but these are XQuery optional features)
+
+* Added a match function to perform pattern matching between XML documents
+* Added a form function to convert a html form in a http request
+
+* Handle '-single quotes in Windows command line
+* Support for Windows console OEM encoding
+
+* Fix a few XPath 2 interpreter bugs (e.g. wrong namespace for functions)
+
+--------Xidel 0.5--------
+
+Initial release
