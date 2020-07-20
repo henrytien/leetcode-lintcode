@@ -57,7 +57,7 @@ package main
 // 思路：定义：把相同的一片果树=区，可以看作下图
 //｜--｜--｜
 // left和right记录相邻两个区的和，当进入新区时，ans=max(ans,left+right)，然后将左区抛弃，left=right，right=1
-//先挖个坑 todo complete the code
+//先挖个坑 todo complete the code@zhangshillin
 func totalFruit(tree []int) int {
 
 }
