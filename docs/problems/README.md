@@ -2,6 +2,15 @@
 
 Problems by tag and frequency or companies.
 
+
+
+## 2020-07-21
+
+- Basic Binary Search
+  - [33. Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)
+  - [34. Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)
+  - [81. Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/)
+
 ## 2020-07-20
 
 - Data Structure Design
