@@ -79,3 +79,13 @@ Look here is a ladder for you. You can play it in [leetcode](https://leetcode.co
 
 ### Optional
 
+
+
+## How to make contributions
+
+Please read and follow the steps in 
+
+## License
+
+Please see [LICENSE](https://github.com/henrytien/leetcode-lintcode/blob/master/LICENSE).
+
