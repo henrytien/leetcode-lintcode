@@ -5,7 +5,7 @@ Look here is a ladder for you. You can play it in [leetcode](https://leetcode.co
 
 ## How to make contributions
 
-Please read and follow the steps in [CONTRIBUTING.md](/CONTRIBUTING)
+Please read and follow the steps in [CONTRIBUTING.md](/CONTRIBUTING.md)
 
 ## 1. Defeat the Algorithm Interview    
 
