@@ -3,6 +3,10 @@ Here are  leetcode-lintcode problem solutions. Here is a repo for you can play i
 
 Look here is a ladder for you. You can play it in [leetcode](https://leetcode.com/).
 
+## How to make contributions
+
+Please read and follow the steps in [CONTRIBUTING.md](./CONTRIBUT.md)
+
 ## 1. Defeat the Algorithm Interview    
 
 ### Requried 
@@ -80,10 +84,6 @@ Look here is a ladder for you. You can play it in [leetcode](https://leetcode.co
 ### Optional
 
 
-
-## How to make contributions
-
-Please read and follow the steps in 
 
 ## License
 
