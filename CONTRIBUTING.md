@@ -8,9 +8,19 @@ Contributions to this project must be accompanied by a Contributor License Agree
 
 - Fork this repo
 
-- Use a script
+- Run a script to auto-generate files.
 
-  All problems have related topics, so you can put your solution in leetcode folder, these directories created by the problems tag. You need to see the problem of related topics or your method, and go to the directory, execute a script, such as `cd leetcode/binary_search` and `../../scripts/comments_cpp.sh https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/` that will be auto-generate a folder and a cpp source file, if you want to create a python solution, just replace the comments_cpp.sh to comments_py.sh, now scripts support create cpp, python, go, java . 
+  All problems have related topics, so you can put your solution in leetcode folder, these directories created by the problems tag. You need to see the problem of related topics or your method, and go to the directory, execute a script.
+
+  such as `cd leetcode/binary_search` 
+
+  and `../../scripts/comments_cpp.sh https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/` 
+
+  that will be auto-generate a folder and a cpp source file, if you want to create a python solution, just replace the comments_cpp.sh to comments_py.sh, now scripts support create cpp, python, go, java . 
+
+- Syncing a fork
+
+  Sync a fork of a repository to keep it up-to-date with the upstream repository. See [document](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/syncing-a-fork) for more detail.
 
 - Pull request
 
