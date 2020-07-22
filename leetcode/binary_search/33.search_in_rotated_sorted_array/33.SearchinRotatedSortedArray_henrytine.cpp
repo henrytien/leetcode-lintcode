@@ -1,6 +1,6 @@
 // Source : https://leetcode.com/problems/search-in-rotated-sorted-array/
-// Author : henrytine
-// Date   : 2020-07-22
+// Author : zheyuuu 
+// Date   : 2020-07-21
 
 /***************************************************************************************************** 
  *
