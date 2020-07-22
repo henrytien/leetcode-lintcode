@@ -2,7 +2,12 @@
 
 Problems by tag and frequency or companies.
 
+## 2020-07-22
 
+- Basic Binary Search
+  - [153. Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)
+  - [154. Find Minimum in Rotated Sorted Array II](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/)
+  - [162. Find Peak Element](https://leetcode.com/problems/find-peak-element/)
 
 ## 2020-07-21
 
