@@ -27,3 +27,28 @@
  * 
  ******************************************************************************************************/
 
+class Solution {
+public:
+    int findDuplicate(vector<int>& nums) {
+        int low = 1, high = nums.size() - 1;
+        
+        while (low < high) {
+            int mid = (high - low) / 2 + low, cnt = 0;
+
+            for (auto n : nums) {
+                if (n <= mid) {
+                    cnt++;
+                }
+                
+            }
+            if (cnt <= mid) {
+                low = mid + 1;
+            }
+            else {
+                high = mid;
+            }
+        }
+        return low;
+    }
+};
+
