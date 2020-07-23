@@ -2,6 +2,15 @@
 
 Problems by tag and frequency or companies.
 
+## 2020-07-23
+
+- Basic Binary Search
+  - [240. Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/)
+
+- Binary Search Hard
+  - [214. Shortest Palindrome](https://leetcode.com/problems/shortest-palindrome/)
+  - [287. Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/)
+
 ## 2020-07-22
 
 - Basic Binary Search
