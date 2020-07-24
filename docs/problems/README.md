@@ -2,14 +2,23 @@
 
 Problems by tag and frequency or companies.
 
+## 2020-07-24
+
+- Binary Search by  Frequency
+  - [4.  Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) Amazon|13
+  - [50. Pow(x, n)](https://leetcode.com/problems/powx-n/) Facebook|28
+  - [315. Count of Smaller Numbers After Self](https://leetcode.com/problems/count-of-smaller-numbers-after-self/) Google|9
+
 ## 2020-07-23
 
 - Basic Binary Search
   - [240. Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/)
-
 - Binary Search Hard
-  - [214. Shortest Palindrome](https://leetcode.com/problems/shortest-palindrome/)
-  - [287. Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/)
+  	- [287. Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/)
+
+- String
+
+  [214. Shortest Palindrome](https://leetcode.com/problems/shortest-palindrome/)
 
 ## 2020-07-22
 
