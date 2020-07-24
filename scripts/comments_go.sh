@@ -54,23 +54,26 @@ function detect_os()
     echo ${platform}
 }
 
-
-if [ $# -lt 1 ] || [[ "${1}" != ${LEETCODE_NEW_URL}* ]] && [[ "${1}" != ${LEETCODE_OLD_URL}* ]]; then
+if [ $# -lt 1 ] || [[ "${1}" != ${LEETCODE_NEW_URL}* ]] && [[ "${1}" != ${LEETCODE_OLD_URL}* ]] && [[ "${1}" != ${LEETCODE_CN_URL}* ]]; then
     usage
     exit 255
 fi
 
 if [[ "${1}" == ${LEETCODE_OLD_URL}* ]]; then
-    LEETCODE_URL=${LEETCODE_OLD_URL}
+    question_title_slug=${1#${LEETCODE_OLD_URL}}
+    leetcode_url=$LEETCODE_URL$question_title_slug
+    # LEETCODE_URL=${LEETCODE_OLD_URL}
 fi
 
+if [[ "${1}" == ${LEETCODE_CN_URL}* ]]; then
+    question_title_slug=${1#${LEETCODE_CN_URL}}
+    leetcode_url=$LEETCODE_URL$question_title_slug
+fi
 
-leetcode_url=$1
 current_time=`date +%Y-%m-%d`
 platform=`detect_os`
 
 get_question_slug ${leetcode_url}
-
 
 TRUE_CMD=`which true`
 xidel=`type -P xidel || ${TRUE_CMD}`
@@ -90,7 +93,7 @@ get_author_name;
 
 # create file folder
 folder_name=$QUESTION_ID$'.'$(echo $QUESTION_TITLE | sed 's/[ ][ ]*/_/g' | tr 'A-Z' 'a-z')
-echo "Create a new file - $folder_name ."
+echo "Create a new folder - $folder_name ."
 if [ ! -d $folder_name ]; then
   mkdir $folder_name
 fi

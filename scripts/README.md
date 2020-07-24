@@ -14,6 +14,11 @@ Some Scripts
 ```
 ./comments.sh https://leetcode.com/problems/largest-number/
 ```
+cn or olr url is also supported, like:
+
+```
+./comments.sh https://leetcode-cn.com/problems/largest-number/
+```
 
 2) Add Copyright & Problem description into existed file
 ```
