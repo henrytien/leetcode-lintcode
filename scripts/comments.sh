@@ -64,11 +64,11 @@ if [[ "${1}" == ${LEETCODE_OLD_URL}* ]]; then
     question_title_slug=${1#${LEETCODE_OLD_URL}}
     leetcode_url=$LEETCODE_URL$question_title_slug
     # LEETCODE_URL=${LEETCODE_OLD_URL}
-fi
-
-if [[ "${1}" == ${LEETCODE_CN_URL}* ]]; then
+elif [[ "${1}" == ${LEETCODE_CN_URL}* ]]; then
     question_title_slug=${1#${LEETCODE_CN_URL}}
     leetcode_url=$LEETCODE_URL$question_title_slug
+else
+    leetcode_url=${1}
 fi
 
 current_time=`date +%Y-%m-%d`
