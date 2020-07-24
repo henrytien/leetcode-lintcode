@@ -1,6 +1,7 @@
 #!/bin/bash
 
 LEETCODE_URL=https://leetcode.com/problems/
+LEETCODE_CN_URL=https://leetcode-cn.com/problems/
 LEETCODE_NEW_URL=https://leetcode.com/problems/
 LEETCODE_OLD_URL=https://oj.leetcode.com/problems/
 
