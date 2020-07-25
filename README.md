@@ -59,11 +59,21 @@ Please read and follow the steps in [CONTRIBUTING.md](/CONTRIBUTING.md).
 | 315 | [Count of Smaller Numbers After Self](https://leetcode.com/problems/count-of-smaller-numbers-after-self) | | Hard | Google\|9 |
 | 287 | [Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number) | | Medium | Amazon\|7 Google\|6 |
 | 167 | [Two Sum II - Input array is sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted) | | Easy | Amazon\|5 |
-|  |  | |  |  |
+| 658 | [Find K Closest Elements](https://leetcode.com/problems/find-k-closest-elements) | | Medium | Facebook\|12 |
 
 ### Optional
 
-
+| #    | Title                                                        | Solution | Difficulty | Companies    |
+| :--- | :----------------------------------------------------------- | :------- | :--------- | ------------ |
+| 74   | [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix) |          | Easy       | Amazon\|11   |
+| 35   | [Search Insert Position](https://leetcode.com/problems/search-insert-position) |          | Easy       | Amazon       |
+| 278  | [First Bad Version](https://leetcode.com/problems/first-bad-version) |          | Easy       | Facebook\|50 |
+| 222  | [Count Complete Tree Nodes](https://leetcode.com/problems/count-complete-tree-nodes) |          | Medium     | Google       |
+| 69   | [Sqrt(x)](https://leetcode.com/problems/sqrtx)               |          | Easy       | Microsoft    |
+| 1111 | [Maximum Nesting Depth of Two Valid Parentheses Strings](https://leetcode.com/problems/maximum-nesting-depth-of-two-valid-parentheses-strings) |          | Medium     | Amazon       |
+| 300  | [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence) |          | Medium     |              |
+| 327  | [Count of Range Sum](https://leetcode.com/problems/count-of-range-sum) |          | Hard       | Google       |
+| 363  | [Max Sum of Rectangle No Larger Than K](https://leetcode.com/problems/max-sum-of-rectangle-no-larger-than-k) |          | Hard       | Google       |
 
 ## 4. Binary Tree & Divide and Conquer
 
