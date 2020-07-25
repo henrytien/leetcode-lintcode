@@ -11,21 +11,21 @@ Please read and follow the steps in [CONTRIBUTING.md](/CONTRIBUTING.md).
 
 ### Requried 
 
-| #    | Title                                                        | Solution | Difficulty |
-| ---- | ------------------------------------------------------------ | -------- | ---------- |
-| 409  | [Longest Palindrome](https://leetcode.com/problems/longest-palindrome/) |          | Easy       |
-| 28   | [Implement strStr()](https://leetcode.com/problems/implement-strstr/) |          | Easy       |
-| 125  | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) |          | Easy       |
-
-
+| #    | Title                                                        | Solution | Difficulty | **Companies**               |
+| ---- | ------------------------------------------------------------ | -------- | ---------- | --------------------------- |
+| 3    | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters) |          | Medium     | Amazon\|24\|Facebook\|20    |
+| 5    | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring) |          | Medium     | Amazon                      |
+| 125  | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) |          | Easy       | Facebook\|44                |
+| 14   | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix) |          | Easy       | Google                      |
+| 8    | [String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi) |          | Medium     | Facebook\|17\|Microsoft\|10 |
 
 ### Optional
 
-| #    | Title                                                        | Solution | Difficulty |
-| ---- | ------------------------------------------------------------ | -------- | ---------- |
-| 1970 | [Rotate String II](https://www.lintcode.com/problem/rotate-string-ii/description?_from=ladder&&fromId=1/) |          | Easy       |
-| 594  | [strStr II](https://www.lintcode.com/problem/strstr-ii/description) |          | Hard       |
-|      |                                                              |          |            |
+| #    | Title                                                        | Solution | Difficulty | **Companies** |
+| ---- | ------------------------------------------------------------ | -------- | ---------- | ------------- |
+| 344  | [Reverse String](https://leetcode.com/problems/reverse-string) |          | Easy       | Amazon        |
+| 13   | [Roman to Integer](https://leetcode.com/problems/roman-to-integer) |          | Easy       | Amazon\|14    |
+| 10   | [Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching) |          | Hard       | Facebook\|12  |
 
 
 
@@ -93,7 +93,25 @@ Please read and follow the steps in [CONTRIBUTING.md](/CONTRIBUTING.md).
 
 ### Optional
 
+## 5. Two Pointers 
 
+### Required
+
+## 6 . Implicit Graph DFS 
+
+### Required
+
+## 7 . Hash & Heap 
+
+### Required
+
+## 8 . Memoization Search & Dynamic Programming 
+
+### Required
+
+## 9 . 4 Key Points of DP and Coordinate DP 
+
+### Required
 
 ## License
 
