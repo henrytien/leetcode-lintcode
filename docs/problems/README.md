@@ -2,6 +2,13 @@
 
 Problems by tag and frequency or companies.
 
+## 2020-07-25
+
+- Binary Search by Frequency
+  - [29. Divide Two Integers](https://leetcode.com/problems/divide-two-integers/) Facebook|23
+  - [349. Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/)|Facebook|18
+  - [327. Count of Range Sum](https://leetcode.com/problems/count-of-range-sum/)|Google
+
 ## 2020-07-24
 
 - Binary Search by  Frequency
@@ -12,10 +19,12 @@ Problems by tag and frequency or companies.
 ## 2020-07-23
 
 - Basic Binary Search
+  
   - [240. Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/)
 - Binary Search Hard
-  	- [287. Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/)
-
+  	
+- [287. Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/)
+  	
 - String
 
   [214. Shortest Palindrome](https://leetcode.com/problems/shortest-palindrome/)
