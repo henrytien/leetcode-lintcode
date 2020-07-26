@@ -51,3 +51,16 @@
  * 	target[i] == '0' or target[i] == '1'
  ******************************************************************************************************/
 
+class Solution {
+public:
+    int minFlips(string target) {
+        int cnt = 0, state = 0;
+        for (auto n : target) {
+            if (n - '0' != state) {
+                state = n - '0';
+                ++cnt;
+            }
+        }
+        return cnt;
+    }
+};
