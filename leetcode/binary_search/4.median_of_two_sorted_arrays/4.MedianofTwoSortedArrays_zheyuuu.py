@@ -36,12 +36,20 @@ class Solution:
             i = (imin+imax)//2
             j = (m+n+1)//2-i
 
-            if(i<m and nums2[j-1]>nums1[i]):
+            if(i>=0 and i<m and j-1>=0 and j-1<n and nums2[j-1]>nums1[i]):
                 imin = i+1
-            elif(i>0 and nums1[i-1]>nums2[j]):
+            elif(i-1>=0 and i-1<m and j>=0 and j<=n and nums1[i-1]>nums2[j]):
                 imax = i
             else:
                 # Ensure max(left_part)<=min(right_part)
+                # 1. nums1's left max <= nums2's right min
+                #    - i == 0           left_part of nums1 is empty, max(left_part)<=min(right_part) only determined by condition 2.
+                #    - or j == n        right_part of nums2 is empty, max(left_part)<=min(right_part) only determined by condition 2. 
+                #    - or nums1[i-1] <= nums2[j]    
+                # 2. nums2's left max <= nums1's right min
+                #    - j == 0 
+                #    - or i == m
+                #    - or nums2[j-1] <= nums1[i] 
                 leftmax1 = nums1[i-1] if i>0 else float("-inf")
                 rightmin1 = nums1[i] if i<m else float("inf")
 
