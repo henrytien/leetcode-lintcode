@@ -50,7 +50,7 @@ func helper(x float64,n int) float64 {
 // 思路
 // 经典二分思想，双100
 //在主函数中判断是不是分数，否则会丢失很多精度
-//
+// todo need to add iteration version
 func myPow(x float64, n int) float64 {
 	if n >= 0 {
 		return helper(x, n)

@@ -56,7 +56,7 @@ func divide(dividend int, divisor int) int {
 //func helper(dividend,divisor int)
 
 func main() {
-	fmt.Println(divide(-11,1))
+	fmt.Println(divide(2,-100))
 	fmt.Println(divide(12,1))
 	fmt.Println(divide(13,1))
 	fmt.Println(divide(14,1))
