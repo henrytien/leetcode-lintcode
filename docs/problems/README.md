@@ -2,6 +2,21 @@
 
 Problems by tag and frequency or companies.
 
+## 2020-07-27
+
+- Binary Search by Frequency
+  - [278. First Bad Version](https://leetcode.com/problems/first-bad-version/)
+  - [222. Count Complete Tree Nodes](https://leetcode.com/problems/count-complete-tree-nodes/) 
+  - [363. Max Sum of Rectangle No Larger Than K](https://leetcode.com/problems/max-sum-of-rectangle-no-larger-than-k/)
+
+## 2020-07-26
+
+- Weekly Contest
+  - [Shuffle String](https://leetcode.com/contest/weekly-contest-199/problems/shuffle-string)
+  - [Bulb Switcher IV](https://leetcode.com/contest/weekly-contest-199/problems/bulb-switcher-iv)
+  - [Number of Good Leaf Nodes Pairs](https://leetcode.com/contest/weekly-contest-199/problems/number-of-good-leaf-nodes-pairs)
+  - [String Compression II](https://leetcode.com/contest/weekly-contest-199/problems/string-compression-ii)
+
 ## 2020-07-25
 
 - Binary Search by Frequency
@@ -22,9 +37,9 @@ Problems by tag and frequency or companies.
   
   - [240. Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/)
 - Binary Search Hard
-  	
+  
 - [287. Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/)
-  	
+  
 - String
 
   [214. Shortest Palindrome](https://leetcode.com/problems/shortest-palindrome/)
