@@ -2,6 +2,13 @@
 
 Problems by tag and frequency or companies.
 
+## 2020-07-27
+
+- Binary Search by Frequency
+  - [278. First Bad Version](https://leetcode.com/problems/first-bad-version/)
+  - [222. Count Complete Tree Nodes](https://leetcode.com/problems/count-complete-tree-nodes/) 
+  - [363. Max Sum of Rectangle No Larger Than K](https://leetcode.com/problems/max-sum-of-rectangle-no-larger-than-k/)
+
 ## 2020-07-26
 
 - Weekly Contest
