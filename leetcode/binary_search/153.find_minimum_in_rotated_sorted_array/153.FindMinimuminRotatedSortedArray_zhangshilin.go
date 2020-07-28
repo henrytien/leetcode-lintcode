@@ -62,7 +62,24 @@ func findMin2 (nums []int) int {
 	}
 	return -1
 }
-
+// 思路： 最小值一定是在右侧被旋转过去的那一块，每次取n[mid],以右侧边界进行比较，如果比右侧边界大，那一定是在左测递增序列中，直接移动左指针，如果n[mid]比
+// 比右边界小的话说明已经在右侧区域了有可能是最小值，但是不一定，所以保留n[mid]边界，继续比较，最后选出最小值
+// time 100%
+func findMin3(nums []int)int{
+	l,r,mid:=0,len(nums)-1,0
+	for l<=r{
+		if l==r{
+			return nums[l]
+		}
+		mid = l+(r-l)>>1
+		if nums[mid]>nums[r]{
+			l = mid+1
+		}else if nums[mid]<=nums[r]{ // 保留右边界
+			r = mid
+		}
+	}
+	return -1
+}
 func main() {
 	arr:=[]int{3,1}
 	fmt.Println(findMin2(arr))
