@@ -32,6 +32,9 @@ class Solution:
             nums1, nums2 = nums2, nums1
         m, n = len(nums1), len(nums2)
         imin, imax = 0, m
+        #       left_part          |        right_part
+        # A[0], A[1], ..., A[i-1]  |  A[i], A[i+1], ..., A[m-1]
+        # B[0], B[1], ..., B[j-1]  |  B[j], B[j+1], ..., B[n-1]
         while(imin <= imax):
             i = (imin+imax)//2
             j = (m+n+1)//2-i
