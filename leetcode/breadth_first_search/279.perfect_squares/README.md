@@ -32,7 +32,43 @@ In the following graph, we illustrate the layout of the queue, on the example of
 
 Here are some sample implementations. In particular, the Python implementation inspired from the post of [ChrisZhang12240](https://leetcode.com/problems/perfect-squares/discuss/71475/Short-Python-solution-using-BFS) took ~200 ms which was faster than ~72% of submission at that time.
 
-<iframe src="https://leetcode.com/playground/QpfaLd5R/shared" frameborder="0" width="100%" height="500" name="QpfaLd5R" style="box-sizing: border-box; margin: 20px 0px; color: rgba(0, 0, 0, 0.65); font-family: -apple-system, system-ui, &quot;Segoe UI&quot;, &quot;PingFang SC&quot;, &quot;Hiragino Sans GB&quot;, &quot;Microsoft YaHei&quot;, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-style: initial; text-decoration-color: initial;"></iframe>
+Java 
+
+
+```java
+class Solution {
+  public int numSquares(int n) {
+
+    ArrayList<Integer> square_nums = new ArrayList<Integer>();
+    for (int i = 1; i * i <= n; ++i) {
+      square_nums.add(i * i);
+    }
+
+    Set<Integer> queue = new HashSet<Integer>();
+    queue.add(n);
+
+    int level = 0;
+    while (queue.size() > 0) {
+      level += 1;
+      Set<Integer> next_queue = new HashSet<Integer>();
+
+      for (Integer remainder : queue) {
+        for (Integer square : square_nums) {
+          if (remainder.equals(square)) {
+            return level;
+          } else if (remainder < square) {
+            break;
+          } else {
+            next_queue.add(remainder - square);
+          }
+        }
+      }
+      queue = next_queue;
+    }
+    return level;
+  }
+}
+```
 
 
 
