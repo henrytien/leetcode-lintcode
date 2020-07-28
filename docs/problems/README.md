@@ -2,6 +2,13 @@
 
 Problems by tag and frequency or companies.
 
+## 2020-07-28
+
+- Brith with 
+  - [200. Number of Islands](https://leetcode.com/problems/number-of-islands/) Amazon|350|Facebook|22
+  - [301. Remove Invalid Parentheses](https://leetcode.com/problems/remove-invalid-parentheses/) Facebook|36
+  - [279. Perfect Squares](https://leetcode.com/problems/perfect-squares/)
+
 ## 2020-07-27
 
 - Binary Search by Frequency
