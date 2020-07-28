@@ -30,21 +30,21 @@ public:
         
         while (!q.empty()) {
             ++depth;
+            
             int size = q.size();
-            for (int i = 0; i < size; i++) {
-               int cur = q.front();
-               q.pop();
-               for (int j = 1; j*j <= cur; ++j) {
+            for (int i = 0; i < size; ++i) {
+                int cur = q.front();
+                q.pop();
+                for (int j = 1; j*j <= cur; ++j) {
                     int rest = cur - j*j;
-                   if (rest == 0) {
-                       return depth;
-                   }else {
-                       q.push(rest);
-                   }
-                } 
+                    if (rest == 0) {
+                        return depth;
+                    } else {
+                        q.push(rest);
+                    } 
+                }
             }
         }
-        return depth;
-        
+        return 0;
     }
 };
