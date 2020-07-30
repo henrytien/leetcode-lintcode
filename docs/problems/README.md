@@ -2,6 +2,13 @@
 
 Problems by tag and frequency or companies.
 
+## 2020-07-30
+
+- Breadth-first Search
+  - [207. Course Schedule](https://leetcode.com/problems/course-schedule/) Aamzon|11
+  - [210. Course Schedule II](https://leetcode.com/problems/course-schedule-ii/) Amazon|33
+  - [133. Clone Graph](https://leetcode.com/problems/clone-graph/) Facebook|21
+
 ## 2020-07-29
 
 - Breadth-first Search
@@ -52,11 +59,11 @@ Problems by tag and frequency or companies.
   - [240. Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/)
 - Binary Search Hard
   
-- [287. Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/)
+  - [287. Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/)
   
 - String
 
-  [214. Shortest Palindrome](https://leetcode.com/problems/shortest-palindrome/)
+  - [214. Shortest Palindrome](https://leetcode.com/problems/shortest-palindrome/)
 
 ## 2020-07-22
 
