@@ -34,12 +34,10 @@ public class Solution extends VersionControl {
         int start = 1;
         int end = n;
         
-        while (start < end - 1)
-        {
+        while (start < end - 1) {
             int mid = start + (end - start) / 2;
             
-            if (isBadVersion(mid))
-            {
+            if (isBadVersion(mid)) {
                 end = mid;
             }
             else
@@ -58,4 +56,4 @@ public class Solution extends VersionControl {
         
         return -1;
     }
-}
+」
