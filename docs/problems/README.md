@@ -2,10 +2,15 @@
 
 Problems by tag and frequency or companies.
 
+## 2020-07-31
+
+- Breadth-first Search
+  - [994. Rotting Oranges](https://leetcode.com/problems/rotting-oranges/) Amazon|141
+
 ## 2020-07-30
 
 - Breadth-first Search
-  - [207. Course Schedule](https://leetcode.com/problems/course-schedule/) Aamzon|11
+  - [207. Course Schedule](https://leetcode.com/problems/course-schedule/) Amzon|11
   - [210. Course Schedule II](https://leetcode.com/problems/course-schedule-ii/) Amazon|33
   - [133. Clone Graph](https://leetcode.com/problems/clone-graph/) Facebook|21
 
