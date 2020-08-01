@@ -79,3 +79,42 @@ public:
         return -1;
     }
 };
+// same solution leetcode200. Number of Islands
+class Solution {
+public:
+    int orangesRotting(vector<vector<int>>& grid) {
+        int m = grid.size(), n = m ? grid[0].size() : 0 , fresh_cnt = 0, res = -1, offset[] = {0,1,0,-1,0};
+        queue<pair<int,int>> q;
+        for (int i = 0;i < m; ++i) {
+            for (int j = 0;j < n; j++) {
+                if (grid[i][j] > 0) {
+                    fresh_cnt++;
+                }
+                if (grid[i][j] == 2) {
+                    q.push({i,j});
+                }
+            }
+        }
+        while (!q.empty()) {
+            res++;
+            int size = q.size();
+            for (int k = 0; k < size; k++) {
+                pair<int, int> cur = q.front();
+                fresh_cnt--;
+                q.pop();
+                for (int i = 0; i < 4; i++) {
+                    int x = cur.first + offset[i], y = cur.second + offset[i+1];
+                    if (x < m && x >= 0 && y < n && y >= 0 && grid[x][y] == 1) {
+                        grid[x][y] = 2;
+                        q.push({x, y});
+                    } 
+                }
+            }
+        }
+        if (fresh_cnt == 0) {
+            return max(0, res);
+        }
+            
+        return -1;
+    }
+};
