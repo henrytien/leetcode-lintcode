@@ -2,6 +2,11 @@
 
 Problems by tag and frequency or companies.
 
+## 2020-08-01
+
+- Breadth-first Search
+  - [301. Remove Invalid Parentheses](https://leetcode.com/problems/remove-invalid-parentheses/) Facebook|36
+
 ## 2020-07-31
 
 - Breadth-first Search
