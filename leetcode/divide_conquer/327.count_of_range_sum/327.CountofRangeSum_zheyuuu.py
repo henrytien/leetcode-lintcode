@@ -65,4 +65,4 @@ class Solution:
             sums[i] = cache[i-l]
 
         # print(sums)
-        return lcnt+rcnt+cn
+        return lcnt+rcnt+cnt
