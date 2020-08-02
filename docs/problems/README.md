@@ -2,6 +2,10 @@
 
 Problems by tag and frequency or companies.
 
+## 2020-08-02
+
+- Weekly Contest
+
 ## 2020-08-01
 
 - Breadth-first Search
