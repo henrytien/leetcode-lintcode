@@ -2,6 +2,12 @@
 
 Problems by tag and frequency or companies.
 
+## 2020-08-03
+
+- Breadth-first Search
+  - [126. Word Ladder II](https://leetcode.com/problems/word-ladder-ii/) Amazon|14
+  - [934. Shortest Bridge](https://leetcode.com/problems/shortest-bridge/)
+
 ## 2020-08-02
 
 - Weekly Contest
