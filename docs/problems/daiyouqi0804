@@ -1,0 +1,145 @@
+
+
+namespace 蛇棋{
+int getvalue(vector<vector<int>>source, int number)
+{
+    int returnx = 0;int returny = source.size()-1;
+    int addnum = number / (source[0].size() * 2);
+    returny -= (addnum*2); number -= (addnum * (source[0].size() * 2));
+    if (number == 0)return source[returny][returnx];
+    if(number<= source[0].size())return source[returny-1][returnx+ number];
+    number -= (source[0].size() * 2); returny -= 2;
+    returnx -= number;
+    return  source[returny][returnx];
+}
+int test(vector<vector<int>>source)
+{
+    int size = source[0].size() * source.size(); int step = 0;
+    set <int>sum; set <int>laststep; set <int>thisstep; laststep.insert(0); sum.insert(0);
+    while (1) {
+        for (auto iter = laststep.begin(); iter != laststep.end(); iter++)
+        {
+            if (size - *iter < 6)return step;
+            if(
+                getvalue(source, *(iter)+1) == size - 1 ||
+                getvalue(source, *(iter)+1) == size - 2 ||
+                getvalue(source, *(iter)+1) == size - 3 ||
+                getvalue(source, *(iter)+1) == size - 4 ||
+                getvalue(source, *(iter)+1) == size - 5 ||
+                getvalue(source, *(iter)+1) == size - 6 
+                )return step;
+            if (sum.find(*iter + 1) == sum.end())
+            {
+                sum.insert(*iter + 1); sum.insert(getvalue(source, *(iter)+1));
+                thisstep.insert(*iter + 1);  thisstep.insert(getvalue(source, *(iter)+1));
+            }
+            if (sum.find(*iter + 2) == sum.end())
+            {
+                sum.insert(*iter + 2); sum.insert(getvalue(source, *(iter)+2));
+                thisstep.insert(*iter + 2);  thisstep.insert(getvalue(source, *(iter)+2));
+            }
+            if (sum.find(*iter + 3) == sum.end())
+            {
+                sum.insert(*iter + 3); sum.insert(getvalue(source, *(iter)+3));
+                thisstep.insert(*iter + 3);  thisstep.insert(getvalue(source, *(iter)+3));
+            }
+            if (sum.find(*iter + 4) == sum.end())
+            {
+                sum.insert(*iter + 4); sum.insert(getvalue(source, *(iter)+4));
+                thisstep.insert(*iter + 4);  thisstep.insert(getvalue(source, *(iter)+4));
+            }
+            if (sum.find(*iter + 5) == sum.end())
+            {
+                sum.insert(*iter + 5); sum.insert(getvalue(source, *(iter)+5));
+                thisstep.insert(*iter + 5);  thisstep.insert(getvalue(source, *(iter)+5));
+            }
+            if (sum.find(*iter + 6) == sum.end())
+            {
+                sum.insert(*iter + 6); sum.insert(getvalue(source, *(iter)+6));
+                thisstep.insert(*iter + 6);  thisstep.insert(getvalue(source, *(iter)+6));
+            }
+        }
+        laststep = thisstep; step++;
+    }
+}
+}
+namespace 太平洋大西洋 {
+    class Point
+    {
+    public:
+        int high; int weight;
+        Point(int a, int b) {
+            high = a; weight = b;
+        }
+    };
+    int test(vector<vector<int>>source)
+    {
+        set<Point> left;
+        for (int a = 0; a < source.size(); a++)
+        {
+            left.insert(Point(a, 0));
+        }
+        while (1)
+        {
+            int size = left.size();
+            for (auto iter = left.begin(); iter != left.end(); iter++)
+            {
+                int high = iter->high; int weight = iter->weight;
+                if (high + 1 < source.size())
+                    if (source[high][weight] < source[high + 1][weight]) {
+                        left.insert(Point(high + 1, weight));
+                    }
+                if (high - 1 >= 0)
+                    if (source[high][weight] < source[high - 1][weight]) {
+                        left.insert(Point(high - 1, weight));
+                    }
+                if (weight + 1 < source[0].size())
+                    if (source[high][weight] < source[high][weight + 1]) {
+                        left.insert(Point(high, weight + 1));
+                    }
+                if (weight - 1 >= 0)
+                    if (source[high][weight] < source[high][weight - 1]) {
+                        left.insert(Point(high, weight - 1));
+                    }
+            }
+            if (size == left.size())break;
+        }
+        set<Point> right;
+        for (int a = 0; a < source.size(); a++)
+        {
+            right.insert(Point(a, 0));
+        }
+        while (1)
+        {
+            int size = right.size();
+            for (auto iter = right.begin(); iter != right.end(); iter++)
+            {
+                int high = iter->high; int weight = iter->weight;
+                if (high + 1 < source.size())
+                    if (source[high][weight] < source[high + 1][weight]) {
+                        right.insert(Point(high + 1, weight));
+                    }
+                if (high - 1 >= 0)
+                    if (source[high][weight] < source[high - 1][weight]) {
+                        right.insert(Point(high - 1, weight));
+                    }
+                if (weight + 1 < source[0].size())
+                    if (source[high][weight] < source[high][weight + 1]) {
+                        right.insert(Point(high, weight + 1));
+                    }
+                if (weight - 1 >= 0)
+                    if (source[high][weight] < source[high][weight - 1]) {
+                        right.insert(Point(high, weight - 1));
+                    }
+            }
+            if (size == right.size())break;
+        }
+        int returnvalue = 0;
+        for (auto iter = right.begin(); iter != right.end(); iter++)
+
+        {
+            if (left.find(*iter) != left.end())returnvalue++;
+        }
+        return returnvalue;
+    }
+}
