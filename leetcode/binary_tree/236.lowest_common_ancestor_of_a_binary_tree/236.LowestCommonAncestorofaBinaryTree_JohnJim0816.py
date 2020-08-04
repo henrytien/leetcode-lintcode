@@ -1,3 +1,14 @@
+#!/usr/bin/env python
+# coding=utf-8
+'''
+Author: John
+Email: johnjim0816@gmail.com
+Date: 2020-07-30 23:01:40
+LastEditor: John
+LastEditTime: 2020-08-03 10:13:24
+Discription: 
+Environment: 
+'''
 # Source : https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/
 # Author : JohnJim0816
 # Date   : 2020-07-30
@@ -32,3 +43,12 @@
 # 
 #####################################################################################################
 
+class Solution:
+    def lowestCommonAncestor(self, root: 'TreeNode', p: 'TreeNode', q: 'TreeNode') -> 'TreeNode':
+        if not root or root == p or root == q: return root
+        left = self.lowestCommonAncestor(root.left, p, q)
+        right = self.lowestCommonAncestor(root.right, p, q)
+        if not left and not right: return # 1.
+        if not left: return right # 3.
+        if not right: return left # 4.
+        return root # 2. if left and right:
