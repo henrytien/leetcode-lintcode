@@ -2,6 +2,12 @@
 
 Problems by tag and frequency or companies.
 
+## 2020-08-05
+
+- Depth-first Search
+  - [1192. Critical Connections in a Network](https://leetcode.com/problems/critical-connections-in-a-network/) Amazon|115
+  - [394. Decode String](https://leetcode.com/problems/decode-string/) Google|12 Amazon|13 
+
 ## 2020-08-04
 
 - Breadth-first Search
