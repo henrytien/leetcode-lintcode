@@ -1,17 +1,17 @@
 #!/usr/bin/env python
 # coding=utf-8
 '''
-@Author: John
-@Email: johnjim0816@gmail.com
-@Date: 2020-07-25 10:11:17
-@LastEditor: John
-@LastEditTime: 2020-07-25 10:30:29
-@Discription: 
-@Environment: python 3.7.7
+Author: John
+Email: johnjim0816@gmail.com
+Date: 2020-08-09 07:45:56
+LastEditor: John
+LastEditTime: 2020-08-09 07:58:21
+Discription: 
+Environment: 
 '''
 # Source : https://leetcode.com/problems/climbing-stairs/
 # Author : JohnJim0816
-# Date   : 2020-07-25
+# Date   : 2020-08-09
 
 ##################################################################################################### 
 #
@@ -42,6 +42,15 @@
 #####################################################################################################
 
 class Solution:
+    '''直接递归法
+    '''
+    @functools.lru_cache(100)  # 缓存装饰器，不加的话会超时
+    def climbStairs(self, n: int) -> int:
+        if n == 1: return 1
+        if n == 2: return 2
+        return self.climbStairs(n-1) + self.climbStairs(n-2)
+
+class Solution:
     '''递归的同时，用数组记忆之前得到的结果
     '''
     def climbStairs(self, n: int) -> int:
@@ -56,12 +65,12 @@ class Solution:
             return memo[i]
         memo[i]=self.climb_stairs(i + 1, n,memo) + self.climb_stairs(i + 2, n,memo)
         return memo[i]
-
+        
 class Solution:
-    ''' 直接DP，新建一个字典或者数组来存储以前的变量，空间复杂度O(n)
+    '''直接DP
     '''
     def climbStairs(self, n: int) -> int:
-        dp = [0]*(n+2) # 或dp={}
+        dp = {}
         dp[1] = 1
         dp[2] = 2
         for i in range(3,n+1):
@@ -69,7 +78,7 @@ class Solution:
         return dp[n]
 
 class Solution:
-    ''' 还是DP，只不过是只存储前两个元素，减少了空间，空间复杂度O(1)
+    '''优化后的DP，空间复杂度为O(1)
     '''
     def climbStairs(self, n: int) -> int:
         if n==1 or n==2: return n
@@ -79,7 +88,7 @@ class Solution:
             a = b
             b = temp
         return temp
-
+                
 class Solution:
     '''通项公式
     '''
@@ -88,9 +97,3 @@ class Solution:
         sqrt5=5**0.5
         fibin=math.pow((1+sqrt5)/2,n+1)-math.pow((1-sqrt5)/2,n+1)
         return int(fibin/sqrt5)
-
-
-class Solution:
-    '''矩阵快速幂
-    '''
-    pass
