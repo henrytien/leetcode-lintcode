@@ -28,37 +28,37 @@ package main
  ******************************************************************************************************/
 // ps,pe
 // 思路 滑动窗口，当首尾相同，ps向后移动，并更新最大值，移动到最后，直接返回
-// todo @zhangshilin timeout
+// time:70.24 mem:48.98
 func lengthOfLongestSubstring(s string) int {
-	if len(s) <=1{
+	if len(s)<=1{
 		return len(s)
 	}
-
-	mark:=make(map[byte]bool)
-	ans:=1
-	max:=func(x,y int)int{
-		if x>y{
-			return x
-
+	var (
+		ans = 1
+		hash=map[byte]int{}
+		l,r = 0,1
+	)
+	max:= func(i,j int)int {
+		if i>=j{
+			return i
 		}
-		return y
+		return j
 	}
-	//初始化
-	var ps,pe byte=0,1
-	mark[s[ps]] = true
-	for int(pe)<len(s){
-		if ps==pe{
-			pe++
-		}
-		_,ok:=mark[s[pe]]
-		if ok{
-			ps++
-			pe++
+	hash[s[l]] = 0
+	//hash[s[r]] = 1
+	for r<len(s){
+		if v,ok:=hash[s[r]];ok&&v>=l{
+			hash[s[r]] = r //左边重复字符出窗，右边重复字符入窗，更新重复字符的最新位置
+			ans = max(ans,r-l) // 更新结果
+			l = v+1 //更新窗口的左边界
+			r++ // 更新窗口右边界
 		}else{
-			ans = max(ans,int(pe)-int(ps)+1)
-			mark[s[pe]] = true
-			pe++
+			ans=max(ans,r-l+1) //更新结果
+			hash[s[r]] = r
+			r++ //更新窗口右边界
 		}
 	}
 	return ans
+
+
 }
