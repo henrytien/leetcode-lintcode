@@ -2,6 +2,18 @@
 
 Problems by tag and frequency or companies.
 
+# Hash Table
+
+## 2020-08-10
+
+- Hash Table by Frequency
+  - [1. Two Sum](https://leetcode.com/problems/two-sum/) Amazon|131 Google|76 Facebook26
+  - [3. Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) Amazon|27 Facebook|18
+  - [953. Verifying an Alien Dictionary](https://leetcode.com/problems/verifying-an-alien-dictionary/) Facebook|160
+  - [560. Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/) [Facebook|111](https://leetcode.com/company/facebook)
+
+# Depth-first Search
+
 ## 2020-08-07
 
 - Depth-first Search
@@ -21,6 +33,8 @@ Problems by tag and frequency or companies.
 - Depth-first Search
   - [1192. Critical Connections in a Network](https://leetcode.com/problems/critical-connections-in-a-network/) Amazon|115
   - [394. Decode String](https://leetcode.com/problems/decode-string/) Google|12 Amazon|13 
+
+# Breadth-first Search 
 
 ## 2020-08-04
 
@@ -68,6 +82,8 @@ Problems by tag and frequency or companies.
   - [200. Number of Islands](https://leetcode.com/problems/number-of-islands/) Amazon|350|Facebook|22
   - [301. Remove Invalid Parentheses](https://leetcode.com/problems/remove-invalid-parentheses/) Facebook|36
   - [279. Perfect Squares](https://leetcode.com/problems/perfect-squares/)
+
+# Binary Search
 
 ## 2020-07-27
 
