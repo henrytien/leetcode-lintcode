@@ -4,6 +4,19 @@ Problems by tag and frequency or companies.
 
 # Hash Table
 
+## 2020-08-12
+
+- Hash Table by Frequency
+  - [49. Group Anagrams](https://leetcode.com/problems/group-anagrams/) [Amazon|27](https://leetcode.com/company/amazon)
+  - [981. Time Based Key-Value Store](https://leetcode.com/problems/time-based-key-value-store/)
+
+## 2020-08-11
+
+- Hash Table by Frequency
+  - [692. Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/) [Amazon|109](https://leetcode.com/company/amazon) [Facebook|7](https://leetcode.com/company/facebook)
+  - [380. Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/) [Amazon|21](https://leetcode.com/company/amazon) [Facebook|17](https://leetcode.com/company/facebook)
+  - [37. Sudoku Solver](https://leetcode.com/problems/sudoku-solver/) 
+
 ## 2020-08-10
 
 - Hash Table by Frequency

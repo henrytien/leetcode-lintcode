@@ -41,22 +41,17 @@ public:
 class Solution {
 public:
     vector<int> twoSum(vector<int>& nums, int target) {
-        unordered_map<int,int> hash_map;
+        unordered_map<int, int> hash_map;
         int n = nums.size();
-        for (int i = 0; i < n; ++i)
-            hash_map[nums[i]] = i;
         
-        vector<int> res;
         for (int i = 0; i < n; ++i) {
             int temp = target - nums[i];
             if (hash_map.count(temp) && hash_map[temp] != i) {
-                res.emplace_back(i);
-                res.emplace_back(hash_map[temp]);
-                return res;
+                return {i, hash_map[temp]};
             }
+            hash_map[nums[i]] = i;
         }
-        return res;
-        
+        return {};
     }
 };
 
