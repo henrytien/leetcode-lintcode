@@ -4,6 +4,12 @@ Problems by tag and frequency or companies.
 
 # Hash Table
 
+## 2020-08-12
+
+- Hash Table by Frequency
+  - [49. Group Anagrams](https://leetcode.com/problems/group-anagrams/) [Amazon|27](https://leetcode.com/company/amazon)
+  - [981. Time Based Key-Value Store](https://leetcode.com/problems/time-based-key-value-store/)
+
 ## 2020-08-11
 
 - Hash Table by Frequency
