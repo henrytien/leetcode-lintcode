@@ -1,4 +1,4 @@
-// https://www.lintcode.com/problem/automatic-proofreading-program/description?_from=ladder&&fromId=157
+// https://www.lintcode.com/problem/automatic-proofreading-program/
 class Solution {
 public:
     /**
