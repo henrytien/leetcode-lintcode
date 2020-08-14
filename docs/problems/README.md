@@ -4,6 +4,13 @@ Problems by tag and frequency or companies.
 
 # Hash Table
 
+## 2020-08-14
+
+- Hash Table by Frequency
+  - [739. Daily Temperatures](https://leetcode.com/problems/daily-temperatures/)
+  - [387. First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/)
+  - [438. Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/) [Facebook|42](https://leetcode.com/company/facebook)
+
 ## 2020-08-13
 
 - Hash Table by Frequency
