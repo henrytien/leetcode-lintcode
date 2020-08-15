@@ -4,6 +4,21 @@ Problems by tag and frequency or companies.
 
 # Hash Table
 
+## 2020-08-14
+
+- Hash Table by Frequency
+  - [739. Daily Temperatures](https://leetcode.com/problems/daily-temperatures/)
+  - [387. First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/)
+  - [438. Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/) [Facebook|42](https://leetcode.com/company/facebook)
+
+## 2020-08-13
+
+- Hash Table by Frequency
+  - [138. Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/) [Amazon|36](https://leetcode.com/company/amazon) [Facebook|19](https://leetcode.com/company/facebook)
+  - [706. Design HashMap](https://leetcode.com/problems/design-hashmap/)
+  - [202. Happy Number](https://leetcode.com/problems/happy-number/)
+  - [136. Single Number](https://leetcode.com/problems/single-number/) [Facebook|10](https://leetcode.com/company/facebook)
+
 ## 2020-08-12
 
 - Hash Table by Frequency
