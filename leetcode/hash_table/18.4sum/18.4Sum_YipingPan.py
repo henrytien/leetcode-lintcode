@@ -25,9 +25,22 @@
 # 
 #####################################################################################################
 class Solution:
-    def longestStrChain(self, words: List[str]) -> int:
-        dp = collections.defaultdict(int)
-        for s in sorted(words,key=len):
-            dp[s] = max(dp[s[:i]+s[i+1:]] for i in range(len(s)))+1
-        return max(dp.values())
+    def fourSum(self, nums: List[int], target: int) -> List[List[int]]:
+        # dic  {sum1:[[i,j],[i,j]], sum2:[[i,j],[i,j]], ...}  # O(n^2)
+        # for x in dic: if dic[target-x] ...
+        dic = collections.defaultdict(list)
+        for i in range(len(nums)):
+            for j in range(len(nums)):
+                if i<j:
+                    dic[nums[i]+nums[j]].append([i,j])
+        res = set()
+        for x in dic:
+            if target-x in dic:   ### be careful here. Don't use  " if dic[target-x] " because it will change the size of dic. 
+                for pair1 in dic[x]:
+                    for pair2 in dic[target-x]:
+                        a,b,c,d = pair1[0],pair1[1],pair2[0],pair2[1]
+                        if len(set([a,b,c,d]))==4:
+                            res.add(tuple(sorted([nums[a],nums[b],nums[c],nums[d]])))
+        return list(res)
+                        
 
