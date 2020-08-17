@@ -4,6 +4,12 @@ Problems by tag and frequency or companies.
 
 # Hash Table
 
+## 2020-08-17
+
+- Hash Table by Frequency
+  - [18. 4Sum](https://leetcode.com/problems/4sum/)
+  - [1048. Longest String Chain](https://leetcode.com/problems/longest-string-chain/) 
+
 ## 2020-08-14
 
 - Hash Table by Frequency
