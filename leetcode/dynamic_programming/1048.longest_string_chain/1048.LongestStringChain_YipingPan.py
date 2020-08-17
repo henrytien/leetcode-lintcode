@@ -28,4 +28,8 @@
 # 
 #####################################################################################################
 
-
+def longestStrChain(self, words: List[str]) -> int:
+    dp = collections.defaultdict(int)
+    for s in sorted(words,key=len):
+        dp[s] = max(dp[s[:i]+s[i+1:]] for i in range(len(s)))+1
+    return max(dp.values())
