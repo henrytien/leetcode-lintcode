@@ -1,6 +1,6 @@
 // Source : https://leetcode.com/problems/two-sum/
 // Author : zhangsl
-// Date   : 2020-08-10
+// Date   : 2020-08-17
 package main
 /***************************************************************************************************** 
  *
@@ -18,26 +18,19 @@ package main
  * return [0, 1].
  * 
  ******************************************************************************************************/
-
-// 思路1 o(n^2)
-// 思路2 hash+o(n)
-// todo @zhangshilin how to analyse the 红黑树 time complexity
+//time:97 mem:14
 
 func twoSum(nums []int, target int) []int {
-	if len(nums)==0{
-		return nums
+	var (
+		mp = map[int]int{}
+	)
+	for k,_:=range nums{
+		mp[nums[k]] = k
 	}
-	ans:=[]int{}
-	m:=make(map[int]int)
-	for i,v:=range nums{
-		m[v] = i
-	}
-	for i,v:=range nums{
-		if index,ok:=m[target-v];ok && i!=index{
-			ans  = append(ans, index)
-			ans = append(ans, i)
-			return ans
+	for k,_:=range nums{
+		if v,ok:=mp[target-nums[k]];ok&&v!=k{
+			return []int{k,v}
 		}
 	}
-	return ans
+	return []int{}
 }
