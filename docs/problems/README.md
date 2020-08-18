@@ -2,6 +2,15 @@
 
 Problems by tag and frequency or companies.
 
+# Tree
+
+## 2020-08-18
+
+- Tree by Frequency
+  - [297. Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/) [Facebook|44](https://leetcode.com/company/facebook) [Amazon|24](https://leetcode.com/company/amazon)
+  - [543. Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/) [Facebook|36](https://leetcode.com/company/facebook) [Amazon|13](https://leetcode.com/company/amazon)
+  - [173. Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator/) [Facebook|33](https://leetcode.com/company/facebook) [Amazon|15](https://leetcode.com/company/amazon)
+
 # Hash Table
 
 ## 2020-08-17
