@@ -2,7 +2,37 @@
 
 Problems by tag and frequency or companies.
 
+# Tree
+
+## 2020-08-18
+
+- Tree by Frequency
+  - [297. Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/) [Facebook|44](https://leetcode.com/company/facebook) [Amazon|24](https://leetcode.com/company/amazon)
+  - [543. Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/) [Facebook|36](https://leetcode.com/company/facebook) [Amazon|13](https://leetcode.com/company/amazon)
+  - [173. Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator/) [Facebook|33](https://leetcode.com/company/facebook) [Amazon|15](https://leetcode.com/company/amazon)
+
 # Hash Table
+
+## 2020-08-17
+
+- Hash Table by Frequency
+  - [18. 4Sum](https://leetcode.com/problems/4sum/)
+  - [1048. Longest String Chain](https://leetcode.com/problems/longest-string-chain/) 
+
+## 2020-08-14
+
+- Hash Table by Frequency
+  - [739. Daily Temperatures](https://leetcode.com/problems/daily-temperatures/)
+  - [387. First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/)
+  - [438. Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/) [Facebook|42](https://leetcode.com/company/facebook)
+
+## 2020-08-13
+
+- Hash Table by Frequency
+  - [138. Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/) [Amazon|36](https://leetcode.com/company/amazon) [Facebook|19](https://leetcode.com/company/facebook)
+  - [706. Design HashMap](https://leetcode.com/problems/design-hashmap/)
+  - [202. Happy Number](https://leetcode.com/problems/happy-number/)
+  - [136. Single Number](https://leetcode.com/problems/single-number/) [Facebook|10](https://leetcode.com/company/facebook)
 
 ## 2020-08-12
 
