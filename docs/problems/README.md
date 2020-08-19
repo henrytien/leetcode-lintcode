@@ -2,6 +2,22 @@
 
 Problems by tag and frequency or companies.
 
+# Tree
+
+## 2020-08-19
+
+- Tree by Frequency
+  - [98. Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)
+  - [105. Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)
+  - [236. Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/)
+
+## 2020-08-18
+
+- Tree by Frequency
+  - [297. Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/) [Facebook|44](https://leetcode.com/company/facebook) [Amazon|24](https://leetcode.com/company/amazon)
+  - [543. Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/) [Facebook|36](https://leetcode.com/company/facebook) [Amazon|13](https://leetcode.com/company/amazon)
+  - [173. Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator/) [Facebook|33](https://leetcode.com/company/facebook) [Amazon|15](https://leetcode.com/company/amazon)
+
 # Hash Table
 
 ## 2020-08-17
