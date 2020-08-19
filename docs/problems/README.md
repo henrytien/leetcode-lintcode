@@ -4,6 +4,13 @@ Problems by tag and frequency or companies.
 
 # Tree
 
+## 2020-08-19
+
+- Tree by Frequency
+  - [98. Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)
+  - [105. Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)
+  - [236. Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/)
+
 ## 2020-08-18
 
 - Tree by Frequency
