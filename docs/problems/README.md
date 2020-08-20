@@ -4,6 +4,13 @@ Problems by tag and frequency or companies.
 
 # Tree
 
+## 2020-08-20
+
+- Tree by Frequency 
+  - [102. Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) 
+  - [938. Range Sum of BST](https://leetcode.com/problems/range-sum-of-bst/)
+  - [863. All Nodes Distance K in Binary Tree](https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/) 
+
 ## 2020-08-19
 
 - Tree by Frequency
