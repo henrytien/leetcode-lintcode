@@ -4,6 +4,14 @@ Problems by tag and frequency or companies.
 
 # Tree
 
+## 2020-08-21
+
+- Tree by Frequency
+  - [1130. Minimum Cost Tree From Leaf Values](https://leetcode.com/problems/minimum-cost-tree-from-leaf-values/)
+  - [101. Symmetric Tree](https://leetcode.com/problems/symmetric-tree/) 
+  - [104. Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)
+  - [108. Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/)
+
 ## 2020-08-20
 
 - Tree by Frequency 
