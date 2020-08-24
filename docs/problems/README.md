@@ -4,6 +4,13 @@ Problems by tag and frequency or companies.
 
 # Tree
 
+## 2020-08-24
+
+- Tree by Frequency
+  - [114. Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/) 
+  - [226. Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/)
+  - [94. Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/)
+
 ## 2020-08-21
 
 - Tree by Frequency
