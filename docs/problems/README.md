@@ -4,6 +4,12 @@ Problems by tag and frequency or companies.
 
 # Tree
 
+## 2020-08-26
+
+- Tree by Frequency
+  - [116. Populating Next Right Pointers in Each Node](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/)
+  - [1008. Construct Binary Search Tree from Preorder Traversal](https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/)
+
 ## 2020-08-25
 
 - Tree by Frequency
