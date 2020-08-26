@@ -4,6 +4,25 @@ Problems by tag and frequency or companies.
 
 # Tree
 
+## 2020-08-26
+
+- Tree by Frequency
+  - [116. Populating Next Right Pointers in Each Node](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/)
+  - [1008. Construct Binary Search Tree from Preorder Traversal](https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/)
+
+## 2020-08-25
+
+- Tree by Frequency
+  - [1110. Delete Nodes And Return Forest](https://leetcode.com/problems/delete-nodes-and-return-forest/)
+  - [449. Serialize and Deserialize BST](https://leetcode.com/problems/serialize-and-deserialize-bst/)
+
+## 2020-08-24
+
+- Tree by Frequency
+  - [114. Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/) 
+  - [226. Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/)
+  - [94. Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/)
+
 ## 2020-08-21
 
 - Tree by Frequency
