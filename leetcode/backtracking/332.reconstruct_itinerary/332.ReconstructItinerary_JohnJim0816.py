@@ -5,7 +5,7 @@ Author: John
 Email: johnjim0816@gmail.com
 Date: 2020-08-27 08:23:22
 LastEditor: John
-LastEditTime: 2020-08-27 08:23:34
+LastEditTime: 2020-08-27 08:25:49
 Discription: 
 Environment: 
 '''
@@ -56,6 +56,6 @@ class Solution:
             while paths[start]:
                 dfs(paths[start].pop())
             s.append(start)
-        search("JFK")
+        dfs("JFK")
         # 先执行的dfs再append，所以最后是倒序
         return s[::-1]
