@@ -4,7 +4,42 @@
 
 Problems by frequency.
 
+### String
 
+|      | #    | Title                                                        | Acceptance | Difficulty | Frequency |
+| :--- | :--- | :----------------------------------------------------------- | :--------- | :--------- | :-------- |
+|      | 937  | [Reorder Data in Log Files](https://leetcode.com/problems/reorder-data-in-log-files) | 54.2%      | **Easy**   |           |
+|      | 5    | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring) | 29.5%      | **Medium** |           |
+|      | 3    | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters) | 30.5%      | **Medium** |           |
+|      | 20   | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses) | 39.0%      | **Easy**   |           |
+|      | 273  | [Integer to English Words](https://leetcode.com/problems/integer-to-english-words) | 27.2%      | **Hard**   |           |
+|      | 1249 | [Minimum Remove to Make Valid Parentheses](https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses) | 62.6%      | **Medium** |           |
+|      | 91   | [Decode Ways](https://leetcode.com/problems/decode-ways)     | 24.8%      | **Medium** |           |
+|      | 22   | [Generate Parentheses](https://leetcode.com/problems/generate-parentheses) | 63.0%      | **Medium** |           |
+|      | 415  | [Add Strings](https://leetcode.com/problems/add-strings)     | 47.6%      | **Easy**   |           |
+|      | 76   | [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring) | 34.8%      | **Hard**   |           |
+|      | 68   | [Text Justification](https://leetcode.com/problems/text-justification) | 27.9%      | **Hard**   |           |
+|      | 17   | [Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number) | 47.0%      | **Medium** |           |
+|      | 49   | [Group Anagrams](https://leetcode.com/problems/group-anagrams) | 57.1%      | **Medium** |           |
+|      | 10   | [Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching) | 26.9%      | **Hard**   |           |
+|      | 6    | [ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion) | 36.5%      | **Medium** |           |
+|      | 680  | [Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii) | 36.7%      | **Easy**   |           |
+|      | 67   | [Add Binary](https://leetcode.com/problems/add-binary)       | 45.4%      | **Easy**   |           |
+|      | 227  | [Basic Calculator II](https://leetcode.com/problems/basic-calculator-ii) | 37.0%      | **Medium** |           |
+|      | 13   | [Roman to Integer](https://leetcode.com/problems/roman-to-integer) | 55.8%      | **Easy**   |           |
+|      | 158  | [Read N Characters Given Read4 II - Call multiple times](https://leetcode.com/problems/read-n-characters-given-read4-ii-call-multiple-times) | 34.0%      | **Hard**   |           |
+|      | 609  | [Find Duplicate File in System](https://leetcode.com/problems/find-duplicate-file-in-system) | 59.7%      | **Medium** |           |
+|      | 819  | [Most Common Word](https://leetcode.com/problems/most-common-word) | 44.8%      | **Easy**   |           |
+|      | 14   | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix) | 35.5%      | **Easy**   |           |
+|      | 8    | [String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi) | 15.4%      | **Medium** |           |
+|      | 12   | [Integer to Roman](https://leetcode.com/problems/integer-to-roman) | 55.2%      | **Medium** |           |
+|      | 443  | [String Compression](https://leetcode.com/problems/string-compression) | 41.5%      | **Easy**   |           |
+|      | 97   | [Interleaving String](https://leetcode.com/problems/interleaving-string) | 31.6%      | **Hard**   |           |
+|      | 387  | [First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string) | 53.4%      | **Easy**   |           |
+|      | 72   | [Edit Distance](https://leetcode.com/problems/edit-distance) | 45.0%      | **Hard**   |           |
+|      | 767  | [Reorganize String](https://leetcode.com/problems/reorganize-string) | 48.8%      | **Medium** |           |
+|      | 32   | [Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses) | 28.5%      | **Hard**   |           |
+|      | 126  | [Word Ladder II](https://leetcode.com/problems/word-ladder-ii) | 22.3%      | **Hard**   |           |
 
 ### Tree
 

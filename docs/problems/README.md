@@ -2,6 +2,14 @@
 
 Problems by tag and frequency or companies.
 
+# String
+
+## 2020-08-27
+
+- [937. Reorder Data in Log Files](https://leetcode.com/problems/reorder-data-in-log-files/) 
+- [3. Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
+- [5. Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)
+
 # Tree
 
 ## 2020-08-26
