@@ -4,6 +4,14 @@ Problems by tag and frequency or companies.
 
 # String
 
+## 2020-08-28
+
+| #    | Title                                                        | Acceptance | Difficulty | Frequency |
+| ---- | ------------------------------------------------------------ | ---------- | ---------- | --------- |
+| 20   | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses) | 39.0%      | **Easy**   |           |
+| 273  | [Integer to English Words](https://leetcode.com/problems/integer-to-english-words) | 27.2%      | **Hard**   |           |
+| 1249 | [Minimum Remove to Make Valid Parentheses](https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses) | 62.6%      | **Medium** |           |
+
 ## 2020-08-27
 
 - [937. Reorder Data in Log Files](https://leetcode.com/problems/reorder-data-in-log-files/) 
