@@ -4,6 +4,14 @@ Problems by tag and frequency or companies.
 
 # String
 
+## 2020-08-31
+
+| #    | Title                                                        | Acceptance | Difficulty | Frequency |
+| ---- | ------------------------------------------------------------ | ---------- | ---------- | --------- |
+| 91   | [Decode Ways](https://leetcode.com/problems/decode-ways)     | 24.8%      | **Medium** |           |
+| 22   | [Generate Parentheses](https://leetcode.com/problems/generate-parentheses) | 63.0%      | **Medium** |           |
+| 415  | [Add Strings](https://leetcode.com/problems/add-strings)     | 47.6%      | **Easy**   |           |
+
 ## 2020-08-28
 
 | #    | Title                                                        | Acceptance | Difficulty | Frequency |
