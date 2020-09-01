@@ -4,6 +4,14 @@ Problems by tag and frequency or companies.
 
 # String
 
+## 2020-09-01
+
+| #    | Title                                                        | Acceptance | Difficulty | Frequency |
+| ---- | ------------------------------------------------------------ | ---------- | ---------- | --------- |
+| 76   | [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring) | 34.8%      | **Hard**   |           |
+| 68   | [Text Justification](https://leetcode.com/problems/text-justification) | 27.9%      | **Hard**   |           |
+| 17   | [Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number) | 47.0%      | **Medium** |           |
+
 ## 2020-08-31
 
 | #    | Title                                                        | Acceptance | Difficulty | Frequency |
