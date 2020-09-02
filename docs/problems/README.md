@@ -4,13 +4,21 @@ Problems by tag and frequency or companies.
 
 # String
 
-## 2020-09-01
+## 2020-09-02
 
 | #    | Title                                                        | Acceptance | Difficulty | Frequency |
 | ---- | ------------------------------------------------------------ | ---------- | ---------- | --------- |
-| 76   | [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring) | 34.8%      | **Hard**   |           |
-| 68   | [Text Justification](https://leetcode.com/problems/text-justification) | 27.9%      | **Hard**   |           |
-| 17   | [Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number) | 47.0%      | **Medium** |           |
+| 49   | [Group Anagrams](https://leetcode.com/problems/group-anagrams) | 57.1%      | **Medium** |           |
+| 10   | [Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching) | 26.9%      | **Hard**   |           |
+| 6    | [ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion) | 36.5%      | **Medium** |           |
+
+## 2020-09-01
+
+|      |                                                              |       |            |      |
+| ---- | ------------------------------------------------------------ | ----- | ---------- | ---- |
+| 76   | [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring) | 34.8% | **Hard**   |      |
+| 68   | [Text Justification](https://leetcode.com/problems/text-justification) | 27.9% | **Hard**   |      |
+| 17   | [Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number) | 47.0% | **Medium** |      |
 
 ## 2020-08-31
 
