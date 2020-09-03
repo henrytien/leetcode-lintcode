@@ -4,6 +4,22 @@ Problems by tag and frequency or companies.
 
 # String
 
+## 2020-09-03
+
+| #    | Title                                                        | Acceptance | Difficulty | Frequency |
+| ---- | ------------------------------------------------------------ | ---------- | ---------- | --------- |
+| 680  | [Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii) | 36.7%      | **Easy**   |           |
+| 67   | [Add Binary](https://leetcode.com/problems/add-binary)       | 45.4%      | **Easy**   |           |
+| 227  | [Basic Calculator II](https://leetcode.com/problems/basic-calculator-ii) | 37.0%      | **Medium** |           |
+
+## 2020-09-02
+
+| #    | Title                                                        | Acceptance | Difficulty | Frequency |
+| ---- | ------------------------------------------------------------ | ---------- | ---------- | --------- |
+| 49   | [Group Anagrams](https://leetcode.com/problems/group-anagrams) | 57.1%      | **Medium** |           |
+| 10   | [Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching) | 26.9%      | **Hard**   |           |
+| 6    | [ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion) | 36.5%      | **Medium** |           |
+
 ## 2020-09-01
 
 | #    | Title                                                        | Acceptance | Difficulty | Frequency |
