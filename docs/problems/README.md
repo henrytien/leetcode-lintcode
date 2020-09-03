@@ -4,6 +4,14 @@ Problems by tag and frequency or companies.
 
 # String
 
+## 2020-09-03
+
+| #    | Title                                                        | Acceptance | Difficulty | Frequency |
+| ---- | ------------------------------------------------------------ | ---------- | ---------- | --------- |
+| 680  | [Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii) | 36.7%      | **Easy**   |           |
+| 67   | [Add Binary](https://leetcode.com/problems/add-binary)       | 45.4%      | **Easy**   |           |
+| 227  | [Basic Calculator II](https://leetcode.com/problems/basic-calculator-ii) | 37.0%      | **Medium** |           |
+
 ## 2020-09-02
 
 | #    | Title                                                        | Acceptance | Difficulty | Frequency |
@@ -14,11 +22,11 @@ Problems by tag and frequency or companies.
 
 ## 2020-09-01
 
-|      |                                                              |       |            |      |
-| ---- | ------------------------------------------------------------ | ----- | ---------- | ---- |
-| 76   | [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring) | 34.8% | **Hard**   |      |
-| 68   | [Text Justification](https://leetcode.com/problems/text-justification) | 27.9% | **Hard**   |      |
-| 17   | [Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number) | 47.0% | **Medium** |      |
+| #    | Title                                                        | Acceptance | Difficulty | Frequency |
+| ---- | ------------------------------------------------------------ | ---------- | ---------- | --------- |
+| 76   | [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring) | 34.8%      | **Hard**   |           |
+| 68   | [Text Justification](https://leetcode.com/problems/text-justification) | 27.9%      | **Hard**   |           |
+| 17   | [Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number) | 47.0%      | **Medium** |           |
 
 ## 2020-08-31
 
