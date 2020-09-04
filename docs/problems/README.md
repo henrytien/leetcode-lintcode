@@ -4,6 +4,14 @@ Problems by tag and frequency or companies.
 
 # String
 
+## 2020-09-04
+
+| #    | Title                                                        | Acceptance | Difficulty | Frequency |
+| ---- | ------------------------------------------------------------ | ---------- | ---------- | --------- |
+| 13   | [Roman to Integer](https://leetcode.com/problems/roman-to-integer) | 55.8%      | **Easy**   |           |
+| 158  | [Read N Characters Given Read4 II - Call multiple times](https://leetcode.com/problems/read-n-characters-given-read4-ii-call-multiple-times) | 34.0%      | **Hard**   |           |
+| 609  | [Find Duplicate File in System](https://leetcode.com/problems/find-duplicate-file-in-system) | 59.7%      | **Medium** |           |
+
 ## 2020-09-03
 
 | #    | Title                                                        | Acceptance | Difficulty | Frequency |
