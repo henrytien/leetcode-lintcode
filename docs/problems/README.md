@@ -2,6 +2,16 @@
 
 Problems by tag and frequency or companies.
 
+# Dynamic Programming
+
+## 2020-09-07
+
+|      | #    | Title                                                        | Acceptance | Difficulty | Frequency |
+| :--- | :--- | :----------------------------------------------------------- | :--------- | :--------- | :-------- |
+|      | 53   | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray) | 46.7%      | **Easy**   |           |
+|      | 5    | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring) | 29.6%      | **Medium** |           |
+|      | 121  | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock) | 50.6%      | **Easy**   |           |
+
 # String
 
 ## 2020-09-04

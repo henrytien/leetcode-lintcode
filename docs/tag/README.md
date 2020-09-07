@@ -4,6 +4,46 @@
 
 Problems by frequency.
 
+### Dynamic Programming
+
+|      | #    | Title                                                        | Acceptance | Difficulty | Frequency |
+| :--- | :--- | :----------------------------------------------------------- | :--------- | :--------- | :-------- |
+|      | 53   | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray) | 46.7%      | **Easy**   |           |
+|      | 5    | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring) | 29.6%      | **Medium** |           |
+|      | 121  | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock) | 50.6%      | **Easy**   |           |
+|      | 91   | [Decode Ways](https://leetcode.com/problems/decode-ways)     | 24.9%      | **Medium** |           |
+|      | 139  | [Word Break](https://leetcode.com/problems/word-break)       | 40.3%      | **Medium** |           |
+|      | 85   | [Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle) | 38.0%      | **Hard**   |           |
+|      | 322  | [Coin Change](https://leetcode.com/problems/coin-change)     | 35.8%      | **Medium** |           |
+|      | 221  | [Maximal Square](https://leetcode.com/problems/maximal-square) | 37.8%      | **Medium** |           |
+|      | 10   | [Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching) | 26.9%      | **Hard**   |           |
+|      | 140  | [Word Break II](https://leetcode.com/problems/word-break-ii) | 32.9%      | **Hard**   |           |
+|      | 312  | [Burst Balloons](https://leetcode.com/problems/burst-balloons) | 52.1%      | **Hard**   |           |
+|      | 300  | [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence) | 42.7%      | **Medium** |           |
+|      | 64   | [Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum) | 54.8%      | **Medium** |           |
+|      | 152  | [Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray) | 31.8%      | **Medium** |           |
+|      | 472  | [Concatenated Words](https://leetcode.com/problems/concatenated-words) | 44.1%      | **Hard**   |           |
+|      | 70   | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs) | 47.9%      | **Easy**   |           |
+|      | 32   | [Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses) | 28.5%      | **Hard**   |           |
+|      | 403  | [Frog Jump](https://leetcode.com/problems/frog-jump)         | 40.0%      | **Hard**   |           |
+|      | 72   | [Edit Distance](https://leetcode.com/problems/edit-distance) | 45.1%      | **Hard**   |           |
+|      | 96   | [Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees) | 53.2%      | **Medium** |           |
+|      | 97   | [Interleaving String](https://leetcode.com/problems/interleaving-string) | 31.7%      | **Hard**   |           |
+|      | 198  | [House Robber](https://leetcode.com/problems/house-robber)   | 42.1%      | **Easy**   |           |
+|      | 279  | [Perfect Squares](https://leetcode.com/problems/perfect-squares) | 47.6%      | **Medium** |           |
+|      | 523  | [Continuous Subarray Sum](https://leetcode.com/problems/continuous-subarray-sum) | 24.6%      | **Medium** |           |
+|      | 1235 | [Maximum Profit in Job Scheduling](https://leetcode.com/problems/maximum-profit-in-job-scheduling) | 44.2%      | **Hard**   |           |
+|      | 647  | [Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings) | 60.8%      | **Medium** |           |
+|      | 44   | [Wildcard Matching](https://leetcode.com/problems/wildcard-matching) | 24.8%      | **Hard**   |           |
+|      | 410  | [Split Array Largest Sum](https://leetcode.com/problems/split-array-largest-sum) | 44.8%      | **Hard**   |           |
+|      | 698  | [Partition to K Equal Sum Subsets](https://leetcode.com/problems/partition-to-k-equal-sum-subsets) | 44.9%      | **Medium** |           |
+|      | 935  | [Knight Dialer](https://leetcode.com/problems/knight-dialer) | 45.3%      | **Medium** |           |
+|      | 120  | [Triangle](https://leetcode.com/problems/triangle)           | 44.5%      | **Medium** |           |
+|      | 1326 | [Minimum Number of Taps to Open to Water a Garden](https://leetcode.com/problems/minimum-number-of-taps-to-open-to-water-a-garden) | 44.0%      | **Hard**   |           |
+|      | 132  | [Palindrome Partitioning II](https://leetcode.com/problems/palindrome-partitioning-ii) | 30.4%      | **Hard**   |           |
+|      | 1048 | [Longest String Chain](https://leetcode.com/problems/longest-string-chain) | 54.8%      | **Medium** |           |
+|      | 309  | [Best Time to Buy and Sell Stock with Cooldown](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown) | 47.5%      | **Medium** |           |
+
 ### String
 
 |      | #    | Title                                                        | Acceptance | Difficulty | Frequency |
