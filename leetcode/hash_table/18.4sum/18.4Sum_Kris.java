@@ -26,7 +26,6 @@
  ******************************************************************************************************/
 
 class Solution {
-    // 不是最优解，但是不想研究了
     public List<List<Integer>> fourSum(int[] nums, int target) {
         var result = new ArrayList<List<Integer>>();
         if (nums == null || nums.length < 4) {
@@ -34,20 +33,18 @@ class Solution {
         }
         
         Arrays.sort(nums);
-        if ((target < 0 && 4 * nums[0] > target)
-           || (target > 0 && 4 * nums[nums.length - 1] < target)) {
-            return result;
-        }
-        
+
         var visit = new boolean[nums.length];
-        dfs(nums, 0, target, result, new ArrayList<Integer>(), visit, target > 0);
+        dfs(nums, 0, target, result, new ArrayList<Integer>(), visit);
         return result;
     }
     
     void dfs(int[] nums, int index, int target,
              List<List<Integer>> result, List<Integer> one,
-             boolean[] visit, boolean positive) {
-        if (index == nums.length || one.size() >= 4) {
+             boolean[] visit) {
+        if (index == nums.length || one.size() >= 4
+           || nums[index] * (4 - one.size()) > target
+           || nums[nums.length - 1] * (4 - one.size()) < target) {
             if (target == 0 && one.size() == 4) {
                 result.add(new ArrayList<Integer>(one));
             }
@@ -60,12 +57,12 @@ class Solution {
             } else {
                 one.add(nums[index]);
                 visit[index] = true;
-                dfs(nums, index + 1, target - nums[index], result, one, visit, positive);
+                dfs(nums, index + 1, target - nums[index], result, one, visit);
                 one.remove(one.size() - 1);
                 visit[index] = false;
             }
         }
         
-        dfs(nums, index + 1, target, result, one, visit, positive);
+        dfs(nums, index + 1, target, result, one, visit);
     }
 }
