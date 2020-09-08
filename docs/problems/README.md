@@ -4,6 +4,14 @@ Problems by tag and frequency or companies.
 
 # Dynamic Programming
 
+## 2020-09-08
+
+| #    | Title                                                        | Acceptance | Difficulty |
+| ---- | ------------------------------------------------------------ | ---------- | ---------- |
+| 91   | [Decode Ways](https://leetcode.com/problems/decode-ways)     | 24.9%      | **Medium** |
+| 139  | [Word Break](https://leetcode.com/problems/word-break)       | 40.3%      | **Medium** |
+| 85   | [Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle) | 38.0%      | **Hard**   |
+
 ## 2020-09-07
 
 |      | #    | Title                                                        | Acceptance | Difficulty | Frequency |
