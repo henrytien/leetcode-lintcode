@@ -4,6 +4,14 @@ Problems by tag and frequency or companies.
 
 # Dynamic Programming
 
+## 2020-09-10
+
+| #    | Title                                                        | Acceptance | Difficulty |
+| ---- | ------------------------------------------------------------ | ---------- | ---------- |
+| 140  | [Word Break II](https://leetcode.com/problems/word-break-ii) | 32.9%      | **Hard**   |
+| 312  | [Burst Balloons](https://leetcode.com/problems/burst-balloons) | 52.1%      | **Hard**   |
+| 10   | [Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching) | 26.9%      | **Hard**   |
+
 ## 2020-09-09
 
 | #    | Title                                                        | Acceptance | Difficulty |
