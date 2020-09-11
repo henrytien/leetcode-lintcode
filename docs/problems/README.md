@@ -4,6 +4,14 @@ Problems by tag and frequency or companies.
 
 # Dynamic Programming
 
+## 2020-09-11
+
+| #    | Title                                                        | Acceptance | Difficulty |
+| ---- | ------------------------------------------------------------ | ---------- | ---------- |
+| 300  | [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence) | 42.7%      | **Medium** |
+| 64   | [Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum) | 54.8%      | **Medium** |
+| 152  | [Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray) | 31.8%      | **Medium** |
+
 ## 2020-09-10
 
 | #    | Title                                                        | Acceptance | Difficulty |
