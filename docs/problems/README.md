@@ -4,6 +4,14 @@ Problems by tag and frequency or companies.
 
 # Dynamic Programming
 
+## 2020-09-14
+
+| #    | Title                                                        | Acceptance | Difficulty |
+| ---- | ------------------------------------------------------------ | ---------- | ---------- |
+| 70   | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs) | 47.9%      | **Easy**   |
+| 32   | [Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses) | 28.5%      |            |
+| 472  | [Concatenated Words](https://leetcode.com/problems/concatenated-words) | 44.1%      | **Hard**   |
+
 ## 2020-09-11
 
 | #    | Title                                                        | Acceptance | Difficulty |
