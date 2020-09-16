@@ -4,6 +4,14 @@ Problems by tag and frequency or companies.
 
 # Dynamic Programming
 
+## 2020-09-16
+
+| #    | Title                                                        | Acceptance | Difficulty |
+| ---- | ------------------------------------------------------------ | ---------- | ---------- |
+| 403  | [Frog Jump](https://leetcode.com/problems/frog-jump)         | 40.0%      | **Hard**   |
+| 72   | [Edit Distance](https://leetcode.com/problems/edit-distance) | 45.1%      | **Hard**   |
+| 96   | [Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees) | 53.2%      | **Medium** |
+
 ## 2020-09-14
 
 | #    | Title                                                        | Acceptance | Difficulty |
