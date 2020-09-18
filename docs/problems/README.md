@@ -4,6 +4,20 @@ Problems by tag and frequency or companies.
 
 # Dynamic Programming
 
+| #    | Title                                                        | Acceptance | Difficulty |
+| ---- | ------------------------------------------------------------ | ---------- | ---------- |
+| 523  | [Continuous Subarray Sum](https://leetcode.com/problems/continuous-subarray-sum) | 24.6%      | **Medium** |
+| 1235 | [Maximum Profit in Job Scheduling](https://leetcode.com/problems/maximum-profit-in-job-scheduling) | 44.2%      | **Hard**   |
+| 647  | [Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings) | 60.8%      | **Medium** |
+
+## 2020-09-17
+
+|      |                                                              |       |            |
+| ---- | ------------------------------------------------------------ | ----- | ---------- |
+| 97   | [Interleaving String](https://leetcode.com/problems/interleaving-string) | 31.7% | **Hard**   |
+| 198  | [House Robber](https://leetcode.com/problems/house-robber)   | 42.1% | **Easy**   |
+| 279  | [Perfect Squares](https://leetcode.com/problems/perfect-squares) | 47.6% | **Medium** |
+
 ## 2020-09-16
 
 | #    | Title                                                        | Acceptance | Difficulty |
