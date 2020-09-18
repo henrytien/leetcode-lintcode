@@ -26,7 +26,7 @@
  * 	You may assume the sum of all the numbers is in the range of a signed 32-bit integer.
  ******************************************************************************************************/
 /*
-cur calculate the prefix sum remainder of input array A
+curr calculate the prefix sum remainder of input array A
 seen will record the first occurrence of the remainder.
 If we have seen the same remainder before,
 it means the subarray sum if a multiple of k
