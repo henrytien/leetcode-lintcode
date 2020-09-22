@@ -4,6 +4,24 @@ Problems by tag and frequency or companies.
 
 # Dynamic Programming
 
+## 2020-09-22
+
+| #    | Title                                                        | Acceptance | Difficulty |
+| ---- | ------------------------------------------------------------ | ---------- | ---------- |
+| 935  | [Knight Dialer](https://leetcode.com/problems/knight-dialer) | 45.3%      | **Medium** |
+| 120  | [Triangle](https://leetcode.com/problems/triangle)           | 44.5%      | **Medium** |
+| 1326 | [Minimum Number of Taps to Open to Water a Garden](https://leetcode.com/problems/minimum-number-of-taps-to-open-to-water-a-garden) | 44.0%      | **Hard**   |
+
+## 2020-09-21
+
+| #    | Title                                                        | Acceptance | Difficulty |
+| ---- | ------------------------------------------------------------ | ---------- | ---------- |
+| 44   | [Wildcard Matching](https://leetcode.com/problems/wildcard-matching) | 24.8%      | **Hard**   |
+| 410  | [Split Array Largest Sum](https://leetcode.com/problems/split-array-largest-sum) | 44.8%      | **Hard**   |
+| 698  | [Partition to K Equal Sum Subsets](https://leetcode.com/problems/partition-to-k-equal-sum-subsets) | 44.9%      | **Medium** |
+
+## 2020-09-18
+
 | #    | Title                                                        | Acceptance | Difficulty |
 | ---- | ------------------------------------------------------------ | ---------- | ---------- |
 | 523  | [Continuous Subarray Sum](https://leetcode.com/problems/continuous-subarray-sum) | 24.6%      | **Medium** |
