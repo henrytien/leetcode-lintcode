@@ -4,6 +4,12 @@ Problems by tag and frequency or companies.
 
 # Dynamic Programming
 
+| #    | Title                                                        | Acceptance | Difficulty |
+| ---- | ------------------------------------------------------------ | ---------- | ---------- |
+| 132  | [Palindrome Partitioning II](https://leetcode.com/problems/palindrome-partitioning-ii) | 30.4%      | **Hard**   |
+| 1048 | [Longest String Chain](https://leetcode.com/problems/longest-string-chain) | 54.8%      | **Medium** |
+| 309  | [Best Time to Buy and Sell Stock with Cooldown](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown) | 47.5%      | **Medium** |
+
 ## 2020-09-22
 
 | #    | Title                                                        | Acceptance | Difficulty |
