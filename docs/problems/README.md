@@ -2,7 +2,19 @@
 
 Problems by tag and frequency or companies.
 
+# Array
+
+| #    | Title                                                        | Acceptance | Difficulty |
+| ---- | ------------------------------------------------------------ | ---------- | ---------- |
+| 1    | [Two Sum](https://leetcode.com/problems/two-sum)             | 45.8%      | **Easy**   |
+| 42   | [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water) | 49.5%      | **Hard**   |
+| 53   | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray) | 46.9%      | **Easy**   |
+
+
+
 # Dynamic Programming
+
+## 2020-09-24
 
 | #    | Title                                                        | Acceptance | Difficulty |
 | ---- | ------------------------------------------------------------ | ---------- | ---------- |
