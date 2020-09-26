@@ -4,6 +4,59 @@
 
 Problems by frequency.
 
+### Array
+
+|      | #    | Title                                                        | Acceptance | Difficulty | Frequency |
+| :--- | :--- | :----------------------------------------------------------- | :--------- | :--------- | :-------- |
+|      | 1    | [Two Sum](https://leetcode.com/problems/two-sum)             | 45.8%      | **Easy**   |           |
+|      | 42   | [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water) | 49.5%      | **Hard**   |           |
+|      | 53   | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray) | 46.9%      | **Easy**   |           |
+|      | 4    | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays) | 30.0%      | **Hard**   |           |
+|      | 15   | [3Sum](https://leetcode.com/problems/3sum)                   | 27.1%      | **Medium** |           |
+|      | 238  | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self) | 60.5%      | **Medium** |           |
+|      | 56   | [Merge Intervals](https://leetcode.com/problems/merge-intervals) | 39.7%      | **Medium** |           |
+|      | 560  | [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k) | 43.8%      | **Medium** |           |
+|      | 31   | [Next Permutation](https://leetcode.com/problems/next-permutation) | 32.8%      | **Medium** |           |
+|      | 11   | [Container With Most Water](https://leetcode.com/problems/container-with-most-water) | 51.3%      | **Medium** |           |
+|      | 121  | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock) | 51.0%      | **Easy**   |           |
+|      | 85   | [Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle) | 38.2%      | **Hard**   |           |
+|      | 54   | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix) | 34.4%      | **Medium** |           |
+|      | 41   | [First Missing Positive](https://leetcode.com/problems/first-missing-positive) | 32.3%      | **Hard**   |           |
+|      | 380  | [Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1) | 47.9%      | **Medium** |           |
+|      | 33   | [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array) | 34.9%      | **Medium** |           |
+|      | 88   | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array) | 39.7%      | **Easy**   |           |
+|      | 79   | [Word Search](https://leetcode.com/problems/word-search)     | 35.9%      | **Medium** |           |
+|      | 128  | [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence) | 45.5%      | **Hard**   |           |
+|      | 283  | [Move Zeroes](https://leetcode.com/problems/move-zeroes)     | 58.1%      | **Easy**   |           |
+|      | 45   | [Jump Game II](https://leetcode.com/problems/jump-game-ii)   | 30.8%      | **Hard**   |           |
+|      | 442  | [Find All Duplicates in an Array](https://leetcode.com/problems/find-all-duplicates-in-an-array) | 68.0%      | **Medium** |           |
+|      | 64   | [Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum) | 55.0%      | **Medium** |           |
+|      | 48   | [Rotate Image](https://leetcode.com/problems/rotate-image)   | 57.7%      | **Medium** |           |
+|      | 105  | [Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal) | 49.6%      | **Medium** |           |
+|      | 621  | [Task Scheduler](https://leetcode.com/problems/task-scheduler) | 50.6%      | **Medium** |           |
+|      | 84   | [Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram) | 35.6%      | **Hard**   |           |
+|      | 1152 | [Analyze User Website Visit Pattern](https://leetcode.com/problems/analyze-user-website-visit-pattern) | 43.6%      | **Medium** |           |
+|      | 289  | [Game of Life](https://leetcode.com/problems/game-of-life)   | 55.3%      | **Medium** |           |
+|      | 209  | [Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum) | 38.5%      | **Medium** |           |
+|      | 34   | [Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array) | 36.4%      | **Medium** |           |
+|      | 18   | [4Sum](https://leetcode.com/problems/4sum)                   | 33.9%      | **Medium** |           |
+|      | 287  | [Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number) | 56.1%      | **Medium** |           |
+|      | 78   | [Subsets](https://leetcode.com/problems/subsets)             | 62.8%      | **Medium** |           |
+|      | 1428 | [Leftmost Column with at Least a One](https://leetcode.com/problems/leftmost-column-with-at-least-a-one) | 47.4%      | **Medium** |           |
+|      | 75   | [Sort Colors](https://leetcode.com/problems/sort-colors)     | 47.8%      | **Medium** |           |
+|      | 695  | [Max Area of Island](https://leetcode.com/problems/max-area-of-island) | 63.2%      | **Medium** |           |
+|      | 55   | [Jump Game](https://leetcode.com/problems/jump-game)         | 34.8%      | **Medium** |           |
+|      | 39   | [Combination Sum](https://leetcode.com/problems/combination-sum) | 56.9%      | **Medium** |           |
+|      | 126  | [Word Ladder II](https://leetcode.com/problems/word-ladder-ii) | 22.6%      | **Hard**   |           |
+|      | 122  | [Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii) | 57.4%      | **Easy**   |           |
+|      | 532  | [K-diff Pairs in an Array](https://leetcode.com/problems/k-diff-pairs-in-an-array) | 31.9%      | **Easy**   |           |
+|      | 268  | [Missing Number](https://leetcode.com/problems/missing-number) | 52.0%      | **Easy**   |           |
+|      | 974  | [Subarray Sums Divisible by K](https://leetcode.com/problems/subarray-sums-divisible-by-k) | 49.4%      | **Medium** |           |
+|      | 1438 | [Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit](https://leetcode.com/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) | 43.0%      | **Medium** |           |
+|      | 162  | [Find Peak Element](https://leetcode.com/problems/find-peak-element) | 43.4%      | **Medium** |           |
+
+
+
 ### Dynamic Programming
 
 |      | #    | Title                                                        | Acceptance | Difficulty | Frequency |
