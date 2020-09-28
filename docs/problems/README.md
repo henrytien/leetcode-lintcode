@@ -4,6 +4,16 @@ Problems by tag and frequency or companies.
 
 # Array
 
+## 2020-09-28
+
+| #    | Title                                                        | Acceptance | Difficulty |
+| ---- | ------------------------------------------------------------ | ---------- | ---------- |
+| 4    | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays) | 30.0%      | **Hard**   |
+| 15   | [3Sum](https://leetcode.com/problems/3sum)                   | 27.1%      | **Medium** |
+| 238  | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self) | 60.5%      | **Medium** |
+
+## 2020-09-25
+
 | #    | Title                                                        | Acceptance | Difficulty |
 | ---- | ------------------------------------------------------------ | ---------- | ---------- |
 | 1    | [Two Sum](https://leetcode.com/problems/two-sum)             | 45.8%      | **Easy**   |
