@@ -4,6 +4,12 @@ Problems by tag and frequency or companies.
 
 # Array
 
+| #    | Title                                                        | Acceptance | Difficulty |
+| ---- | ------------------------------------------------------------ | ---------- | ---------- |
+| 56   | [Merge Intervals](https://leetcode.com/problems/merge-intervals) | 39.7%      | **Medium** |
+| 560  | [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k) | 43.8%      | **Medium** |
+| 31   | [Next Permutation](https://leetcode.com/problems/next-permutation) | 32.8%      | **Medium** |
+
 ## 2020-09-28
 
 | #    | Title                                                        | Acceptance | Difficulty |
