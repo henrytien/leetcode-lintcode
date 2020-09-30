@@ -4,6 +4,16 @@ Problems by tag and frequency or companies.
 
 # Array
 
+## 2020-09-30
+
+| #    | Title                                                        | Acceptance | Difficulty |
+| ---- | ------------------------------------------------------------ | ---------- | ---------- |
+| 11   | [Container With Most Water](https://leetcode.com/problems/container-with-most-water) | 51.3%      | **Medium** |
+| 85   | [Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle) | 38.2%      | **Hard**   |
+| 121  | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock) | 51.0%      | **Easy**   |
+
+## 2020-09-29
+
 | #    | Title                                                        | Acceptance | Difficulty |
 | ---- | ------------------------------------------------------------ | ---------- | ---------- |
 | 56   | [Merge Intervals](https://leetcode.com/problems/merge-intervals) | 39.7%      | **Medium** |
