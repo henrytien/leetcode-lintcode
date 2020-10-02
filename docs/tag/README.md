@@ -4,6 +4,42 @@
 
 Problems by frequency.
 
+
+
+### Linked List
+
+| #    | Title | Acceptance                                                   | Difficulty | Frequency  |      |
+| ---- | ----- | ------------------------------------------------------------ | ---------- | ---------- | ---- |
+|      | 2     | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers) | 34.2%      | **Medium** |      |
+|      | 21    | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists) | 54.3%      | **Easy**   |      |
+|      | 23    | [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists) | 40.9%      | **Hard**   |      |
+|      | 206   | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list) | 63.4%      | **Easy**   |      |
+|      | 25    | [Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group) | 42.9%      | **Hard**   |      |
+|      | 138   | [Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer) | 37.6%      | **Medium** |      |
+|      | 92    | [Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii) | 39.4%      | **Medium** |      |
+|      | 234   | [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list) | 39.7%      | **Easy**   |      |
+|      | 445   | [Add Two Numbers II](https://leetcode.com/problems/add-two-numbers-ii) | 55.0%      | **Medium** |      |
+|      | 148   | [Sort List](https://leetcode.com/problems/sort-list)         | 43.4%      | **Medium** |      |
+|      | 143   | [Reorder List](https://leetcode.com/problems/reorder-list)   | 39.3%      | **Medium** |      |
+|      | 203   | [Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements) | 38.8%      | **Easy**   |      |
+|      | 83    | [Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list) | 45.8%      | **Easy**   |      |
+|      | 19    | [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list) | 35.3%      | **Medium** |      |
+|      | 86    | [Partition List](https://leetcode.com/problems/partition-list) | 42.1%      | **Medium** |      |
+|      | 24    | [Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs) | 51.1%      | **Medium** |      |
+|      | 430   | [Flatten a Multilevel Doubly Linked List](https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list) | 55.8%      | **Medium** |      |
+|      | 876   | [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list) | 68.6%      | **Easy**   |      |
+|      | 109   | [Convert Sorted List to Binary Search Tree](https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree) | 48.5%      | **Medium** |      |
+|      | 160   | [Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists) | 41.4%      | **Easy**   |      |
+|      | 61    | [Rotate List](https://leetcode.com/problems/rotate-list)     | 30.3%      | **Medium** |      |
+|      | 141   | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle) | 41.5%      | **Easy**   |      |
+|      | 426   | [Convert Binary Search Tree to Sorted Doubly Linked List](https://leetcode.com/problems/convert-binary-search-tree-to-sorted-doubly-linked-list) | 59.7%      | **Medium** |      |
+|      | 82    | [Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii) | 37.3%      | **Medium** |      |
+|      | 1290  | [Convert Binary Number in a Linked List to Integer](https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer) | 80.8%      | **Easy**   |      |
+|      | 142   | [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii) | 37.9%      | **Medium** |      |
+|      | 1019  | [Next Greater Node In Linked List](https://leetcode.com/problems/next-greater-node-in-linked-list) | 58.2%      | **Medium** |      |
+|      | 328   | [Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list) | 56.3%      | **Medium** |      |
+|      | 237   | [Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list) | 64.8%      | **Easy**   |      |
+
 ### Array
 
 |      | #    | Title                                                        | Acceptance | Difficulty | Frequency |

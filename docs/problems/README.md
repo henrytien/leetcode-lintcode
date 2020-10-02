@@ -2,6 +2,16 @@
 
 Problems by tag and frequency or companies.
 
+# Linked List
+
+## 2020-10-02
+
+| #    | Title                                                        | Acceptance | Difficulty |
+| ---- | ------------------------------------------------------------ | ---------- | ---------- |
+| 21   | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists) | 54.3%      | **Easy**   |
+| 23   | [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists) | 40.9%      | **Hard**   |
+| 206  | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list) | 63.4%      | **Easy**   |
+
 # Array
 
 ## 2020-09-30
