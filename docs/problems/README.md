@@ -4,6 +4,12 @@ Problems by tag and frequency or companies.
 
 # Linked List
 
+| #    | Title                                                        | Acceptance | Difficulty |
+| ---- | ------------------------------------------------------------ | ---------- | ---------- |
+| 25   | [Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group) | 42.9%      | **Hard**   |
+| 138  | [Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer) | 37.6%      | **Medium** |
+| 92   | [Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii) | 39.4%      | **Medium** |
+
 ## 2020-10-02
 
 | #    | Title                                                        | Acceptance | Difficulty |
