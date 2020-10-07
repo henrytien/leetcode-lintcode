@@ -4,6 +4,26 @@ Problems by tag and frequency or companies.
 
 # Linked List
 
+## 2020-10-07
+
+| #    | Title                                                        | Acceptance | Difficulty |
+| ---- | ------------------------------------------------------------ | ---------- | ---------- |
+| 143  | [Reorder List](https://leetcode.com/problems/reorder-list)   | 39.3%      | **Medium** |
+| 83   | [Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list) | 45.8%      |            |
+| 203  | [Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements) | 38.8%      |            |
+
+## 2020-10-05
+
+| #    | Title                                                        | Acceptance | Difficulty |
+| ---- | ------------------------------------------------------------ | ---------- | ---------- |
+| 445  | [Add Two Numbers II](https://leetcode.com/problems/add-two-numbers-ii) | 55.0%      | **Medium** |
+| 148  | [Sort List](https://leetcode.com/problems/sort-list)         | 43.4%      | **Medium** |
+| 234  | [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list) | 39.7%      | **Easy**   |
+
+
+
+## 2020-10-03
+
 | #    | Title                                                        | Acceptance | Difficulty |
 | ---- | ------------------------------------------------------------ | ---------- | ---------- |
 | 25   | [Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group) | 42.9%      | **Hard**   |
