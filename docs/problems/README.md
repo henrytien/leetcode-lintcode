@@ -4,6 +4,14 @@ Problems by tag and frequency or companies.
 
 # Linked List
 
+## 2020-10-08
+
+| #    | Title                                                        | Acceptance | Difficulty |
+| ---- | ------------------------------------------------------------ | ---------- | ---------- |
+| 19   | [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list) | 35.3%      | **Medium** |
+| 86   | [Partition List](https://leetcode.com/problems/partition-list) | 42.1%      | **Medium** |
+| 24   | [Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs) | 51.1%      | **Medium** |
+
 ## 2020-10-07
 
 | #    | Title                                                        | Acceptance | Difficulty |
