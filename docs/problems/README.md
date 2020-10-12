@@ -4,6 +4,14 @@ Problems by tag and frequency or companies.
 
 # Linked List
 
+## 2020-10-12
+
+| #    | Title                                                        | Acceptance | Difficulty |
+| ---- | ------------------------------------------------------------ | ---------- | ---------- |
+| 430  | [Flatten a Multilevel Doubly Linked List](https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list) | 55.8%      | **Medium** |
+| 876  | [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list) | 68.6%      | **Easy**   |
+| 109  | [Convert Sorted List to Binary Search Tree](https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree) | 48.5%      | **Medium** |
+
 ## 2020-10-08
 
 | #    | Title                                                        | Acceptance | Difficulty |
