@@ -4,6 +4,14 @@ Problems by tag and frequency or companies.
 
 # Linked List
 
+## 2020-10-13
+
+| #    | Title                                                        | Acceptance | Difficulty   |
+| ---- | ------------------------------------------------------------ | ---------- | ------------ |
+| 160  | [Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists) | 41.4%      | **Easy**um** |
+| 61   | [Rotate List](https://leetcode.com/problems/rotate-list)     | 30.3%      | **Medium**   |
+| 141  | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle) | 41.5%      | **Easy**     |
+
 ## 2020-10-12
 
 | #    | Title                                                        | Acceptance | Difficulty |
