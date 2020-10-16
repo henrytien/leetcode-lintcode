@@ -4,7 +4,33 @@
 
 Problems by frequency.
 
+### Greedy
 
+|      | #    | Title                                                        | Acceptance | Difficulty | Frequency |
+| ---- | ---- | ------------------------------------------------------------ | ---------- | ---------- | --------- |
+|      | 763  | [Partition Labels](https://leetcode.com/problems/partition-labels) | 77.5%      | **Medium** |           |
+|      | 253  | [Meeting Rooms II](https://leetcode.com/problems/meeting-rooms-ii) | 46.1%      | **Medium** |           |
+|      | 45   | [Jump Game II](https://leetcode.com/problems/jump-game-ii)   | 30.9%      | **Hard**   |           |
+|      | 767  | [Reorganize String](https://leetcode.com/problems/reorganize-string) | 49.4%      | **Medium** |           |
+|      | 621  | [Task Scheduler](https://leetcode.com/problems/task-scheduler) | 50.8%      | **Medium** |           |
+|      | 759  | [Employee Free Time](https://leetcode.com/problems/employee-free-time) | 67.0%      | **Hard**   |           |
+|      | 406  | [Queue Reconstruction by Height](https://leetcode.com/problems/queue-reconstruction-by-height) | 67.4%      | **Medium** |           |
+|      | 55   | [Jump Game](https://leetcode.com/problems/jump-game)         | 34.8%      | **Medium** |           |
+|      | 1326 | [Minimum Number of Taps to Open to Water a Garden](https://leetcode.com/problems/minimum-number-of-taps-to-open-to-water-a-garden) | 44.3%      | **Hard**   |           |
+|      | 402  | [Remove K Digits](https://leetcode.com/problems/remove-k-digits) | 28.5%      | **Medium** |           |
+|      | 44   | [Wildcard Matching](https://leetcode.com/problems/wildcard-matching) | 25.0%      | **Hard**   |           |
+|      | 1029 | [Two City Scheduling](https://leetcode.com/problems/two-city-scheduling) | 56.6%      | **Medium** |           |
+|      | 122  | [Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii) | 57.6%      | **Easy**   |           |
+|      | 1383 | [Maximum Performance of a Team](https://leetcode.com/problems/maximum-performance-of-a-team) | 33.0%      | **Hard**   |           |
+|      | 321  | [Create Maximum Number](https://leetcode.com/problems/create-maximum-number) | 27.2%      | **Hard**   |           |
+|      | 435  | [Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals) | 43.6%      | **Medium** |           |
+|      | 135  | [Candy](https://leetcode.com/problems/candy)                 | 32.1%      | **Hard**   |           |
+|      | 1353 | [Maximum Number of Events That Can Be Attended](https://leetcode.com/problems/maximum-number-of-events-that-can-be-attended) | 29.9%      | **Medium** |           |
+|      | 1167 | [Minimum Cost to Connect Sticks](https://leetcode.com/problems/minimum-cost-to-connect-sticks) | 63.6%      | **Medium** |           |
+|      | 659  | [Split Array into Consecutive Subsequences](https://leetcode.com/problems/split-array-into-consecutive-subsequences) | 43.9%      | **Medium** |           |
+|      | 738  | [Monotone Increasing Digits](https://leetcode.com/problems/monotone-increasing-digits) | 44.9%      | **Medium** |           |
+|      | 134  | [Gas Station](https://leetcode.com/problems/gas-station)     | 40.3%      | **Medium** |           |
+|      | 1405 | [Longest Happy String](https://leetcode.com/problems/longest-happy-string) | 50.1%      | **Medium** |           |
 
 ### Linked List
 

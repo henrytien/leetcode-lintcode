@@ -2,7 +2,34 @@
 
 Problems by tag and frequency or companies.
 
+# Gready
+
+## 2020-10-16
+
+| #    | Title                                                        | Acceptance | Difficulty |
+| ---- | ------------------------------------------------------------ | ---------- | ---------- |
+| 763  | [Partition Labels](https://leetcode.com/problems/partition-labels) | 77.5%      | **Medium** |
+| 45   | [Jump Game II](https://leetcode.com/problems/jump-game-ii)   | 30.9%      | **Hard**   |
+| 767  | [Reorganize String](https://leetcode.com/problems/reorganize-string) | 49.4%      | **Medium** |
+
 # Linked List
+
+## 2020-10-15
+
+| #    | Title                                                        | Acceptance | Difficulty |
+| ---- | ------------------------------------------------------------ | ---------- | ---------- |
+| 142  | [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii) | 37.9%      | **Medium** |
+| 1019 | [Next Greater Node In Linked List](https://leetcode.com/problems/next-greater-node-in-linked-list) | 58.2%      | **Medium** |
+| 328  | [Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list) | 56.3%      | **Medium** |
+| 237  | [Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list) | 64.8%      | **Easy**   |
+
+## 2020-10-14
+
+| #    | Title                                                        | Acceptance | Difficulty |
+| ---- | ------------------------------------------------------------ | ---------- | ---------- |
+| 426  | [Convert Binary Search Tree to Sorted Doubly Linked List](https://leetcode.com/problems/convert-binary-search-tree-to-sorted-doubly-linked-list) | 59.7%      | **Medium** |
+| 82   | [Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii) | 37.3%      | **Medium** |
+| 1290 | [Convert Binary Number in a Linked List to Integer](https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer) | 80.8%      | **Easy**   |
 
 ## 2020-10-13
 
