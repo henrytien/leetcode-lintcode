@@ -4,6 +4,14 @@ Problems by tag and frequency or companies.
 
 # Gready
 
+## 2020-10-19
+
+| #    | Title                                                        | Acceptance | Difficulty |
+| ---- | ------------------------------------------------------------ | ---------- | ---------- |
+| 621  | [Task Scheduler](https://leetcode.com/problems/task-scheduler) | 50.8%      | **Medium** |
+| 759  | [Employee Free Time](https://leetcode.com/problems/employee-free-time) | 67.0%      | **Hard**   |
+| 406  | [Queue Reconstruction by Height](https://leetcode.com/problems/queue-reconstruction-by-height) | 67.4%      | **Medium** |
+
 ## 2020-10-16
 
 | #    | Title                                                        | Acceptance | Difficulty |
