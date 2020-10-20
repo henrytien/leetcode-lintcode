@@ -4,6 +4,14 @@ Problems by tag and frequency or companies.
 
 # Gready
 
+## 2020-10-20
+
+| #    | Title                                                        | Acceptance | Difficulty |
+| ---- | ------------------------------------------------------------ | ---------- | ---------- |
+| 1326 | [Minimum Number of Taps to Open to Water a Garden](https://leetcode.com/problems/minimum-number-of-taps-to-open-to-water-a-garden) | 44.3%      | **Hard**   |
+| 402  | [Remove K Digits](https://leetcode.com/problems/remove-k-digits) | 28.5%      | **Medium** |
+| 1029 | [Two City Scheduling](https://leetcode.com/problems/two-city-scheduling) | 56.6%      | **Medium** |
+
 ## 2020-10-19
 
 | #    | Title                                                        | Acceptance | Difficulty |
