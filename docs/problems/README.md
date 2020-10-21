@@ -4,6 +4,14 @@ Problems by tag and frequency or companies.
 
 # Gready
 
+## 2020-10-21
+
+| #    | Title                                                        | Acceptance | Difficulty |
+| ---- | ------------------------------------------------------------ | ---------- | ---------- |
+| 321  | [Create Maximum Number](https://leetcode.com/problems/create-maximum-number) | 27.2%      | **Hard**   |
+| 435  | [Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals) | 43.6%      | **Medium** |
+| 135  | [Candy](https://leetcode.com/problems/candy)                 | 32.1%      | **Hard**   |
+
 ## 2020-10-20
 
 | #    | Title                                                        | Acceptance | Difficulty |
