@@ -4,6 +4,14 @@ Problems by tag and frequency or companies.
 
 # Gready
 
+## 2020-10-22
+
+| #    | Title                                                        | Acceptance | Difficulty |
+| ---- | ------------------------------------------------------------ | ---------- | ---------- |
+| 1353 | [Maximum Number of Events That Can Be Attended](https://leetcode.com/problems/maximum-number-of-events-that-can-be-attended) | 29.9%      | **Medium** |
+| 1167 | [Minimum Cost to Connect Sticks](https://leetcode.com/problems/minimum-cost-to-connect-sticks) | 63.6%      | **Medium** |
+| 659  | [Split Array into Consecutive Subsequences](https://leetcode.com/problems/split-array-into-consecutive-subsequences) | 43.9%      | **Medium** |
+
 ## 2020-10-21
 
 | #    | Title                                                        | Acceptance | Difficulty |
