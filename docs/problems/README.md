@@ -4,6 +4,14 @@ Problems by tag and frequency or companies.
 
 # Gready
 
+## 2020-10-23
+
+| #    | Title                                                        | Acceptance | Difficulty |
+| ---- | ------------------------------------------------------------ | ---------- | ---------- |
+| 738  | [Monotone Increasing Digits](https://leetcode.com/problems/monotone-increasing-digits) | 44.9%      | **Medium** |
+| 134  | [Gas Station](https://leetcode.com/problems/gas-station)     | 40.3%      | **Medium** |
+| 1405 | [Longest Happy String](https://leetcode.com/problems/longest-happy-string) | 50.1%      | **Medium** |
+
 ## 2020-10-22
 
 | #    | Title                                                        | Acceptance | Difficulty |
