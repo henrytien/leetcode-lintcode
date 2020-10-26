@@ -2,6 +2,16 @@
 
 Problems by tag and frequency or companies.
 
+# Graph
+
+## 2020-10-26
+
+| #    | Title                                                        | Acceptance | Difficulty |
+| ---- | ------------------------------------------------------------ | ---------- | ---------- |
+| 210  | [Course Schedule II](https://leetcode.com/problems/course-schedule-ii) | 41.5%      | **Medium** |
+| 332  | [Reconstruct Itinerary](https://leetcode.com/problems/reconstruct-itinerary) | 37.2%      | **Medium** |
+| 207  | [Course Schedule](https://leetcode.com/problems/course-schedule) | 43.7%      | **Medium** |
+
 # Gready
 
 ## 2020-10-23

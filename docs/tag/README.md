@@ -4,6 +4,26 @@
 
 Problems by frequency.
 
+### Graph
+
+|      | #    | Title                                                        | Acceptance | Difficulty | Frequency |
+| ---- | ---- | ------------------------------------------------------------ | ---------- | ---------- | --------- |
+|      | 210  | [Course Schedule II](https://leetcode.com/problems/course-schedule-ii) | 41.5%      | **Medium** |           |
+|      | 332  | [Reconstruct Itinerary](https://leetcode.com/problems/reconstruct-itinerary) | 37.2%      | **Medium** |           |
+|      | 207  | [Course Schedule](https://leetcode.com/problems/course-schedule) | 43.7%      | **Medium** |           |
+|      | 1153 | [String Transforms Into Another String](https://leetcode.com/problems/string-transforms-into-another-string) | 35.9%      | **Hard**   |           |
+|      | 785  | [Is Graph Bipartite?](https://leetcode.com/problems/is-graph-bipartite) | 47.8%      | **Medium** |           |
+|      | 133  | [Clone Graph](https://leetcode.com/problems/clone-graph)     | 37.1%      | **Medium** |           |
+|      | 959  | [Regions Cut By Slashes](https://leetcode.com/problems/regions-cut-by-slashes) | 66.5%      | **Medium** |           |
+|      | 797  | [All Paths From Source to Target](https://leetcode.com/problems/all-paths-from-source-to-target) | 78.1%      | **Medium** |           |
+|      | 886  | [Possible Bipartition](https://leetcode.com/problems/possible-bipartition) | 44.6%      | **Medium** |           |
+|      | 399  | [Evaluate Division](https://leetcode.com/problems/evaluate-division) | 53.4%      | **Medium** |           |
+|      | 1136 | [Parallel Courses](https://leetcode.com/problems/parallel-courses) | 61.1%      | **Hard**   |           |
+|      | 765  | [Couples Holding Hands](https://leetcode.com/problems/couples-holding-hands) | 54.8%      | **Hard**   |           |
+|      | 444  | [Sequence Reconstruction](https://leetcode.com/problems/sequence-reconstruction) | 23.1%      | **Medium** |           |
+|      | 323  | [Number of Connected Components in an Undirected Graph](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph) | 56.7%      | **Medium** |           |
+|      | 310  | [Minimum Height Trees](https://leetcode.com/problems/minimum-height-trees) | 32.7%      | **Medium** |           |
+
 ### Greedy
 
 |      | #    | Title                                                        | Acceptance | Difficulty | Frequency |
