@@ -12,7 +12,7 @@ Problems by tag and frequency or companies.
 | 332  | [Reconstruct Itinerary](https://leetcode.com/problems/reconstruct-itinerary) | 37.2%      | **Medium** |
 | 207  | [Course Schedule](https://leetcode.com/problems/course-schedule) | 43.7%      | **Medium** |
 
-# Gready
+# Greedy
 
 ## 2020-10-23
 
