@@ -4,6 +4,14 @@ Problems by tag and frequency or companies.
 
 # Graph
 
+## 2020-10-27
+
+| #    | Title                                                        | Acceptance | Difficulty |
+| ---- | ------------------------------------------------------------ | ---------- | ---------- |
+| 1153 | [String Transforms Into Another String](https://leetcode.com/problems/string-transforms-into-another-string) | 35.9%      | **Hard**   |
+| 785  | [Is Graph Bipartite?](https://leetcode.com/problems/is-graph-bipartite) | 47.8%      | **Medium** |
+| 133  | [Clone Graph](https://leetcode.com/problems/clone-graph)     | 37.1%      | **Medium** |
+
 ## 2020-10-26
 
 | #    | Title                                                        | Acceptance | Difficulty |
