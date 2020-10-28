@@ -4,6 +4,14 @@ Problems by tag and frequency or companies.
 
 # Graph
 
+## 2020-10-28
+
+| #    | Title                                                        | Acceptance | Difficulty | Video                                               |
+| ---- | ------------------------------------------------------------ | ---------- | ---------- | --------------------------------------------------- |
+| 959  | [Regions Cut By Slashes](https://leetcode.com/problems/regions-cut-by-slashes) | 66.5%      | **Medium** | [花花](https://www.youtube.com/watch?v=n3s9Q7GtfB4) |
+| 797  | [All Paths From Source to Target](https://leetcode.com/problems/all-paths-from-source-to-target) | 78.1%      | **Medium** |                                                     |
+| 886  | [Possible Bipartition](https://leetcode.com/problems/possible-bipartition) | 44.6%      | **Medium** |                                                     |
+
 ## 2020-10-27
 
 | #    | Title                                                        | Acceptance | Difficulty |
