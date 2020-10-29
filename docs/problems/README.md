@@ -4,6 +4,14 @@ Problems by tag and frequency or companies.
 
 # Graph
 
+## 2020-10-29
+
+| #    | Title                                                        | Acceptance | Difficulty | Video                                                        |
+| ---- | ------------------------------------------------------------ | ---------- | ---------- | ------------------------------------------------------------ |
+| 399  | [Evaluate Division](https://leetcode.com/problems/evaluate-division) | 53.4%      | **Medium** | [花花](https://www.youtube.com/watch?v=UwpvInpgFmo)          |
+| 1136 | [Parallel Courses](https://leetcode.com/problems/parallel-courses) | 61.1%      | **Hard**   | [Kelvin Chandra](https://www.youtube.com/watch?v=a5MImxrbLNE) |
+| 765  | [Couples Holding Hands](https://leetcode.com/problems/couples-holding-hands) | 54.8%      | **Hard**   | [Huifeng Guan](https://www.youtube.com/watch?v=hihj4Y7I1jA)  |
+
 ## 2020-10-28
 
 | #    | Title                                                        | Acceptance | Difficulty | Video                                               |
