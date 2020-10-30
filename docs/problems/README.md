@@ -4,6 +4,14 @@ Problems by tag and frequency or companies.
 
 # Graph
 
+## 2020-10-30
+
+| #    | Title                                                        | Acceptance | Difficulty | Video |
+| ---- | ------------------------------------------------------------ | ---------- | ---------- | ----- |
+| 444  | [Sequence Reconstruction](https://leetcode.com/problems/sequence-reconstruction) | 23.1%      | **Medium** |       |
+| 323  | [Number of Connected Components in an Undirected Graph](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph) | 56.7%      | **Medium** |       |
+| 310  | [Minimum Height Trees](https://leetcode.com/problems/minimum-height-trees) | 32.7%      | **Medium** |       |
+
 ## 2020-10-29
 
 | #    | Title                                                        | Acceptance | Difficulty | Video                                                        |
