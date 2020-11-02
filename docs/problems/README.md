@@ -2,6 +2,16 @@
 
 Problems by tag and frequency or companies.
 
+# Amazon
+
+## 2020-11-02
+
+|      | **#** | **Title**                                                    | **Solution** | **Acceptance** | **Difficulty** | **Frequency** |
+| ---- | ----- | ------------------------------------------------------------ | ------------ | -------------- | -------------- | ------------- |
+|      | 1     | [Two Sum](https://leetcode.com/problems/two-sum)             |              | 46.0%          | **Easy**       |               |
+|      | 42    | [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water) |              | 49.9%          | **Hard**       |               |
+|      | 200   | [Number of Islands](https://leetcode.com/problems/number-of-islands) |              | 47.7%          | **Medium**     |               |
+
 # Graph
 
 ## 2020-10-30
