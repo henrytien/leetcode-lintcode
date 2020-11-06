@@ -4,6 +4,34 @@ Problems by tag and frequency or companies.
 
 # Amazon
 
+## 2020-11-06
+
+|      | **#** | **Title**                                                    | **Solution** | **Acceptance** | **Difficulty** |
+| ---- | ----- | ------------------------------------------------------------ | ------------ | -------------- | :------------- |
+|      | 23    | [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists) |              | 41.3%          | **Hard**       |
+|      | 273   | [Integer to English Words](https://leetcode.com/problems/integer-to-english-words) |              | 27.6%          | **Hard**       |
+
+## 2020-11-05
+
+|      | **#** | **Title**                                                    | **Solution** | **Acceptance** | **Difficulty** |
+| ---- | ----- | ------------------------------------------------------------ | ------------ | -------------- | :------------- |
+|      | 763   | [Partition Labels](https://leetcode.com/problems/partition-labels) |              | 77.6%          | **Medium**     |
+|      | 238   | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self) |              | 60.8%          | **Medium**     |
+
+## 2020-11-04
+
+|      | **#** | **Title**                                                    | **Solution** | **Acceptance** | **Difficulty** |
+| ---- | ----- | ------------------------------------------------------------ | ------------ | -------------- | -------------- |
+|      | 5     | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring) |              | 29.8%          | **Medium**     |
+|      | 21    | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists) |              | 54.6%          | **Easy**       |
+
+## 2020-11-03
+
+|      | **#** | **Title**                                                    | **Solution** | **Acceptance** | **Difficulty** |
+| ---- | ----- | ------------------------------------------------------------ | ------------ | -------------- | -------------- |
+|      | 146   | [LRU Cache](https://leetcode.com/problems/lru-cache)         |              | 34.3%          | **Medium**     |
+|      | 937   | [Reorder Data in Log Files](https://leetcode.com/problems/reorder-data-in-log-files) |              | 54.3%          | **Easy**       |
+
 ## 2020-11-02
 
 |      | **#** | **Title**                                                    | **Solution** | **Acceptance** | **Difficulty** | **Frequency** |
