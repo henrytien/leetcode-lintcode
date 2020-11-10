@@ -4,6 +4,13 @@ Problems by tag and frequency or companies.
 
 # Amazon
 
+## 2020-11-10
+
+|      | **#** | **Title**                                                    | **Solution** | **Acceptance** | **Difficulty** |
+| ---- | ----- | ------------------------------------------------------------ | ------------ | -------------- | :------------- |
+|      | 139   | [Word Break](https://leetcode.com/problems/word-break)       |              | 41.0%          | **Medium**     |
+|      | 973   | [K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin) |              | 64.2%          | **Medium**     |
+
 ## 2020-11-06
 
 |      | **#** | **Title**                                                    | **Solution** | **Acceptance** | **Difficulty** |
