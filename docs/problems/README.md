@@ -4,6 +4,27 @@ Problems by tag and frequency or companies.
 
 # Amazon
 
+## 2020-11-13
+
+|      | **#** | **Title**                                                    | **Solution** | **Acceptance** | **Difficulty** |
+| ---- | ----- | ------------------------------------------------------------ | ------------ | -------------- | :------------- |
+|      | 295   | [Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream) |              | 45.6%          | **Hard**       |
+|      | 138   | [Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer) |              | 38.3%          | **Medium**     |
+
+## 2020-11-12
+
+|      | **#** | **Title**                                                    | **Solution** | **Acceptance** | **Difficulty** |
+| ---- | ----- | ------------------------------------------------------------ | ------------ | -------------- | :------------- |
+|      | 1192  | [Critical Connections in a Network](https://leetcode.com/problems/critical-connections-in-a-network) |              | 49.3%          | **Hard**       |
+|      | 692   | [Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words) |              | 52.5%          | **Medium**     |
+
+## 2020-11-11
+
+|      | **#** | **Title**                                                    | **Solution** | **Acceptance** | **Difficulty** |
+| ---- | ----- | ------------------------------------------------------------ | ------------ | -------------- | :------------- |
+|      | 221   | [Maximal Square](https://leetcode.com/problems/maximal-square) |              | 38.1%          | **Medium**     |
+|      | 380   | [Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1) |              | 48.2%          | **Medium**     |
+
 ## 2020-11-10
 
 |      | **#** | **Title**                                                    | **Solution** | **Acceptance** | **Difficulty** |
