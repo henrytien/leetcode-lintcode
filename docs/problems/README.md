@@ -4,6 +4,13 @@ Problems by tag and frequency or companies.
 
 # Amazon
 
+## 2020-11-16
+
+|      | **#** | **Title**                                                    | **Solution** | **Acceptance** | **Difficulty** |
+| ---- | ----- | ------------------------------------------------------------ | ------------ | -------------- | :------------- |
+|      | 994   | [Rotting Oranges](https://leetcode.com/problems/rotting-oranges) |              | 49.4%          | **Medium**     |
+|      | 1335  | [Minimum Difficulty of a Job Schedule](https://leetcode.com/problems/minimum-difficulty-of-a-job-schedule) |              | 58.4%          | **Hard**       |
+
 ## 2020-11-13
 
 |      | **#** | **Title**                                                    | **Solution** | **Acceptance** | **Difficulty** |
