@@ -2,6 +2,19 @@
 
 Problems by tag and frequency or companies.
 
+
+
+# Binary Tree
+
+## 2020-11-17
+
+|      | **#** | **Title**                                                    | **Solution**                                                 | **Acceptance** | **Difficulty** |
+| ---- | ----- | ------------------------------------------------------------ | ------------------------------------------------------------ | -------------- | :------------- |
+|      | 404   | [Sum of Left Leaves](https://leetcode.com/problems/sum-of-left-leaves) | [花花](https://www.youtube.com/watch?v=-79mkmH2lZs&list=PLLuMmzMTgVK7ug02DDoQsf50OtwVDL1xd) | 52.1%          | **Easy**       |
+|      | 655   | [Print Binary Tree](https://leetcode.com/problems/print-binary-tree) | [花花](https://www.youtube.com/watch?v=ipIL1qVAazk&list=PLLuMmzMTgVK7ug02DDoQsf50OtwVDL1xd&index=64) | 55.4%          | **Medium**     |
+
+
+
 # Amazon
 
 ## 2020-11-16
