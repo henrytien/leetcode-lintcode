@@ -6,6 +6,11 @@ Problems by tag and frequency or companies.
 
 # Binary Tree
 
+|      | **#** | **Title**                                                    | **Solution** | **Acceptance** | **Difficulty** |
+| ---- | ----- | ------------------------------------------------------------ | ------------ | -------------- | :------------- |
+|      | 637   | [Average of Levels in Binary Tree](https://leetcode.com/problems/average-of-levels-in-binary-tree) |              | 64.0%          | **Easy**       |
+|      | 617   | [Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees) |              | 74.8%          | **Easy**       |
+
 ## 2020-11-17
 
 |      | **#** | **Title**                                                    | **Solution**                                                 | **Acceptance** | **Difficulty** |
