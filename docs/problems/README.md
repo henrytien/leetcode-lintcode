@@ -6,6 +6,15 @@ Problems by tag and frequency or companies.
 
 # Binary Tree
 
+## 2020-11-19
+
+|      | **#** | **Title**                                                    | **Solution** | **Acceptance** | **Difficulty** |
+| ---- | ----- | ------------------------------------------------------------ | ------------ | -------------- | :------------- |
+|      | 113   | [Path Sum II](https://leetcode.com/problems/path-sum-ii)     |              | 48.0%          | **Medium**     |
+|      | 606   | [Construct String from Binary Tree](https://leetcode.com/problems/construct-string-from-binary-tree) |              | 54.8%          | **Easy**       |
+
+## 2020-11-18
+
 |      | **#** | **Title**                                                    | **Solution** | **Acceptance** | **Difficulty** |
 | ---- | ----- | ------------------------------------------------------------ | ------------ | -------------- | :------------- |
 |      | 637   | [Average of Levels in Binary Tree](https://leetcode.com/problems/average-of-levels-in-binary-tree) |              | 64.0%          | **Easy**       |
