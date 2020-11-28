@@ -4,7 +4,49 @@ Problems by tag and frequency or companies.
 
 
 
-# Binary Tree
+# Tree
+
+## 2020-11-27
+
+|      | **#** | **Title**                                                    | **Acceptance** | **Difficulty** | **Solution** |
+| ---- | ----- | ------------------------------------------------------------ | -------------- | -------------- | :----------- |
+|      | 987   | [Vertical Order Traversal of a Binary Tree](https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree) | 37.2%          | **Medium**     |              |
+|      | 103   | [Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal) | 49.3%          | **Medium**     |              |
+
+## 2020-11-26
+
+|      | **#** | **Title**                                                    | **Acceptance** | **Difficulty** | **Solution** |
+| ---- | ----- | ------------------------------------------------------------ | -------------- | -------------- | :----------- |
+|      | 236   | [Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree) | 47.4%          | **Medium**     |              |
+|      | 105   | [Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal) | 50.5%          | **Medium**     |              |
+
+## 2020-11-25
+
+|      | **#** | **Title**                                                    | **Acceptance** | **Difficulty** | **Solution** |
+| ---- | ----- | ------------------------------------------------------------ | -------------- | -------------- | :----------- |
+|      | 124   | [Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum) | 35.0%          | **Hard**       |              |
+|      | 199   | [Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view) | 55.2%          | **Medium**     |              |
+
+## 2020-11-24
+
+|      | **#** | **Title**                                                    | **Solution** | **Acceptance** | **Difficulty** |
+| ---- | ----- | ------------------------------------------------------------ | ------------ | -------------- | :------------- |
+|      | 701   | [Insert into a Binary Search Tree](https://leetcode.com/problems/insert-into-a-binary-search-tree) |              | 75.9%          | **Medium**     |
+|      | 450   | [Delete Node in a BST](https://leetcode.com/problems/delete-node-in-a-bst) |              | 44.9%          | **Medium**     |
+
+## 2020-11-23
+
+|      | **#** | **Title**                                                    | **Acceptance** | **Difficulty** |
+| ---- | ----- | ------------------------------------------------------------ | -------------- | -------------- |
+|      | 981   | [Time Based Key-Value Store](https://leetcode.com/problems/time-based-key-value-store) | 53.6%          | **Medium**     |
+|      | 528   | [Random Pick with Weight](https://leetcode.com/problems/random-pick-with-weight) | 44.3%          | **Medium**     |
+
+## 2020-11-20
+
+|      | **#** | **Title**                                                    | **Solution** | **Acceptance** | **Difficulty** |
+| ---- | ----- | ------------------------------------------------------------ | ------------ | -------------- | :------------- |
+|      | 100   | [Same Tree](https://leetcode.com/problems/same-tree)         |              | 53.8%          | **Easy**       |
+|      | 110   | [Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree) |              | 44.0%          | **Easy**       |
 
 ## 2020-11-19
 
