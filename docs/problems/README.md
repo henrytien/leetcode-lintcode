@@ -6,6 +6,13 @@ Problems by tag and frequency or companies.
 
 # Tree
 
+## 2020-11-30
+
+|      | **#** | **Title**                                                    | **Acceptance** | **Difficulty** | **Solution** |
+| ---- | ----- | ------------------------------------------------------------ | -------------- | -------------- | :----------- |
+|      | 114   | [Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list) | 50.8%          | **Medium**     |              |
+|      | 437   | [Path Sum III](https://leetcode.com/problems/path-sum-iii)   | 47.7%          | **Medium**     |              |
+
 ## 2020-11-27
 
 |      | **#** | **Title**                                                    | **Acceptance** | **Difficulty** | **Solution** |
