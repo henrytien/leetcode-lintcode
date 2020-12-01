@@ -2,6 +2,15 @@
 
 Problems by tag and frequency or companies.
 
+# Dynamic Programming
+
+## 2020-12-01
+
+|      | **#** | **Title**                                                    | **Acceptance** | **Difficulty** | **Solution** |
+| ---- | ----- | ------------------------------------------------------------ | -------------- | -------------- | :----------- |
+|      | 91    | [Decode Ways](https://leetcode.com/problems/decode-ways)     | 25.6%          | **Medium**     |              |
+|      | 5     | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring) | 30.0%          | **Medium**     |              |
+
 
 
 # Tree
