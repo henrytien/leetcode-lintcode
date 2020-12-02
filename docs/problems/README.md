@@ -4,6 +4,13 @@ Problems by tag and frequency or companies.
 
 # Dynamic Programming
 
+## 2020-12-02
+
+|      | **#** | **Title**                                                    | **Acceptance** | **Difficulty** | **Solution** |
+| ---- | ----- | ------------------------------------------------------------ | -------------- | -------------- | :----------- |
+|      | 53    | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray) | 47.3%          | **Easy**       |              |
+|      | 121   | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock) | 51.1%          | **Easy**       |              |
+
 ## 2020-12-01
 
 |      | **#** | **Title**                                                    | **Acceptance** | **Difficulty** | **Solution** |
