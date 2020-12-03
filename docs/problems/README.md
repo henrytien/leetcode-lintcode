@@ -4,6 +4,13 @@ Problems by tag and frequency or companies.
 
 # Dynamic Programming
 
+## 2020-12-03
+
+|      | **#** | **Title**                                                    | **Acceptance** | **Difficulty** | **Solution** |
+| ---- | ----- | ------------------------------------------------------------ | -------------- | -------------- | :----------- |
+|      | 221   | [Maximal Square](https://leetcode.com/problems/maximal-square) | 38.2%          | **Medium**     |              |
+|      | 139   | [Word Break](https://leetcode.com/problems/word-break)       | 41.1%          | **Medium**     |              |
+
 ## 2020-12-02
 
 |      | **#** | **Title**                                                    | **Acceptance** | **Difficulty** | **Solution** |
