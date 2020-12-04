@@ -4,6 +4,13 @@ Problems by tag and frequency or companies.
 
 # Dynamic Programming
 
+## 2020-12-04
+
+|      | **#** | **Title**                                                    | **Acceptance** | **Difficulty** | **Solution** |
+| ---- | ----- | ------------------------------------------------------------ | -------------- | -------------- | :----------- |
+|      | 312   | [Burst Balloons](https://leetcode.com/problems/burst-balloons) | 53.0%          | **Hard**       |              |
+|      | 10    | [Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching) | 27.1%          | **Hard**       |              |
+
 ## 2020-12-03
 
 |      | **#** | **Title**                                                    | **Acceptance** | **Difficulty** | **Solution** |
