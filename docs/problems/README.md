@@ -4,6 +4,13 @@ Problems by tag and frequency or companies.
 
 # Dynamic Programming
 
+## 2020-12-07
+
+|      | **#** | **Title**                                                    | **Acceptance** | **Difficulty** | **Solution** |
+| ---- | ----- | ------------------------------------------------------------ | -------------- | -------------- | :----------- |
+|      | 322   | [Coin Change](https://leetcode.com/problems/coin-change)     | 36.6%          | **Medium**     |              |
+|      | 85    | [Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle) | 38.8%          | **Hard**       |              |
+
 ## 2020-12-04
 
 |      | **#** | **Title**                                                    | **Acceptance** | **Difficulty** | **Solution** |
