@@ -4,6 +4,13 @@ Problems by tag and frequency or companies.
 
 # Dynamic Programming
 
+## 2020-12-08
+
+|      | **#** | **Title**                                                    | **Acceptance** | **Difficulty** | **Solution** |
+| ---- | ----- | ------------------------------------------------------------ | -------------- | -------------- | :----------- |
+|      | 1335  | [Minimum Difficulty of a Job Schedule](https://leetcode.com/problems/minimum-difficulty-of-a-job-schedule) | 58.2%          | **Hard**       |              |
+|      | 1235  | [Maximum Profit in Job Scheduling](https://leetcode.com/problems/maximum-profit-in-job-scheduling) | 46.1%          | **Hard**       |              |
+
 ## 2020-12-07
 
 |      | **#** | **Title**                                                    | **Acceptance** | **Difficulty** | **Solution** |
