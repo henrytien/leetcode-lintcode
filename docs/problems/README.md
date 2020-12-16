@@ -4,6 +4,41 @@ Problems by tag and frequency or companies.
 
 # Dynamic Programming
 
+## 2020-12-16
+
+|      | **#** | **Title**                                                    | **Acceptance** | **Difficulty** | **Solution** |
+| ---- | ----- | ------------------------------------------------------------ | -------------- | -------------- | :----------- |
+|      | 871   | [Minimum Number of Refueling Stops](https://leetcode.com/problems/minimum-number-of-refueling-stops) | 32.0%          | **Hard**       |              |
+|      | 44    | [Wildcard Matching](https://leetcode.com/problems/wildcard-matching) | 25.2%          | **Hard**       |              |
+
+## 2020-12-14
+
+|      | **#** | **Title**                                                    | **Acceptance** | **Difficulty** | **Solution** |
+| ---- | ----- | ------------------------------------------------------------ | -------------- | -------------- | :----------- |
+|      | 741   | [Cherry Pickup](https://leetcode.com/problems/cherry-pickup) | 34.7%          | **Hard**       |              |
+|      | 647   | [Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings) | 61.5%          | **Medium**     |              |
+
+## 2020-12-11
+
+|      | **#** | **Title**                                                    | **Acceptance** | **Difficulty** | **Solution** |
+| ---- | ----- | ------------------------------------------------------------ | -------------- | -------------- | :----------- |
+|      | 64    | [Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum) | 55.5%          | **Medium**     |              |
+|      | 72    | [Edit Distance](https://leetcode.com/problems/edit-distance) | 46.0%          | **Hard**       |              |
+
+## 2020-12-10
+
+|      | **#** | **Title**                                                    | **Acceptance** | **Difficulty** | **Solution** |
+| ---- | ----- | ------------------------------------------------------------ | -------------- | -------------- | :----------- |
+|      | 300   | [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence) | 43.1%          | **Medium**     |              |
+|      | 1531  | [String Compression II](https://leetcode.com/problems/string-compression-ii) | 32.4%          | **Hard**       |              |
+
+## 2020-12-09
+
+|      | **#** | **Title**                                                    | **Acceptance** | **Difficulty** | **Solution** |
+| ---- | ----- | ------------------------------------------------------------ | -------------- | -------------- | :----------- |
+|      | 140   | [Word Break II](https://leetcode.com/problems/word-break-ii) | 33.8%          | **Hard**       |              |
+|      | 152   | [Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray) | 32.5%          | **Medium**     |              |
+
 ## 2020-12-08
 
 |      | **#** | **Title**                                                    | **Acceptance** | **Difficulty** | **Solution** |
