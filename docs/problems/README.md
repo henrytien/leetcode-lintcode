@@ -4,6 +4,20 @@ Problems by tag and frequency or companies.
 
 # Dynamic Programming
 
+## 2020-12-18
+
+|      | **#** | **Title**                                                    | **Acceptance** | **Difficulty** | **Solution** |
+| ---- | ----- | ------------------------------------------------------------ | -------------- | -------------- | :----------- |
+|      | 363   | [Max Sum of Rectangle No Larger Than K](https://leetcode.com/problems/max-sum-of-rectangle-no-larger-than-k) | 38.2%          | **Hard**       |              |
+|      | 403   | [Frog Jump](https://leetcode.com/problems/frog-jump)         | 40.9%          | **Hard**       |              |
+
+## 2020-12-17
+
+|      | **#** | **Title**                                                    | **Acceptance** | **Difficulty** | **Solution** |
+| ---- | ----- | ------------------------------------------------------------ | -------------- | -------------- | :----------- |
+|      | 279   | [Perfect Squares](https://leetcode.com/problems/perfect-squares) | 48.3%          | **Medium**     |              |
+|      | 32    | [Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses) | 29.0%          | **Medium**     |              |
+
 ## 2020-12-16
 
 |      | **#** | **Title**                                                    | **Acceptance** | **Difficulty** | **Solution** |
