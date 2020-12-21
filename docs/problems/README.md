@@ -2,6 +2,17 @@
 
 Problems by tag and frequency or companies.
 
+
+
+# Depth-first Search
+
+## 2020-12-21
+
+|      | **#** | **Title**                                                    | **Acceptance** | **Difficulty** | **Solution** |
+| ---- | ----- | ------------------------------------------------------------ | -------------- | -------------- | :----------- |
+|      | 200   | [Number of Islands](https://leetcode.com/problems/number-of-islands) | 48.3%          | **Medium**     |              |
+|      | 394   | [Decode String](https://leetcode.com/problems/decode-string) | 52.1%          | **Medium**     |              |
+
 # Dynamic Programming
 
 ## 2020-12-18
