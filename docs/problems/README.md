@@ -6,6 +6,20 @@ Problems by tag and frequency or companies.
 
 # Depth-first Search
 
+## 2020-12-23
+
+|      | **#** | **Title**                                                    | **Acceptance** | **Difficulty** | **Solution** |
+| ---- | ----- | ------------------------------------------------------------ | -------------- | -------------- | :----------- |
+|      | 547   | [Friend Circles](https://leetcode.com/problems/friend-circles) | 59.8%          | **Medium**     |              |
+|      | 199   | [Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view) | 55.5%          | **Medium**     |              |
+
+## 2020-12-22
+
+|      | **#** | **Title**                                                    | **Acceptance** | **Difficulty** | **Solution** |
+| ---- | ----- | ------------------------------------------------------------ | -------------- | -------------- | :----------- |
+|      | 1192  | [Critical Connections in a Network](https://leetcode.com/problems/critical-connections-in-a-network) | 49.6%          | **Hard**       |              |
+|      | 17    | [Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number) | 48.3%          | **Medium**     |              |
+
 ## 2020-12-21
 
 |      | **#** | **Title**                                                    | **Acceptance** | **Difficulty** | **Solution** |
