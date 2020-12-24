@@ -6,6 +6,20 @@ Problems by tag and frequency or companies.
 
 # Depth-first Search
 
+## 2020-12-25
+
+|      | **#** | **Title**                                                    | **Acceptance** | **Difficulty** | **Solution** |
+| ---- | ----- | ------------------------------------------------------------ | -------------- | -------------- | :----------- |
+|      | 695   | [Max Area of Island](https://leetcode.com/problems/max-area-of-island) | 64.0%          | **Medium**     |              |
+|      | 301   | [Remove Invalid Parentheses](https://leetcode.com/problems/remove-invalid-parentheses) | 44.2%          | **Hard**       |              |
+
+## 2020-12-24
+
+|      | **#** | **Title**                                                    | **Acceptance** | **Difficulty** | **Solution** |
+| ---- | ----- | ------------------------------------------------------------ | -------------- | -------------- | :----------- |
+|      | 124   | [Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum) | 35.1%          | **Hard**       |              |
+|      | 105   | [Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal) | 50.8%          | **Medium**     |              |
+
 ## 2020-12-23
 
 |      | **#** | **Title**                                                    | **Acceptance** | **Difficulty** | **Solution** |
