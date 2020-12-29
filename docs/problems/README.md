@@ -6,6 +6,20 @@ Problems by tag and frequency or companies.
 
 # Depth-first Search
 
+## 2020-12-29
+
+|      | **#** | **Title**                                                    | **Acceptance** | **Difficulty** | **Solution** |
+| ---- | ----- | ------------------------------------------------------------ | -------------- | -------------- | :----------- |
+|      | 863   | [All Nodes Distance K in Binary Tree](https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree) | 57.3%          | **Medium**     |              |
+|      | 332   | [Reconstruct Itinerary](https://leetcode.com/problems/reconstruct-itinerary) | 37.5%          | **Medium**     |              |
+
+## 2020-12-28
+
+|      | **#** | **Title**                                                    | **Acceptance** | **Difficulty** | **Solution** |
+| ---- | ----- | ------------------------------------------------------------ | -------------- | -------------- | :----------- |
+|      | 749   | [Contain Virus](https://leetcode.com/problems/contain-virus) | 47.6%          | **Hard**       |              |
+|      | 721   | [Accounts Merge](https://leetcode.com/problems/accounts-merge) | 50.9%          | **Medium**     |              |
+
 ## 2020-12-25
 
 |      | **#** | **Title**                                                    | **Acceptance** | **Difficulty** | **Solution** |
