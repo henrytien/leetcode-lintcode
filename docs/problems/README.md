@@ -6,6 +6,27 @@ Problems by tag and frequency or companies.
 
 # Depth-first Search
 
+## 2021-01-04
+
+|      | **#** | **Title**                                                    | **Acceptance** | **Difficulty** | **Solution** |
+| ---- | ----- | ------------------------------------------------------------ | -------------- | -------------- | :----------- |
+|      | 472   | [Concatenated Words](https://leetcode.com/problems/concatenated-words) | 44.9%          | **Hard**       |              |
+|      | 98    | [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree) | 28.5%          | **Medium**     |              |
+
+## 2020-12-31
+
+|      | **#** | **Title**                                                    | **Acceptance** | **Difficulty** | **Solution** |
+| ---- | ----- | ------------------------------------------------------------ | -------------- | -------------- | :----------- |
+|      | 210   | [Course Schedule II](https://leetcode.com/problems/course-schedule-ii) | 42.1%          | **Medium**     |              |
+|      | 207   | [Course Schedule](https://leetcode.com/problems/course-schedule) | 44.1%          | **Medium**     |              |
+
+## 2020-12-30
+
+|      | **#** | **Title**                                                    | **Acceptance** | **Difficulty** | **Solution** |
+| ---- | ----- | ------------------------------------------------------------ | -------------- | -------------- | :----------- |
+|      | 211   | [Design Add and Search Words Data Structure](https://leetcode.com/problems/design-add-and-search-words-data-structure) | 39.6%          | **Medium**     |              |
+|      | 329   | [Longest Increasing Path in a Matrix](https://leetcode.com/problems/longest-increasing-path-in-a-matrix) | 44.2%          | **Hard**       |              |
+
 ## 2020-12-29
 
 |      | **#** | **Title**                                                    | **Acceptance** | **Difficulty** | **Solution** |
