@@ -6,6 +6,13 @@ Problems by tag and frequency or companies.
 
 # Depth-first Search
 
+## 2021-01-05
+
+|      | **#** | **Title**                                                    | **Acceptance** | **Difficulty** | **Solution** |
+| ---- | ----- | ------------------------------------------------------------ | -------------- | -------------- | :----------- |
+|      | 133   | [Clone Graph](https://leetcode.com/problems/clone-graph)     | 38.3%          | **Medium**     |              |
+|      | 417   | [Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow) | 42.2%          | **Medium**     |              |
+
 ## 2021-01-04
 
 |      | **#** | **Title**                                                    | **Acceptance** | **Difficulty** | **Solution** |
