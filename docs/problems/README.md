@@ -4,7 +4,23 @@ Problems by tag and frequency or companies.
 
 
 
+# Breadth-first Search
+
+## 2021-01-07
+
+|      | **#** | **Title**                                                    | **Acceptance** | **Difficulty** | **Solution** |
+| ---- | ----- | ------------------------------------------------------------ | -------------- | -------------- | :----------- |
+|      | 200   | [Number of Islands](https://leetcode.com/problems/number-of-islands) | 48.5%          | **Medium**     |              |
+|      | 127   | [Word Ladder](https://leetcode.com/problems/word-ladder)     | 31.0%          | **Hard**       |              |
+
 # Depth-first Search
+
+## 2021-01-06
+
+|      | **#** | **Title**                                                    | **Acceptance** | **Difficulty** | **Solution** |
+| ---- | ----- | ------------------------------------------------------------ | -------------- | -------------- | :----------- |
+|      | 679   | [24 Game](https://leetcode.com/problems/24-game)             | 47.0%          | **Hard**       |              |
+|      | 430   | [Flatten a Multilevel Doubly Linked List](https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list) | 56.5%          | **Medium**     |              |
 
 ## 2021-01-05
 
