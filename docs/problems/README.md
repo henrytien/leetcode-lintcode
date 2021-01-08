@@ -6,6 +6,13 @@ Problems by tag and frequency or companies.
 
 # Breadth-first Search
 
+## 2021-01-08
+
+|      | **#** | **Title**                                                    | **Acceptance** | **Difficulty** | **Solution** |
+| ---- | ----- | ------------------------------------------------------------ | -------------- | -------------- | :----------- |
+|      | 199   | [Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view) | 55.6%          | **Medium**     |              |
+|      | 994   | [Rotting Oranges](https://leetcode.com/problems/rotting-oranges) | 49.5%          | **Medium**     |              |
+
 ## 2021-01-07
 
 |      | **#** | **Title**                                                    | **Acceptance** | **Difficulty** | **Solution** |
