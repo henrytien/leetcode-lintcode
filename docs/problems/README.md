@@ -6,6 +6,13 @@ Problems by tag and frequency or companies.
 
 # Breadth-first Search
 
+## 2021-01-11
+
+|      | **#** | **Title**                                                    | **Acceptance** | **Difficulty** | **Solution** |
+| ---- | ----- | ------------------------------------------------------------ | -------------- | -------------- | :----------- |
+|      | 103   | [Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal) | 49.7%          | **Medium**     |              |
+|      | 863   | [All Nodes Distance K in Binary Tree](https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree) | 57.4%          | **Medium**     |              |
+
 ## 2021-01-08
 
 |      | **#** | **Title**                                                    | **Acceptance** | **Difficulty** | **Solution** |
