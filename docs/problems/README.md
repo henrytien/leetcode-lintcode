@@ -6,6 +6,27 @@ Problems by tag and frequency or companies.
 
 # Breadth-first Search
 
+## 2021-01-14
+
+|      | **#** | **Title**                                                    | **Acceptance** | **Difficulty** | **Solution** |
+| ---- | ----- | ------------------------------------------------------------ | -------------- | -------------- | :----------- |
+|      | 133   | [Clone Graph](https://leetcode.com/problems/clone-graph)     | 38.4%          | **Medium**     |              |
+|      | 126   | [Word Ladder II](https://leetcode.com/problems/word-ladder-ii) | 23.4%          | **Hard**       |              |
+
+## 2021-01-13
+
+|      | **#** | **Title**                                                    | **Acceptance** | **Difficulty** | **Solution** |
+| ---- | ----- | ------------------------------------------------------------ | -------------- | -------------- | :----------- |
+|      | 210   | [Course Schedule II](https://leetcode.com/problems/course-schedule-ii) | 42.2%          | **Medium**     |              |
+|      | 207   | [Course Schedule](https://leetcode.com/problems/course-schedule) | 44.2%          | **Medium**     |              |
+
+## 2021-01-12
+
+|      | **#** | **Title**                                                    | **Acceptance** | **Difficulty** | **Solution** |
+| ---- | ----- | ------------------------------------------------------------ | -------------- | -------------- | :----------- |
+|      | 279   | [Perfect Squares](https://leetcode.com/problems/perfect-squares) | 48.6%          | **Medium**     |              |
+|      | 909   | [Snakes and Ladders](https://leetcode.com/problems/snakes-and-ladders) | 39.1%          | **Medium**     |              |
+
 ## 2021-01-11
 
 |      | **#** | **Title**                                                    | **Acceptance** | **Difficulty** | **Solution** |
