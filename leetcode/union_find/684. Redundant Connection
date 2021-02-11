@@ -1,0 +1,57 @@
+void dfs(unordered_map<int, vector<int>> &m, int i, int s, int &flag, set<int> &st)
+    {
+        st.insert(i);
+        
+        for(int x=0; x<m[i].size(); x++)
+        {
+            if(m[i][x] == s)
+            {
+                flag = 1;
+                return;
+            }
+            if(st.find(m[i][x]) == st.end())
+                dfs(m,m[i][x],s,flag,st);
+                
+        }
+    }
+    
+    vector<int> findRedundantConnection(vector<vector<int>>& A)
+    {
+        int n = A.size();
+        vector<int> res;
+        
+        unordered_map<int, vector<int>> m;
+        
+        
+        for(int i=0;i<n;i++)
+        {
+            int f = A[i][0];
+            int s = A[i][1];
+            
+            int flag = 0;
+            if(m.find(f) != m.end())
+            {
+                set<int> st;
+                dfs(m,f,s,flag,st);
+            }
+            else if(m.find(s) != m.end())
+            {
+                set<int> st;
+                dfs(m,s,f,flag,st);
+            }
+            
+            if(flag == 0)
+            {
+                m[f].push_back(s);
+                m[s].push_back(f);
+            }
+            else
+            {
+                res.clear();
+                res.push_back(f);
+                res.push_back(s);
+            }
+        }
+        
+        return res;
+    }
