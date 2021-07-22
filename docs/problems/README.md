@@ -6,6 +6,48 @@ Problems by tag and frequency or companies.
 
 # Breadth-first Search
 
+## 2021-01-18
+
+|      | **#** | **Title**                                                    | **Acceptance** | **Difficulty** | **Solution** |
+| ---- | ----- | ------------------------------------------------------------ | -------------- | -------------- | :----------- |
+|      | 417   | [Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow) | 42.3%          | **Medium**     |              |
+|      | 1091  | [Shortest Path in Binary Matrix](https://leetcode.com/problems/shortest-path-in-binary-matrix) | 39.0%          | **Medium**     |              |
+
+## 2021-01-14
+
+|      | **#** | **Title**                                                    | **Acceptance** | **Difficulty** | **Solution** |
+| ---- | ----- | ------------------------------------------------------------ | -------------- | -------------- | :----------- |
+|      | 133   | [Clone Graph](https://leetcode.com/problems/clone-graph)     | 38.4%          | **Medium**     |              |
+|      | 126   | [Word Ladder II](https://leetcode.com/problems/word-ladder-ii) | 23.4%          | **Hard**       |              |
+
+## 2021-01-13
+
+|      | **#** | **Title**                                                    | **Acceptance** | **Difficulty** | **Solution** |
+| ---- | ----- | ------------------------------------------------------------ | -------------- | -------------- | :----------- |
+|      | 210   | [Course Schedule II](https://leetcode.com/problems/course-schedule-ii) | 42.2%          | **Medium**     |              |
+|      | 207   | [Course Schedule](https://leetcode.com/problems/course-schedule) | 44.2%          | **Medium**     |              |
+
+## 2021-01-12
+
+|      | **#** | **Title**                                                    | **Acceptance** | **Difficulty** | **Solution** |
+| ---- | ----- | ------------------------------------------------------------ | -------------- | -------------- | :----------- |
+|      | 279   | [Perfect Squares](https://leetcode.com/problems/perfect-squares) | 48.6%          | **Medium**     |              |
+|      | 909   | [Snakes and Ladders](https://leetcode.com/problems/snakes-and-ladders) | 39.1%          | **Medium**     |              |
+
+## 2021-01-11
+
+|      | **#** | **Title**                                                    | **Acceptance** | **Difficulty** | **Solution** |
+| ---- | ----- | ------------------------------------------------------------ | -------------- | -------------- | :----------- |
+|      | 103   | [Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal) | 49.7%          | **Medium**     |              |
+|      | 863   | [All Nodes Distance K in Binary Tree](https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree) | 57.4%          | **Medium**     |              |
+
+## 2021-01-08
+
+|      | **#** | **Title**                                                    | **Acceptance** | **Difficulty** | **Solution** |
+| ---- | ----- | ------------------------------------------------------------ | -------------- | -------------- | :----------- |
+|      | 199   | [Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view) | 55.6%          | **Medium**     |              |
+|      | 994   | [Rotting Oranges](https://leetcode.com/problems/rotting-oranges) | 49.5%          | **Medium**     |              |
+
 ## 2021-01-07
 
 |      | **#** | **Title**                                                    | **Acceptance** | **Difficulty** | **Solution** |
