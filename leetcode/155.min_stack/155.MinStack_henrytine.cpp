@@ -1,6 +1,6 @@
 // Source : https://leetcode.com/problems/min-stack/
 // Author : henrytine
-// Date   : 2020-07-26
+// Date   : 2020-07-21
 
 /***************************************************************************************************** 
  *
@@ -38,19 +38,20 @@
 class MinStack {
 public:
     /** initialize your data structure here. */
+    stack<pair<int, int>> st;
     MinStack() {
-        
+
     }
     
     void push(int x) {
-        int min; 
+        int min;
         if (st.empty()) {
             min = x;
         }
         else {
-            min = std::min(x, st.top().second);
+           min = std::min(st.top().second, x);
         }
-        st.push({x, min});
+        st.push({x,min});
     }
     
     void pop() {
@@ -58,14 +59,12 @@ public:
     }
     
     int top() {
-       return st.top().first;
+      return st.top().first;  
     }
     
     int getMin() {
-        return st.top().second;
+      return  st.top().second;
     }
-private:
-    stack<pair<int, int>> st;
 };
 
 /**
