@@ -1,6 +1,6 @@
 // Source : https://leetcode.com/problems/symmetric-tree/
 // Author : henrytine
-// Date   : 2020-08-21
+// Date   : 2020-07-30
 
 /***************************************************************************************************** 
  *
@@ -63,9 +63,9 @@ public:
             
             q1.push(left->left);
             q1.push(left->right);
+            
             q2.push(right->right);
             q2.push(right->left);
-            
         }
         return true;
     }
