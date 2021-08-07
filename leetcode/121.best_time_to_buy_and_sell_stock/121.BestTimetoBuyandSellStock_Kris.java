@@ -1,6 +1,6 @@
 // Source : https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
 // Author : Kris
-// Date   : 2020-10-08
+// Date   : 2020-09-25
 
 /***************************************************************************************************** 
  *
@@ -37,6 +37,21 @@ class Solution {
         for (var i = 1; i < prices.length; i++) {
             max = Math.max(max, prices[i] - prefixMinSum);
             prefixMinSum = Math.min(prefixMinSum, prices[i]);
+        }
+        
+        return max;
+    }
+    
+    public int maxProfit_2(int[] prices) {
+        if (prices == null || prices.length <= 1) {
+            return 0;
+        }
+        
+        var minSum = prices[0];
+        var max = 0;
+        for (var i = 1; i < prices.length; i++) {
+            max = Math.max(max, prices[i] - minSum);
+            minSum = Math.min(minSum, prices[i]);
         }
         
         return max;

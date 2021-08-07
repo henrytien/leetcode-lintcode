@@ -1,6 +1,6 @@
 // Source : https://leetcode.com/problems/maximum-subarray/
 // Author : Kris
-// Date   : 2020-10-08
+// Date   : 2020-09-25
 
 /***************************************************************************************************** 
  *
@@ -60,4 +60,5 @@ class Solution {
         
         return max;
     }
+    
 }
