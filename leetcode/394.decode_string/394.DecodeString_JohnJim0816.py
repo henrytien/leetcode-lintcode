@@ -3,15 +3,15 @@
 '''
 Author: John
 Email: johnjim0816@gmail.com
-Date: 2020-08-11 08:26:26
+Date: 2020-08-05 21:46:28
 LastEditor: John
-LastEditTime: 2020-08-11 08:27:11
+LastEditTime: 2020-08-05 21:52:33
 Discription: 
 Environment: 
 '''
 # Source : https://leetcode.com/problems/decode-string/
 # Author : JohnJim0816
-# Date   : 2020-08-11
+# Date   : 2020-08-05
 
 ##################################################################################################### 
 #
@@ -41,6 +41,8 @@ Environment:
 #####################################################################################################
 
 class Solution:
+    ''' 辅助栈法
+    '''
     def decodeString(self, s: str) -> str:
         stack, res, multi = [], "", 0
         for c in s:

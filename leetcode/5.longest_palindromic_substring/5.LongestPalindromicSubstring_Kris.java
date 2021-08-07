@@ -1,6 +1,6 @@
 // Source : https://leetcode.com/problems/longest-palindromic-substring/
 // Author : Kris
-// Date   : 2020-09-25
+// Date   : 2020-09-05
 
 /***************************************************************************************************** 
  *
