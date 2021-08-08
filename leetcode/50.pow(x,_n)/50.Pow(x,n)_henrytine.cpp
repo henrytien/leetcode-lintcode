@@ -28,26 +28,26 @@
  * 	n is a 32-bit signed integer, within the range [&minus;231, 231 &minus; 1]
  * 
  ******************************************************************************************************/
-// Iterator
 
 class Solution {
 public:
     double myPow(double x, int n) {
+        long long N = n;
+        if (N < 0) {
+            N = (-N);
+            x = 1 / x;
+        }
+        return fast_pow(x, N);
+    }
+    
+    double fast_pow(double x, int n) {
         if (n == 0) return 1.0;
-        double res = 1.0;
-        long num = long(n);
-        if (num < 0) {
-            num = (-num);
-            x = 1/x;
+        double half = fast_pow(x, n / 2);
+        if ( n % 2 == 0) {
+            return half * half
         }
-        
-        while (num > 0) {
-            if (num & 1) res *= x;
-            x *= x;
-            num >>= 1;
+        else {
+            return half * half * x;
         }
-        return res;  
     }
 };
-
-
