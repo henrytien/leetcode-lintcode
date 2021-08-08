@@ -1,6 +1,6 @@
 // Source : https://leetcode.com/problems/copy-list-with-random-pointer/
 // Author : Kris
-// Date   : 2020-08-15
+// Date   : 2020-10-08
 
 /***************************************************************************************************** 
  *
