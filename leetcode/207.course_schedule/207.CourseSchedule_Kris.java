@@ -1,6 +1,6 @@
 // Source : https://leetcode.com/problems/course-schedule/
 // Author : Kris
-// Date   : 2020-07-31
+// Date   : 2020-10-31
 
 /***************************************************************************************************** 
  *
@@ -38,29 +38,25 @@
 class Solution {
     public boolean canFinish(int numCourses, int[][] prerequisites) {
         var graph = new ArrayList<Node>();
-        // node to indegree map
-        var indegreeMap = new HashMap<Node, Integer>();
         
-        // initialize graph and indegree map
+        // initialize graph
         for (var i = 0; i < numCourses; i++) {
-            var node = new Node(i);
-            graph.add(node);
-            indegreeMap.put(node, 0);
+            graph.add(new Node(i));
         }
         
         for (var i = 0; i < prerequisites.length; i++) {
-            var neighbor = graph.get(prerequisites[i][0]);
             var node = graph.get(prerequisites[i][1]);
+            var neighbor = graph.get(prerequisites[i][0]);
             
             node.neighbors.add(neighbor);
-            indegreeMap.put(neighbor, indegreeMap.get(neighbor) + 1);
+            neighbor.indegree++;
         }
         
         // add indegree == 0 nodes in queue
         var queue = new LinkedList<Node>();
-        indegreeMap.entrySet().stream()
-            .filter(entry -> entry.getValue() == 0)
-            .forEach(entry -> queue.offer(entry.getKey()));
+        graph.stream()
+            .filter(node -> node.indegree == 0)
+            .forEach(queue::offer);
 
         // bfs
         while (!queue.isEmpty()) {
@@ -68,25 +64,24 @@ class Solution {
             for (var i = 0; i < size; i++) {
                 var cur = queue.poll();
                 for (var neighbor : cur.neighbors) {
-                    var count = indegreeMap.get(neighbor) - 1;
-                    indegreeMap.put(neighbor, count);
-                    if (count == 0) {
+                    if (--neighbor.indegree == 0) {
                         queue.offer(neighbor);
                     }
                 }
             }
         }
         
-        // indegreeMap.entrySet().stream().forEach(
-        //     entry -> System.out.println(entry.getKey().id + ":" + entry.getValue()));
+        // graph.stream().forEach(
+        //     node -> System.out.println(node.id + ":" + node.indegree));
         
-        return !indegreeMap.values().stream().anyMatch(count -> count != 0);
+        return graph.stream().allMatch(node -> node.indegree == 0);
     }
 }
 
 class Node {
     int id;
     List<Node> neighbors;
+    int indegree;
     
     public Node(int id) {
         this.id = id;
