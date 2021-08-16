@@ -49,20 +49,18 @@ public:
     // bool divisorGame(int N) {
     //     return N % 2 == 0;
     // }
-    Solution(){
-        memset(dp,0,1001);
-    }
     bool divisorGame(int N) {
-        if (dp[N] == 0) {
-            for (int i = 1; dp[N] != 1 && i <= N/2; i++) {
-                dp[N] = (N % i == 0)? divisorGame(N - i) ? -1:1:-1;
+        bool dp[N+1];
+        memset(dp,false,N+1);
+        for (int i = 2; i <= N; i++) {
+            for (int j = 1; j*j < i; j++) {
+                if ((i % j == 0) && !dp[i-j]) {
+                    dp[i] = true;
+                }
             }
-            
         }
-        return dp[N] == 1;
+        return dp[N];
     }
-private:
-    int dp[1001];
 };
 
 
