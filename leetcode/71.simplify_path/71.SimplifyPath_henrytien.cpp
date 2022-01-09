@@ -52,7 +52,7 @@
 class Solution {
 public:
     string simplifyPath(string path) {
-        // We can use the rigth way do that.
+        // We can use the right way to do that.
         vector<string> vec;
         stringstream ss(path);
         string temp = "";
