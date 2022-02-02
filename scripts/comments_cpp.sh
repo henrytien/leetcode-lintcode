@@ -115,7 +115,7 @@ else
 
     if [ ! -f ${source_file} ]; then
         echo "Create a new file - ${source_file}."
-        echo -e "\n" > ${source_file}
+        echo "\n" > ${source_file}
         current_time=`date +%Y-%m-%d`
     else
         if [[ "$platform" == "linux" ]]; then
