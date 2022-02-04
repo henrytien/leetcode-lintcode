@@ -41,7 +41,7 @@
  * 
  * Explanation: The endWord "cog" is not in wordList, therefore no possible transformation.
  ******************************************************************************************************/
-
+#include "../inc/ac.h"
 class Solution {
 public:
     int ladderLength(string beginWord, string endWord, vector<string>& wordList) {
@@ -86,3 +86,9 @@ public:
         return 0;
     }
 };
+
+int main() {
+    string beinWord ="hit",endWord = "cog";
+    vector<string> wordList = {"hot","dot","dog","lot","log","cog"};
+    cout << Solution().ladderLength(beinWord,endWord,wordList) <<"\n";
+}
