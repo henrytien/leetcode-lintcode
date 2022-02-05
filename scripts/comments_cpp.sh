@@ -216,6 +216,6 @@ echo "${source_file} updated !"
 mv ./$source_file ./$folder_name/
 cd ./$folder_name/
 if [ ! -s 'README.md' ]; then
-    echo -e '# ['$QUESTION_FRONTEND_ID'. '$QUESTION_TITLE']('$leetcode_url')' > 'README.md'
+    echo '# ['$QUESTION_FRONTEND_ID'. '$QUESTION_TITLE']('$leetcode_url')' > 'README.md'
 fi
 
