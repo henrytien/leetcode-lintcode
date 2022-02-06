@@ -5,6 +5,11 @@ Problems by tag and frequency or companies.
 
 
 # Breadth-first Search
+## 2022-02-06
+
+| 200  | [Number of Islands](https://leetcode.com/problems/number-of-islands) |
+| ---- | ------------------------------------------------------------ |
+|      |                                                              |
 
 ## 2021-01-18
 
