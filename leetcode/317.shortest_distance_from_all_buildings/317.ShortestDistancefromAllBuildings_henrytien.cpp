@@ -29,7 +29,8 @@ public:
         // Calculate every building point to landing point distance, and get the minm.
         int m = grid.size(), n = grid[0].size();
         vector<int> direction = {-1, 0, 1, 0, -1}; // left up right down
-        auto total = grid;
+        vector<vector<int>> distance(m, vector<int>(n, 0));
+
         int min_dist = 0, walk = 0;
         for (int i = 0; i < m; i++)
         {
@@ -37,35 +38,39 @@ public:
             {
                 if (grid[i][j] == 1)
                 {
-                    min_dist = -1;
-                    auto dist = grid;
+                    // Note this is initialized to -1, so when a building is not reachable it will be -1 at the end
+                    min_dist = INT_MAX;
                     queue<pair<int, int>> que;
 
                     que.emplace(i, j);
-
+                    int level = 1;
                     while (!que.empty())
                     {
-                        auto land = que.front();
-                        que.pop();
+                        int len = que.size();
 
-                        for (int k = 0; k < 4; k++)
+                        for (int k = 0; k < len; k++)
                         {
-                            int x = land.first + direction[k];
-                            int y = land.second + direction[k + 1];
-                            if (x >= 0 && x < m && y >= 0 && y < n && walk == grid[x][y])
+                            auto curr = que.front();
+                            que.pop();
+                            for (int l = 0; l < 4; l++)
                             {
-                                grid[x][y]--;
-                                dist[x][y] = dist[land.first][land.second] + 1;
-                                total[x][y] += dist[x][y] - 1;
-                                que.emplace(x, y);
-                                if (min_dist < 0 || min_dist > total[x][y])
+                                int x = curr.first + direction[l];
+                                int y = curr.second + direction[l + 1];
+                                if (x >= 0 && x < m && y >= 0 && y < n && walk == grid[x][y])
                                 {
-                                    min_dist = total[x][y];
+                                    grid[x][y]--;
+                                    distance[x][y] += level;
+
+                                    que.emplace(x, y);
+                                    min_dist = min(min_dist, distance[x][y]);
                                 }
                             }
                         }
+                        level++;
                     }
                     walk--;
+                    if (min_dist == INT_MAX)
+                        return -1;
                 }
             }
         }
