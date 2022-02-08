@@ -42,7 +42,7 @@
 
 // dp bottom-up
 
-class Solution
+class Solution1
 {
 public:
     // Maximum number of jobs are 50000
@@ -109,6 +109,49 @@ private:
         }
 
         return memo[0];
+    }
+};
+// Approach 2: Sorting + Priority Queue
+class Solution {
+public:
+    int jobScheduling(vector<int>& startTime, vector<int>& endTime, vector<int>& profit) {
+        vector<vector<int>> jobs;
+        for (int i = 0; i < startTime.size(); i++)
+        {
+            jobs.push_back({startTime[i],endTime[i],profit[i]});
+        }
+        sort(jobs.begin(),jobs.end());
+        return find_max_profit(jobs);
+        
+    }
+    private:
+    int find_max_profit(vector<vector<int>> &jobs) {
+        int len = jobs.size(), max_profit = 0;
+        priority_queue<vector<int>,vector<vector<int>> ,greater<vector<int>>> pq;
+
+        for (int i = 0; i < len; i++)
+        {
+            int start = jobs[i][0], end = jobs[i][1], profit =jobs[i][2];
+            // Keep poping while the head is not empty and 
+            // Jobs are not conflicting
+            // Update the value of max_profit.
+            while (!pq.empty() && start >= pq.top()[0])
+            {
+                max_profit = max(max_profit,pq.top()[1]);
+                pq.pop();
+            }
+
+            // Push the job with combind profit
+            // If not non-conflicting job is present max_profit will be 0
+            pq.push({end,profit+max_profit});
+        }
+        
+        // Update the value of max_profit by campring with profit of jobs that exits in heap
+        while (pq.empty() == 0) {
+            max_profit = max(max_profit,pq.top()[1]);
+            pq.pop();
+        }
+        return max_profit;
     }
 };
 
