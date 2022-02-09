@@ -147,7 +147,7 @@ public:
         }
         
         // Update the value of max_profit by campring with profit of jobs that exits in heap
-        while (pq.empty() == 0) {
+        while (!pq.empty()) {
             max_profit = max(max_profit,pq.top()[1]);
             pq.pop();
         }
