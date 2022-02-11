@@ -33,7 +33,7 @@
 
 #include "../inc/ac.h"
 
-class Solution
+class Solution1
 {
 public:
     bool checkValidString(string s)
@@ -74,6 +74,21 @@ public:
         }
 
         return false;
+    }
+};
+
+class Solution {
+public:
+    bool checkValidString(string s) {
+        int min_open = 0, max_open = 0;
+        for (auto &&iter : s)
+        {
+            min_open += iter == '(' ? 1:-1;
+            max_open += iter != ')' ? 1:-1;
+            if (max_open < 0) break;
+            min_open = max(min_open,0);
+        }
+        return min_open == 0;
     }
 };
 
