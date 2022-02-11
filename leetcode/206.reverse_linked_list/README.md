@@ -39,8 +39,8 @@ public:
 
 **Complexity analysis**
 
-- Time complexity : O(n)*O*(*n*). Assume that n*n* is the list's length, the time complexity is O(n)*O*(*n*).
-- Space complexity : O(1)*O*(1).
+- Time complexity : *O*(*n*). Assume that n*n* is the list's length, the time complexity is *O*(*n*).
+- Space complexity : *O*(1).
 
 #### Approach #2 (Recursive) [Accepted]
 
@@ -73,8 +73,8 @@ public:
 
 **Complexity analysis**
 
-- Time complexity : O(n)*O*(*n*). Assume that n*n* is the list's length, the time complexity is O(n)*O*(*n*).
-- Space complexity : O(n)*O*(*n*). The extra space comes from implicit stack space due to recursion. The recursion could go up to n*n* levels deep.
+- Time complexity : *O*(*n*). Assume that n*n* is the list's length, the time complexity is *O*(*n*).
+- Space complexity : *O*(*n*). The extra space comes from implicit stack space due to recursion. The recursion could go up to n*n* levels deep.
 
 
 
