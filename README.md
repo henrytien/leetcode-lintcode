@@ -183,6 +183,19 @@ Please read and follow the steps in [CONTRIBUTING.md](/CONTRIBUTING.md).
 | [241. Different Ways to Add Parentheses](https://leetcode.com/problems/different-ways-to-add-parentheses) |
 | [1611. Minimum One Bit Operations to M](https://leetcode.com/problems/minimum-one-bit-operations-to-make-integers-zero) |
 
+## Time Complexity in Coding Interview
+
+| Time Complexity | Algorithms                               |
+| --------------- | ---------------------------------------- |
+| O(log(n))       | Binary Search                            |
+| O(sqrt n)       | Prime Factorization                      |
+| O(n)            | High Frequency                           |
+| O(nlog(n)       | Sorting                                  |
+| O(n^2)          | Matrix, Enumeration, Dynamic Programming |
+| O(n^3)          | Matrix, Enumeration, Dynamic Programming |
+| O(2^n)          | Combination                              |
+| O(n!)           | Permutation                              |
+
 ## License
 
 Please see [LICENSE](/LICENSE).
