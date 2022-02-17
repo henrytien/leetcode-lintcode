@@ -51,7 +51,7 @@ struct TreeNode {
 
 void print(ListNode *node){
     while(node){
-        cout << node->val << endl;
+        cout << node->val << " ";
         node = node->next;
     }
 }
