@@ -55,4 +55,9 @@ void print(ListNode *node){
         node = node->next;
     }
 }
+void print_vec(const vector<int>& vec){
+    for(auto &&iter: vec)
+        cout << iter << " ";
+    cout << endl;
+}
 #endif /* ac_h */
